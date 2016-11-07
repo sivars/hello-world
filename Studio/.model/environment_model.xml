@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appl:EnvironmentModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" deletable="false" uuid="_L0VKwKDUEealUdz1XI4uQA">
+  <system uuid="_L0Y1IKDUEealUdz1XI4uQA">
+    <server uuid="_L0b4cKDUEealUdz1XI4uQA"/>
+  </system>
+</appl:EnvironmentModel>

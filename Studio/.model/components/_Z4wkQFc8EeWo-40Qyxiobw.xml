@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_Z4wkQFc8EeWo-40Qyxiobw" name="part_of_component" componentClass="PARTOF" partOf="true" displayName="Part Of Component">
+  <geometry deletable="false" uuid="_Z4wkQVc8EeWo-40Qyxiobw" name="root">
+    <twoDElement xsi:type="comp:TwoDPolyline" uuid="_jzquMFc8EeWo-40Qyxiobw" name="Polyline1" strokeWidth="2" points="((0,0)(18,0)(0,20)(-18,0)(0,0))">
+      <color href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+      <bgColor href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+    </twoDElement>
+    <parentPlugs uuid="_Z4wkQlc8EeWo-40Qyxiobw" name="ParentPlug"/>
+  </geometry>
+</comp:Component>
