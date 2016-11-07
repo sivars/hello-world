@@ -1,0 +1,1894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_NYNrIF3zEeaUJPX2PDb6lw" name="column_top_bottom_panel">
+  <variables xsi:type="comp:VariableGroup" uuid="_oif6QG9OEeaRX6ZGi7aaLg" name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_ZY4ZUG9aEeaRX6ZGi7aaLg" name="column_type_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_47iTZqKVEea3uKyX2lIh0A" declared="true" model="_uFjcsG9aEeaRX6ZGi7aaLg" priority="1200"/>
+      <domain uuid="_ZY4ZUW9aEeaRX6ZGi7aaLg" name="local" visibility="300">
+        <typeSet uuid="_47iTaaKVEea3uKyX2lIh0A" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_axej8G9aEeaRX6ZGi7aaLg" name="column_depth_toa" visibility="800">
+      <domain uuid="_axej8W9aEeaRX6ZGi7aaLg" name="local" visibility="300">
+        <typeSet uuid="_47i6YKKVEea3uKyX2lIh0A" bitSet="393224"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_cFH9IG9aEeaRX6ZGi7aaLg" name="column_width_toa" visibility="800">
+      <domain uuid="_cFH9IW9aEeaRX6ZGi7aaLg" name="local" visibility="300">
+        <typeSet uuid="_47i6ZqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Qk3doG9oEea4vK7K4f35-A" name="switchboard_ip_protection_toa" visibility="800">
+      <domain uuid="_Qk3doW9oEea4vK7K4f35-A" name="local" visibility="300">
+        <typeSet uuid="_47i6bKKVEea3uKyX2lIh0A" bitSet="393226"/>
+        <values uuid="_vWp6YG9pEea4vK7K4f35-A" name="30" editable="false" visibility="300"/>
+        <values uuid="_vo5g8G9pEea4vK7K4f35-A" name="40" editable="false" visibility="300"/>
+        <values uuid="_v4L6IG9pEea4vK7K4f35-A" name="55" editable="false" visibility="300"/>
+        <values uuid="_wXMKUG9pEea4vK7K4f35-A" name="65" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_OOVm8G9vEea4vK7K4f35-A" name="column_height_base_toa" visibility="800">
+      <domain uuid="_OOVm8W9vEea4vK7K4f35-A" name="local" visibility="300">
+        <typeSet uuid="_47jhcKKVEea3uKyX2lIh0A" bitSet="393226"/>
+        <values uuid="_JI13UG9wEea4vK7K4f35-A" name="0" editable="false" visibility="300"/>
+        <values uuid="_JI13UW9wEea4vK7K4f35-A" name="100" editable="false" visibility="300"/>
+        <values uuid="_JI13Um9wEea4vK7K4f35-A" name="200" editable="false" visibility="300"/>
+        <values uuid="_JI13U29wEea4vK7K4f35-A" name="300" editable="false" visibility="300"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_p1sAcG9OEeaRX6ZGi7aaLg" name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_BPuCIG90Eea4vK7K4f35-A" name="open_blind" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_47jheaKVEea3uKyX2lIh0A" declared="true" model="_uFjcsG9aEeaRX6ZGi7aaLg" priority="1000"/>
+      <domain uuid="_BPuCIm90Eea4vK7K4f35-A" name="local" visibility="300">
+        <typeSet uuid="_47jhfKKVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values deletable="false" uuid="_BPuCI290Eea4vK7K4f35-A" name="'Blind'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_BPuCJG90Eea4vK7K4f35-A" name="'Open'" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_e1x2IG92Eea4vK7K4f35-A" name="position" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_47jhgqKVEea3uKyX2lIh0A" declared="true" model="_uFjcsG9aEeaRX6ZGi7aaLg"/>
+      <domain uuid="_e1x2Im92Eea4vK7K4f35-A" name="local" visibility="300">
+        <typeSet uuid="_47jhhaKVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values deletable="false" uuid="_e1x2I292Eea4vK7K4f35-A" name="'External'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_e1x2JG92Eea4vK7K4f35-A" name="'Internal'" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_qqidoG92Eea4vK7K4f35-A" name="cable_entry" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_47kIgKKVEea3uKyX2lIh0A" declared="true" model="_uFjcsG9aEeaRX6ZGi7aaLg" priority="97"/>
+      <domain uuid="_qqidom92Eea4vK7K4f35-A" name="local" visibility="300">
+        <typeSet uuid="_47kIg6KVEea3uKyX2lIh0A" bitSet="393230"/>
+        <values deletable="false" uuid="_qqido292Eea4vK7K4f35-A" name="0" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_qqidpG92Eea4vK7K4f35-A" name="1" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_qqidpW92Eea4vK7K4f35-A" name="2" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_qqidpm92Eea4vK7K4f35-A" name="3" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_qqidp292Eea4vK7K4f35-A" name="4" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_qqidqG92Eea4vK7K4f35-A" name="5" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_qqidqW92Eea4vK7K4f35-A" name="6" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_qqidqm92Eea4vK7K4f35-A" name="8" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_qqidq292Eea4vK7K4f35-A" name="10" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_uwW_4HTOEeayg6GEf37LJQ" name="panel_type" visibility="800">
+      <domain uuid="_uwW_4nTOEeayg6GEf37LJQ" name="local" visibility="300">
+        <typeSet uuid="_47kIkqKVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values deletable="false" uuid="_uwW_43TOEeayg6GEf37LJQ" name="'bottom'" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBpj8qTQEeaqKufj5D79eA" name="_DisplayName" value="Bottom Panel"/>
+        </values>
+        <values deletable="false" uuid="_uwW_5HTOEeayg6GEf37LJQ" name="'top'" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBpj9KTQEeaqKufj5D79eA" name="_DisplayName" value="Top Panel"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_d3JUYG9aEeaRX6ZGi7aaLg" name="ip" visibility="800" initValue="65">
+      <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_47kvlaKVEea3uKyX2lIh0A" declared="true" model="_uFjcsG9aEeaRX6ZGi7aaLg"/>
+      <domain uuid="_d3JUYW9aEeaRX6ZGi7aaLg" name="local" visibility="300">
+        <typeSet uuid="_47kvmKKVEea3uKyX2lIh0A" bitSet="393226"/>
+        <values uuid="_M5jI0G9wEea4vK7K4f35-A" name="30" editable="false" visibility="300"/>
+        <values uuid="_M5jI0W9wEea4vK7K4f35-A" name="40" editable="false" visibility="300"/>
+        <values uuid="_M5jI0m9wEea4vK7K4f35-A" name="55" editable="false" visibility="300"/>
+        <values uuid="_M5jI029wEea4vK7K4f35-A" name="65" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_aUD_MHTsEeafpdXJJ4WKMQ" name="orientation" visibility="800">
+      <domain uuid="_aUD_MXTsEeafpdXJJ4WKMQ" name="local" visibility="300">
+        <typeSet uuid="_47lWp6KVEea3uKyX2lIh0A" bitSet="393231"/>
+        <values uuid="_bxyhcHTsEeafpdXJJ4WKMQ" name="vertical" editable="false" visibility="300"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_BLKyIG-cEea6w6tPtA7aeg" name="Svg" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_-OrL0G-bEea6w6tPtA7aeg" name="display_panel_top_bottom" visibility="800">
+      <domain uuid="_-OrL0m-bEea6w6tPtA7aeg" name="local" visibility="300">
+        <typeSet uuid="_47lWr6KVEea3uKyX2lIh0A" bitSet="4"/>
+        <values uuid="_-sr9gG-bEea6w6tPtA7aeg" name="inline" editable="false" visibility="300"/>
+        <values uuid="__JAGEG-bEea6w6tPtA7aeg" name="none" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_RKVxUG-sEea6w6tPtA7aeg" name="display_blind_triline_bottom" visibility="800">
+      <domain uuid="_RKVxUm-sEea6w6tPtA7aeg" name="local" visibility="300">
+        <typeSet uuid="_47lWt6KVEea3uKyX2lIh0A" bitSet="4"/>
+        <values uuid="_RtSGUG-sEea6w6tPtA7aeg" name="inline" editable="false" visibility="300"/>
+        <values uuid="_RtSGUW-sEea6w6tPtA7aeg" name="none" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_RQmGsHAiEeaucax1vsZ3SA" name="display_twinline_top_bottom_cutouts" visibility="800" initValue="none">
+      <domain uuid="_RQmGsnAiEeaucax1vsZ3SA" name="local" visibility="300">
+        <typeSet uuid="_47lWv6KVEea3uKyX2lIh0A" bitSet="4"/>
+        <values uuid="_RtYJUHAiEeaucax1vsZ3SA" name="inline" editable="false" visibility="300"/>
+        <values uuid="_R9dMsHAiEeaucax1vsZ3SA" name="none" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0eXQEHTEEealhb6VPZe3Dg" name="display_cutouts_twinline_spep" visibility="800">
+      <domain uuid="_0eXQEnTEEealhb6VPZe3Dg" name="local" visibility="300">
+        <typeSet uuid="_47l9t6KVEea3uKyX2lIh0A" bitSet="4"/>
+        <values uuid="_08f9kHTEEealhb6VPZe3Dg" name="inline" editable="false" visibility="300"/>
+        <values uuid="_1tfVoHTEEealhb6VPZe3Dg" name="none" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_SF8rQHUNEeaQyoCKZhRT5g" name="display_open_panel" visibility="800">
+      <domain uuid="_SF8rQnUNEeaQyoCKZhRT5g" name="local" visibility="300">
+        <typeSet uuid="_47l9v6KVEea3uKyX2lIh0A" bitSet="4"/>
+        <values uuid="_Sr_XkHUNEeaQyoCKZhRT5g" name="inline" editable="false" visibility="300"/>
+        <values uuid="_TCH_oHUNEeaQyoCKZhRT5g" name="none" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_osDDYIU9EeaDLe5GEK_TKw" name="move_x_open_panel_top_bottom_screws_middle" visibility="800">
+      <domain uuid="_osDDYoU9EeaDLe5GEK_TKw" name="local" visibility="300">
+        <typeSet uuid="_47l9x6KVEea3uKyX2lIh0A" bitSet="8"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_-3ejwIU9EeaDLe5GEK_TKw" name="move_y_open_panel_top_bottom_screws_middle" visibility="800">
+      <domain uuid="_-3ejwoU9EeaDLe5GEK_TKw" name="local" visibility="300">
+        <typeSet uuid="_47l9zaKVEea3uKyX2lIh0A" bitSet="8"/>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_uFjcsG9aEeaRX6ZGi7aaLg" name="Logic_Rules" visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_ugGqsG9aEeaRX6ZGi7aaLg" name="column_panel" visibility="800">
+      <columns uuid="__EjUcG9aEeaRX6ZGi7aaLg" name="panel_type" visibility="100">
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top,bottom</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+      </columns>
+      <columns uuid="__EjUcW9aEeaRX6ZGi7aaLg" name="panel_product_line" visibility="100">
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>triline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+      </columns>
+      <columns uuid="__EjUcm9aEeaRX6ZGi7aaLg" name="column_width_toa" visibility="100">
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1000</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>1250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>750</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+        <cells>250</cells>
+      </columns>
+      <columns uuid="__EjUc29aEeaRX6ZGi7aaLg" name="column_depth_toa" visibility="100">
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>300</cells>
+        <cells>200</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>300</cells>
+        <cells>200</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>300</cells>
+        <cells>200</cells>
+        <cells>500</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>300</cells>
+        <cells>200</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>300</cells>
+        <cells>200</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+        <cells>200</cells>
+        <cells>300</cells>
+        <cells>500</cells>
+        <cells>700</cells>
+      </columns>
+      <columns uuid="__EjUdG9aEeaRX6ZGi7aaLg" name="position" visibility="100">
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>External</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+        <cells>Internal</cells>
+      </columns>
+      <columns uuid="__EjUdW9aEeaRX6ZGi7aaLg" name="open_blind" visibility="100">
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Open</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+        <cells>Blind</cells>
+      </columns>
+      <columns uuid="__EjUdm9aEeaRX6ZGi7aaLg" name="cable_entry" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>10</cells>
+        <cells>10</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>10</cells>
+        <cells>10</cells>
+        <cells>10</cells>
+        <cells>10</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>8</cells>
+        <cells>8</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>8</cells>
+        <cells>8</cells>
+        <cells>8</cells>
+        <cells>8</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>6</cells>
+        <cells>6</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>6</cells>
+        <cells>6</cells>
+        <cells>6</cells>
+        <cells>6</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+      </columns>
+      <columns uuid="__EjUd29aEeaRX6ZGi7aaLg" name="cable_entry_rows" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+      </columns>
+      <columns uuid="__EseYG9aEeaRX6ZGi7aaLg" name="ip" visibility="100">
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40,55,65</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40,55</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+        <cells>30,40</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_aGgWgG9pEea4vK7K4f35-A" name="ip" visibility="800" expression="ip >= switchboard_ip_protection_toa;&#xD;&#xA;SOFT.ip = switchboard_ip_protection_toa;"/>
+    <children xsi:type="array:Expression" uuid="_JBPP8G9vEea4vK7K4f35-A" name="position_bottom" visibility="800" expression="column_height_base_toa(0) and panel_type(bottom) ->position(Internal) and !panel_product_line(triline);&#xD;&#xA;!column_height_base_toa(0) and panel_type(bottom) ->position(External) or panel_product_line(triline);&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;//column_height_base(0) and panel_product_line(triline)-> position(Internal);&#xD;&#xA;//!column_height_base(0) or panel_product_line(triline)-> position(External);&#xD;&#xA;&#xD;&#xA;//column_height_base(0) and panel_type(bottom)-> position(Internal);&#xD;&#xA;//!column_height_base(0) and panel_type(bottom) -> position(External);"/>
+    <children xsi:type="array:TableRelation" uuid="_N5y5gG-fEea6w6tPtA7aeg" name="twinline_cutouts" visibility="800">
+      <columns uuid="_X9b58G-lEea6w6tPtA7aeg" name="cable_entry_rows" visibility="100">
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>2</cells>
+        <cells>0</cells>
+      </columns>
+      <columns uuid="_X9b58W-lEea6w6tPtA7aeg" name="column_width_toa" visibility="100">
+        <cells>250</cells>
+        <cells>500</cells>
+        <cells>750</cells>
+        <cells>1000</cells>
+        <cells>1250</cells>
+        <cells>250</cells>
+        <cells>500</cells>
+        <cells>750</cells>
+        <cells>1000</cells>
+        <cells>1250</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_X9b58m-lEea6w6tPtA7aeg" name="visibility_cutout1" visibility="100">
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+      </columns>
+      <columns uuid="_X9b582-lEea6w6tPtA7aeg" name="visibility_cutout2" visibility="100">
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+      </columns>
+      <columns uuid="_X9b59G-lEea6w6tPtA7aeg" name="visibility_cutout3" visibility="100">
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+      </columns>
+      <columns uuid="_X9b59W-lEea6w6tPtA7aeg" name="visibility_cutout4" visibility="100">
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+      </columns>
+      <columns uuid="_X9b59m-lEea6w6tPtA7aeg" name="visibility_cutout5" visibility="100">
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+      </columns>
+      <columns uuid="_X9b592-lEea6w6tPtA7aeg" name="visibility_cutout6" visibility="100">
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+      </columns>
+      <columns uuid="_X9b5-G-lEea6w6tPtA7aeg" name="visibility_cutout7" visibility="100">
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+      </columns>
+      <columns uuid="_X9b5-W-lEea6w6tPtA7aeg" name="visibility_cutout8" visibility="100">
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+      </columns>
+      <columns uuid="_X9b5-m-lEea6w6tPtA7aeg" name="visibility_cutout9" visibility="100">
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+      </columns>
+      <columns uuid="_X9b5-2-lEea6w6tPtA7aeg" name="visibility_cutout10" visibility="100">
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>hidden</cells>
+        <cells>visible</cells>
+        <cells>hidden</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_jS0-4G_nEeaTgoEC9KMIXw" name="column_incoming" visibility="800" expression="column_type_toa(incoming) and panel_type(bottom)->!panel_product_line(twinline);"/>
+    <children xsi:type="array:Expression" uuid="_Xw6wkIPgEea0JNT0AxXSQw" name="open_blind" visibility="800" expression="column_type_toa(corner) -> open_blind(Blind);"/>
+  </logic>
+  <calculation uuid="_y8g7EG-bEea6w6tPtA7aeg" name="Calculation_Rules" visibility="800" text="//***************************product rules here****************************************&#xD;&#xA;//Concatinations needed for export dictionary mapping&#xD;&#xA;posBlindCable = position + open_blind +cable_entry+&quot;&quot;;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;//***************************svg area - Start*******************************************&#xD;&#xA;column_width_column_outside=column_width_toa+100;&#xD;&#xA;column_depth_column_outside=column_depth_toa+100;&#xD;&#xA;&#xD;&#xA;if (open_blind==&quot;Open&quot; &amp;&amp; cable_entry==&quot;0&quot; &amp;&amp; position==&quot;External&quot; &amp;&amp; column_depth_toa!=200)&#xD;&#xA;{&#xD;&#xA; display_open_panel=&quot;inline&quot;;&#xD;&#xA; display_panel_top_bottom=&quot;none&quot;;&#xD;&#xA;}&#xD;&#xA;else { display_open_panel=&quot;none&quot;;&#xD;&#xA;&#x9;if (panel_product_line!=&quot;triline&quot;) display_panel_top_bottom=&quot;inline&quot;;&#xD;&#xA;else display_panel_top_bottom=&quot;none&quot;;&#xD;&#xA;}&#xD;&#xA;move_x_open_panel_top_bottom_screws=column_width_column_outside-1081;&#xD;&#xA;move_y_open_panel_top_bottom_screws=column_depth_column_outside-781;&#xD;&#xA;height_open_panel_top_bottom_cutout=column_depth_column_outside-110.5*2;&#xD;&#xA;width_open_panel_top_bottom_cutout=column_width_column_outside-110.5*2;&#xD;&#xA;height_open_panel_top_bottom_cutout_fixedinline=height_open_panel_top_bottom_cutout+50;&#xD;&#xA;width_open_panel_top_bottom_cutout_fixedinline=width_open_panel_top_bottom_cutout+50;&#xD;&#xA;move_x_open_panel_top_bottom_screws_middle=move_x_open_panel_top_bottom_screws/2;&#xD;&#xA;move_y_open_panel_top_bottom_screws_middle=move_y_open_panel_top_bottom_screws/2;&#xD;&#xA;&#xD;&#xA;move_x_twinline_screws=column_width_column_outside-1331;&#xD;&#xA;move_y_twinline_screws=column_depth_column_outside-781;&#xD;&#xA;&#xD;&#xA;// bottom view - triline&#xD;&#xA;move_x_triline_bottom_view_right=column_width_column_outside-581;&#xD;&#xA;move_y_triline_bottom_view_bottom=column_depth_column_outside-581;&#xD;&#xA;move_y_triline_cutout_bottom_view_right=move_y_triline_bottom_view_bottom/2;&#xD;&#xA;&#xD;&#xA;if (panel_product_line==&quot;triline&quot;) display_blind_triline_bottom=&quot;inline&quot;;&#xD;&#xA;else display_blind_triline_bottom=&quot;none&quot;;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;if (column_depth_toa!=200){&#xD;&#xA;if (panel_type==&quot;top&quot;) move_y_row1=0;&#xD;&#xA;else move_y_row1=-104.5+column_depth_column_outside-147-104.5;&#xD;&#xA;}&#xD;&#xA;else move_y_row1=-65;&#xD;&#xA;&#xD;&#xA;if (panel_type==&quot;top&quot;) move_y_row2=0;&#xD;&#xA;else move_y_row2=-304.5+column_depth_column_outside-147-250-50;&#xD;&#xA;&#xD;&#xA;if (panel_product_line==&quot;spep&quot;) display_cutouts_twinline_spep=&quot;none&quot;;&#xD;&#xA;else display_cutouts_twinline_spep=&quot;inline&quot;;&#xD;&#xA;&#xD;&#xA;"/>
+  <cursorTwoD uuid="_Ineu4HTPEeayg6GEf37LJQ" name="Cursor" twoDElementsColor="_ELQbMHTPEeayg6GEf37LJQ" twoDElementsBgColor="_ELQbMHTPEeayg6GEf37LJQ">
+    <onColor href="../product_model.xml#N65557"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_NYNrIV3zEeaUJPX2PDb6lw" name="root">
+    <units uuid="_BLnrEF32EeaUJPX2PDb6lw" name="panel">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_dkLhAG-aEea6w6tPtA7aeg" name="twinline_svg" order="1" checksum="b1ba4dfb5a43435b22ba4945c189398b0b1c24f9">
+        <file href="../../build_model.studio#_0b7mAF3tEeaweZPVI-AL3g"/>
+        <handles uuid="_dkLhDW-aEea6w6tPtA7aeg" name="frame" visualId="frame">
+          <fields xsi:type="comp:Field" uuid="_dkLhDm-aEea6w6tPtA7aeg" name="heightManipulation" fieldId="height" variableReference="column_depth_column_outside" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_dkLhD2-aEea6w6tPtA7aeg" name="widthManipulation" fieldId="width" variableReference="column_width_column_outside" target="xml"/>
+        </handles>
+        <handles uuid="_uesr8G-bEea6w6tPtA7aeg" name="svg2" visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_uesr8W-bEea6w6tPtA7aeg" name="displayManipulation" fieldId="display" variableReference="display_panel_top_bottom" target="xml"/>
+        </handles>
+        <handles uuid="_PhCEcG-cEea6w6tPtA7aeg" name="screwRB" visualId="screwRB">
+          <fields xsi:type="comp:Field" uuid="_PhCEcW-cEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_twinline_screws" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_XHKIUm-cEea6w6tPtA7aeg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_twinline_screws" target="transform"/>
+        </handles>
+        <handles uuid="_PhCEcm-cEea6w6tPtA7aeg" name="screwLB" visualId="screwLB">
+          <fields xsi:type="comp:Field" uuid="_PhCEc2-cEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_twinline_screws" target="transform"/>
+        </handles>
+        <handles uuid="_XHKIUG-cEea6w6tPtA7aeg" name="screwRT" visualId="screwRT">
+          <fields xsi:type="comp:Field" uuid="_XHKIUW-cEea6w6tPtA7aeg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_twinline_screws" target="transform"/>
+        </handles>
+        <handles uuid="_10yBUW-eEea6w6tPtA7aeg" name="cutout1" visualId="cutout1">
+          <fields xsi:type="comp:Field" uuid="_10yBUG-eEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_cutout1" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_kzN7YHRMEealPdCdnY0ItQ" name="move_yManipulation" fieldId="move_y" variableReference="move_y_row1" target="transform"/>
+        </handles>
+        <handles uuid="_3DLHEG-eEea6w6tPtA7aeg" name="cutout2" visualId="cutout2">
+          <fields xsi:type="comp:Field" uuid="_3DLHEW-eEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_cutout2" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_kzQXoHRMEealPdCdnY0ItQ" name="move_yManipulation" fieldId="move_y" variableReference="move_y_row1" target="transform"/>
+        </handles>
+        <handles uuid="_4oiiYG-eEea6w6tPtA7aeg" name="cutout3" visualId="cutout3">
+          <fields xsi:type="comp:Field" uuid="_4oiiYW-eEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_cutout3" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_kzQXoXRMEealPdCdnY0ItQ" name="move_yManipulation" fieldId="move_y" variableReference="move_y_row1" target="transform"/>
+        </handles>
+        <handles uuid="_6fbLgG-eEea6w6tPtA7aeg" name="cutout4" visualId="cutout4">
+          <fields xsi:type="comp:Field" uuid="_6fbLgW-eEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_cutout4" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_kzQXonRMEealPdCdnY0ItQ" name="move_yManipulation" fieldId="move_y" variableReference="move_y_row1" target="transform"/>
+        </handles>
+        <handles uuid="_8ZK7YG-eEea6w6tPtA7aeg" name="cutout5" visualId="cutout5">
+          <fields xsi:type="comp:Field" uuid="_8ZK7YW-eEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_cutout5" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_kzQXo3RMEealPdCdnY0ItQ" name="move_yManipulation" fieldId="move_y" variableReference="move_y_row1" target="transform"/>
+        </handles>
+        <handles uuid="_4FtTYG-kEea6w6tPtA7aeg" name="cutout6" visualId="cutout6">
+          <fields xsi:type="comp:Field" uuid="_4FtTYW-kEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_cutout6" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_m9gBoHRMEealPdCdnY0ItQ" name="move_yManipulation" fieldId="move_y" variableReference="move_y_row2" target="transform"/>
+        </handles>
+        <handles uuid="_5soN4G-kEea6w6tPtA7aeg" name="cutout7" visualId="cutout7">
+          <fields xsi:type="comp:Field" uuid="_5soN4W-kEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_cutout7" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_m9gBoXRMEealPdCdnY0ItQ" name="move_yManipulation" fieldId="move_y" variableReference="move_y_row2" target="transform"/>
+        </handles>
+        <handles uuid="_7H2OsG-kEea6w6tPtA7aeg" name="cutout8" visualId="cutout8">
+          <fields xsi:type="comp:Field" uuid="_7H2OsW-kEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_cutout8" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_m9gBonRMEealPdCdnY0ItQ" name="move_yManipulation" fieldId="move_y" variableReference="move_y_row2" target="transform"/>
+        </handles>
+        <handles uuid="_8YEgcG-kEea6w6tPtA7aeg" name="cutout9" visualId="cutout9">
+          <fields xsi:type="comp:Field" uuid="_8YEgcW-kEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_cutout9" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_m9gBo3RMEealPdCdnY0ItQ" name="move_yManipulation" fieldId="move_y" variableReference="move_y_row2" target="transform"/>
+        </handles>
+        <handles uuid="_9ccHgG-kEea6w6tPtA7aeg" name="cutout10" visualId="cutout10">
+          <fields xsi:type="comp:Field" uuid="_9ccHgW-kEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_cutout10" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_m9gBpHRMEealPdCdnY0ItQ" name="move_yManipulation" fieldId="move_y" variableReference="move_y_row2" target="transform"/>
+        </handles>
+        <handles uuid="_z7aJcXTDEealhb6VPZe3Dg" name="cutoutPath" visualId="cutoutPath">
+          <fields xsi:type="comp:Field" uuid="_z7aJcHTDEealhb6VPZe3Dg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility_path_hidden" target="css"/>
+        </handles>
+        <handles uuid="_0xtfUHTDEealhb6VPZe3Dg" name="layer_cutouts" visualId="layer_cutouts">
+          <fields xsi:type="comp:Field" uuid="_xN4WwHTEEealhb6VPZe3Dg" name="displayManipulation" fieldId="display" variableReference="display_cutouts_twinline_spep" target="xml"/>
+        </handles>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_etPyIG-rEea6w6tPtA7aeg" name="bottom_triline_svg" order="1" checksum="a2290ede9f8029571cad4fa86cb053a4c92977fb">
+        <file href="../../build_model.studio#_cAwxUGblEeaBUN-Lzi5Juw"/>
+        <handles uuid="_etPyIW-rEea6w6tPtA7aeg" name="frame" visualId="frame">
+          <fields xsi:type="comp:Field" uuid="_etPyIm-rEea6w6tPtA7aeg" name="widthManipulation" fieldId="width" variableReference="column_width_column_outside" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_etPyI2-rEea6w6tPtA7aeg" name="heightManipulation" fieldId="height" variableReference="column_depth_column_outside" target="xml"/>
+        </handles>
+        <handles uuid="_etPyJG-rEea6w6tPtA7aeg" name="screwRT" visualId="screwRT">
+          <fields xsi:type="comp:Field" uuid="_etPyJW-rEea6w6tPtA7aeg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_triline_bottom_view_right" target="transform"/>
+        </handles>
+        <handles uuid="_etPyJm-rEea6w6tPtA7aeg" name="screwRB" visualId="screwRB">
+          <fields xsi:type="comp:Field" uuid="_etPyJ2-rEea6w6tPtA7aeg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_triline_bottom_view_right" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_etPyKG-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_bottom_view_bottom" target="transform"/>
+        </handles>
+        <handles uuid="_etPyKW-rEea6w6tPtA7aeg" name="screwLB" visualId="screwLB">
+          <fields xsi:type="comp:Field" uuid="_etPyKm-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_bottom_view_bottom" target="transform"/>
+        </handles>
+        <handles uuid="_etPyK2-rEea6w6tPtA7aeg" name="cutout" visualId="cutout">
+          <fields xsi:type="comp:Field" uuid="_etPyLG-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_cutout_bottom_view_right" target="transform"/>
+        </handles>
+        <handles uuid="_etPyLW-rEea6w6tPtA7aeg" name="holeTopL" visualId="holeTopL">
+          <fields xsi:type="comp:Field" uuid="_etPyLm-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_cutout_bottom_view_right" target="transform"/>
+        </handles>
+        <handles uuid="_etPyL2-rEea6w6tPtA7aeg" name="holeTopLM" visualId="holeTopLM">
+          <fields xsi:type="comp:Field" uuid="_etPyMG-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_cutout_bottom_view_right" target="transform"/>
+        </handles>
+        <handles uuid="_etPyMW-rEea6w6tPtA7aeg" name="holeTopMR" visualId="holeTopMR">
+          <fields xsi:type="comp:Field" uuid="_etPyMm-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_cutout_bottom_view_right" target="transform"/>
+        </handles>
+        <handles uuid="_etPyM2-rEea6w6tPtA7aeg" name="holeTopR" visualId="holeTopR">
+          <fields xsi:type="comp:Field" uuid="_etPyNG-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_cutout_bottom_view_right" target="transform"/>
+        </handles>
+        <handles uuid="_etPyNW-rEea6w6tPtA7aeg" name="holeBottomL" visualId="holeBottomL">
+          <fields xsi:type="comp:Field" uuid="_etPyNm-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_cutout_bottom_view_right" target="transform"/>
+        </handles>
+        <handles uuid="_etPyN2-rEea6w6tPtA7aeg" name="holeBottomLM" visualId="holeBottomLM">
+          <fields xsi:type="comp:Field" uuid="_etPyOG-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_cutout_bottom_view_right" target="transform"/>
+        </handles>
+        <handles uuid="_etPyOW-rEea6w6tPtA7aeg" name="holeBottomMR" visualId="holeBottomMR">
+          <fields xsi:type="comp:Field" uuid="_etPyOm-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_cutout_bottom_view_right" target="transform"/>
+        </handles>
+        <handles uuid="_etPyO2-rEea6w6tPtA7aeg" name="holeBottomR" visualId="holeBottomR">
+          <fields xsi:type="comp:Field" uuid="_etPyPG-rEea6w6tPtA7aeg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_triline_cutout_bottom_view_right" target="transform"/>
+        </handles>
+        <handles uuid="_etPyPW-rEea6w6tPtA7aeg" name="svg2" visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_etPyPm-rEea6w6tPtA7aeg" name="displayManipulation" fieldId="display" variableReference="display_blind_triline_bottom" target="xml"/>
+        </handles>
+        <handles uuid="_etPyP2-rEea6w6tPtA7aeg" name="cutoutPath" visualId="cutoutPath">
+          <fields xsi:type="comp:Field" uuid="_etPyQG-rEea6w6tPtA7aeg" name="visibilityManipulation" fieldId="visibility" variableReference="visibility" target="css"/>
+        </handles>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_ELQbMHTPEeayg6GEf37LJQ" name="Box_cursor" cursorsUsingMeForBgColor="_Ineu4HTPEeayg6GEf37LJQ" cursorsUsingMeForColor="_Ineu4HTPEeayg6GEf37LJQ" strokeWidth="30">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_47poF6KVEea3uKyX2lIh0A" heightDynamic="column_depth_column_outside" widthDynamic="column_width_column_outside"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_j-cUoHT-EeaQyoCKZhRT5g" name="open_panel_svg" order="1" checksum="b383bb20682614c16dcd36bbaad231f80a6155c0">
+        <file href="../../build_model.studio#_vfpG8HT-EeaQyoCKZhRT5g"/>
+        <handles uuid="_eSqBEHT_EeaQyoCKZhRT5g" name="cutoutPath" visualId="cutoutPath">
+          <fields xsi:type="comp:Field" uuid="_eSqBEXT_EeaQyoCKZhRT5g" name="visibilityManipulation" fieldId="visibility" variableReference="visibility" target="css"/>
+        </handles>
+        <handles uuid="_gJEJEHT_EeaQyoCKZhRT5g" name="frame" visualId="frame">
+          <fields xsi:type="comp:Field" uuid="_gJEJEXT_EeaQyoCKZhRT5g" name="heightManipulation" fieldId="height" variableReference="column_depth_column_outside" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_g0JGYHT_EeaQyoCKZhRT5g" name="widthManipulation" fieldId="width" variableReference="column_width_column_outside" target="xml"/>
+        </handles>
+        <handles uuid="_-6ZdYnUBEeaQyoCKZhRT5g" name="screwRB" visualId="screwRB">
+          <fields xsi:type="comp:Field" uuid="_4-XQzIU8EeaDLe5GEK_TKw" name="move_xManipulation" fieldId="move_x" variableReference="move_x_open_panel_top_bottom_screws" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_GhkXFoU9EeaDLe5GEK_TKw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_open_panel_top_bottom_screws" target="transform"/>
+        </handles>
+        <handles uuid="_m9oFwHUCEeaQyoCKZhRT5g" name="cutout" visualId="cutout">
+          <fields xsi:type="comp:Field" uuid="_m9oFwXUCEeaQyoCKZhRT5g" name="heightManipulation" fieldId="height" variableReference="height_open_panel_top_bottom_cutout" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_nxUMgHUCEeaQyoCKZhRT5g" name="widthManipulation" fieldId="width" variableReference="width_open_panel_top_bottom_cutout" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_sgtroITsEeaTy9LdqNv-4Q" name="move_xManipulation" fieldId="move_x" variableReference="move_x_cutout" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_umkk4ITsEeaTy9LdqNv-4Q" name="move_yManipulation" fieldId="move_y" variableReference="move_y_cutout" target="transform"/>
+        </handles>
+        <handles uuid="_P-LGcHUNEeaQyoCKZhRT5g" name="svg2" visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_P-LGcXUNEeaQyoCKZhRT5g" name="displayManipulation" fieldId="display" variableReference="display_open_panel" target="xml"/>
+        </handles>
+        <handles uuid="_JuCeQITpEeaTy9LdqNv-4Q" name="fixedIncomingCableFlange" visualId="fixedIncomingCableFlange">
+          <fields xsi:type="comp:Field" uuid="_JuCeQYTpEeaTy9LdqNv-4Q" name="heightManipulation" fieldId="height" variableReference="height_open_panel_top_bottom_cutout_fixedinline" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_LDwUAITpEeaTy9LdqNv-4Q" name="widthManipulation" fieldId="width" variableReference="width_open_panel_top_bottom_cutout_fixedinline" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_sgtroYTsEeaTy9LdqNv-4Q" name="move_xManipulation" fieldId="move_x" variableReference="move_x_cutout" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_umkk4YTsEeaTy9LdqNv-4Q" name="move_yManipulation" fieldId="move_y" variableReference="move_y_cutout" target="transform"/>
+        </handles>
+        <handles uuid="_4-XQwYU8EeaDLe5GEK_TKw" name="holeTopR" visualId="holeTopR">
+          <fields xsi:type="comp:Field" uuid="_4-XQwIU8EeaDLe5GEK_TKw" name="move_xManipulation" fieldId="move_x" variableReference="move_x_open_panel_top_bottom_screws" target="transform"/>
+        </handles>
+        <handles uuid="_4-XQw4U8EeaDLe5GEK_TKw" name="holeRightT" visualId="holeRightT">
+          <fields xsi:type="comp:Field" uuid="_4-XQwoU8EeaDLe5GEK_TKw" name="move_xManipulation" fieldId="move_x" variableReference="move_x_open_panel_top_bottom_screws" target="transform"/>
+        </handles>
+        <handles uuid="_4-XQxYU8EeaDLe5GEK_TKw" name="holeRightM" visualId="holeRightM">
+          <fields xsi:type="comp:Field" uuid="_4-XQxIU8EeaDLe5GEK_TKw" name="move_xManipulation" fieldId="move_x" variableReference="move_x_open_panel_top_bottom_screws" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_DFy-UoU-EeaDLe5GEK_TKw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_open_panel_top_bottom_screws_middle" target="transform"/>
+        </handles>
+        <handles uuid="_4-XQx4U8EeaDLe5GEK_TKw" name="holeRightB" visualId="holeRightB">
+          <fields xsi:type="comp:Field" uuid="_4-XQxoU8EeaDLe5GEK_TKw" name="move_xManipulation" fieldId="move_x" variableReference="move_x_open_panel_top_bottom_screws" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_GhkXEIU9EeaDLe5GEK_TKw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_open_panel_top_bottom_screws" target="transform"/>
+        </handles>
+        <handles uuid="_4-XQyYU8EeaDLe5GEK_TKw" name="holeBottomR" visualId="holeBottomR">
+          <fields xsi:type="comp:Field" uuid="_4-XQyIU8EeaDLe5GEK_TKw" name="move_xManipulation" fieldId="move_x" variableReference="move_x_open_panel_top_bottom_screws" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_GhkXFYU9EeaDLe5GEK_TKw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_open_panel_top_bottom_screws" target="transform"/>
+        </handles>
+        <handles uuid="_4-XQy4U8EeaDLe5GEK_TKw" name="screwRT" visualId="screwRT">
+          <fields xsi:type="comp:Field" uuid="_4-XQyoU8EeaDLe5GEK_TKw" name="move_xManipulation" fieldId="move_x" variableReference="move_x_open_panel_top_bottom_screws" target="transform"/>
+        </handles>
+        <handles uuid="_GhjwAYU9EeaDLe5GEK_TKw" name="holeLeftB" visualId="holeLeftB">
+          <fields xsi:type="comp:Field" uuid="_GhjwAIU9EeaDLe5GEK_TKw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_open_panel_top_bottom_screws" target="transform"/>
+        </handles>
+        <handles uuid="_GhkXEoU9EeaDLe5GEK_TKw" name="holeBottomL" visualId="holeBottomL">
+          <fields xsi:type="comp:Field" uuid="_GhkXEYU9EeaDLe5GEK_TKw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_open_panel_top_bottom_screws" target="transform"/>
+        </handles>
+        <handles uuid="_GhkXFIU9EeaDLe5GEK_TKw" name="holeBottomM" visualId="holeBottomM">
+          <fields xsi:type="comp:Field" uuid="_GhkXE4U9EeaDLe5GEK_TKw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_open_panel_top_bottom_screws" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_hJZKQoU9EeaDLe5GEK_TKw" name="move_xManipulation" fieldId="move_x" variableReference="move_x_open_panel_top_bottom_screws_middle" target="transform"/>
+        </handles>
+        <handles uuid="_GhkXGIU9EeaDLe5GEK_TKw" name="screwLB" visualId="screwLB">
+          <fields xsi:type="comp:Field" uuid="_GhkXF4U9EeaDLe5GEK_TKw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_open_panel_top_bottom_screws" target="transform"/>
+        </handles>
+        <handles uuid="_hJZKQIU9EeaDLe5GEK_TKw" name="holeTopM" visualId="holeTopM">
+          <fields xsi:type="comp:Field" uuid="_hJZKQYU9EeaDLe5GEK_TKw" name="move_xManipulation" fieldId="move_x" variableReference="move_x_open_panel_top_bottom_screws_middle" target="transform"/>
+        </handles>
+        <handles uuid="_DFy-UIU-EeaDLe5GEK_TKw" name="holeLeftM" visualId="holeLeftM">
+          <fields xsi:type="comp:Field" uuid="_DFy-UYU-EeaDLe5GEK_TKw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_open_panel_top_bottom_screws_middle" target="transform"/>
+        </handles>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_X-45sJCaEeaTvtOZbA1BhA" name="Box_hidden_dwg_export" translation="(0,-200)" height="800.0" width="600.0">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_47q2MKKVEea3uKyX2lIh0A" heightDynamic="column_depth_column_outside" widthDynamic="column_width_column_outside"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+      <children uuid="_6VmyoF7_EeaS6YLS5FthAg" name="place_flange" order="2"/>
+    </units>
+    <parentPlugs uuid="_NYNrIl3zEeaUJPX2PDb6lw" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_V1FlQF39EeaUJPX2PDb6lw" name="flange_set_role" components="flange_set, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47q2N6KVEea3uKyX2lIh0A" geoUnit="_6VmyoF7_EeaS6YLS5FthAg"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_47q2OKKVEea3uKyX2lIh0A">
+      <chains uuid="_7OuSYHQ8EeaGEr9s0U2JUQ" name="panel_product_line" value="" chained="panel_panel_product_line" refVar="panel_product_line"/>
+      <chains uuid="_7OuSYXQ8EeaGEr9s0U2JUQ" name="cable_entry" value="" chained="panel_cable_entry" refVar="cable_entry"/>
+      <chains uuid="_7OuSYnQ8EeaGEr9s0U2JUQ" name="cable_entry_rows" value="" chained="panel_cable_entry_rows" refVar="cable_entry_rows"/>
+      <chains uuid="_7OuSY3Q8EeaGEr9s0U2JUQ" name="panel_type" value="" chained="panel_panel_type" refVar="panel_type"/>
+      <chains uuid="_d6S4kHRIEeaGEr9s0U2JUQ" name="move_y_row1" value="" chained="move_y_row1" refVar="move_y_row1"/>
+      <chains uuid="_ewdEgHRIEeaGEr9s0U2JUQ" name="move_y_row2" value="" chained="move_y_row2" refVar="move_y_row2"/>
+      <chains uuid="_x_aTEHRQEealPdCdnY0ItQ" name="move_y_triline_cutout_bottom_view_right" value="" chained="move_y_triline_cutout_bottom_view_right" refVar="move_y_triline_cutout_bottom_view_right"/>
+    </facets>
+    <domain uuid="_V1FlQV39EeaUJPX2PDb6lw" name="local" visibility="300">
+      <typeSet uuid="_47q2QqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_HHCh0GCBEeac5cuogsa9LQ" name="flange_set" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+</comp:Component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_HVr6kBgvEeaxOeZauvxXIA" name="kit_busbasystem_40_60_mm" displayName="Busbar system 40/60mm" toaPrefix="kit_future">
+  <template href="_t5UX4A38EeaVY4xFge6vag.xml#_t5UX4A38EeaVY4xFge6vag"/>
+  <geometry deletable="false" uuid="_HVr6kRgvEeaxOeZauvxXIA" name="root">
+    <parentPlugs uuid="_HVr6khgvEeaxOeZauvxXIA" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

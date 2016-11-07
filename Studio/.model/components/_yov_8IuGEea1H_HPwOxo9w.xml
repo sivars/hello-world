@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_yov_8IuGEea1H_HPwOxo9w" name="column_switch_disconnector_fuse" toaPrefix="column">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_QIRxUIuNEeatA5xS-EKmzQ" name="column_type" visibility="800" initValue="switch_disconnector_fuse">
+    <domain uuid="_QIRxUYuNEeatA5xS-EKmzQ" name="local" visibility="300">
+      <typeSet uuid="_471OVKKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <template href="_z5ytQCygEeaMLJEvopK9fA.xml#_z5ytQCygEeaMLJEvopK9fA"/>
+  <cursorTwoD uuid="_wemHoIupEeatA5xS-EKmzQ" name="Cursor_column_switch_disconnector_fuse" twoDElementsColor="_pUVgYYupEeatA5xS-EKmzQ" twoDElementsBgColor="_pUVgYYupEeatA5xS-EKmzQ">
+    <onColor href="../product_model.xml#N65557"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_yov_8YuGEea1H_HPwOxo9w" name="root">
+    <units uuid="_pUVgYIupEeatA5xS-EKmzQ" name="cursor_column_switch_disconnector_fuse">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_471OWKKVEea3uKyX2lIh0A" variable="column_height_outside_toa" vector="(0,0,-1)"/>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_pUVgYYupEeatA5xS-EKmzQ" name="Box_column_switch_disconnector_fuse" cursorsUsingMeForBgColor="_wemHoIupEeatA5xS-EKmzQ" cursorsUsingMeForColor="_wemHoIupEeatA5xS-EKmzQ" strokeWidth="25">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_471OWqKVEea3uKyX2lIh0A" heightDynamic="column_height_cursor_toa" widthDynamic="column_width_outside_toa"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_yov_8ouGEea1H_HPwOxo9w" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

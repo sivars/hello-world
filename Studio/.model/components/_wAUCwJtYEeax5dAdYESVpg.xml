@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_wAUCwJtYEeax5dAdYESVpg" name="template_column_kits_multiple">
+  <variables xsi:type="comp:VariableGroup" uuid="_0ZTm0JtZEeax5dAdYESVpg" name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_zZxccJtZEeax5dAdYESVpg" name="rack_offset1" visibility="800">
+      <domain uuid="_zZxccZtZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49BhLaKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_7dQxwJtZEeax5dAdYESVpg" name="rack_offset2" visibility="800">
+      <domain uuid="_7dQxwptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49BhM6KVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_7vIk4JtZEeax5dAdYESVpg" name="rack_offset3" visibility="800">
+      <domain uuid="_7vIk4ptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49BhOaKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_74q7YJtZEeax5dAdYESVpg" name="rack_offset4" visibility="800">
+      <domain uuid="_74q7YptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49BhP6KVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_8BzCMJtZEeax5dAdYESVpg" name="rack_offset5" visibility="800">
+      <domain uuid="_8BzCMptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49BhRaKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_8K4swJtZEeax5dAdYESVpg" name="rack_offset6" visibility="800">
+      <domain uuid="_8K4swptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49BhS6KVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_8ToZEJtZEeax5dAdYESVpg" name="rack_offset7" visibility="800">
+      <domain uuid="_8ToZEptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CIIqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_8cW3QJtZEeax5dAdYESVpg" name="rack_offset8" visibility="800">
+      <domain uuid="_8cW3QptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CIKKKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_8kTSUJtZEeax5dAdYESVpg" name="rack_offset9" visibility="800">
+      <domain uuid="_8kTSUptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CILqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_8r8LYJtZEeax5dAdYESVpg" name="rack_offset10" visibility="800">
+      <domain uuid="_8r8LYptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CINKKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_9AoB8JtZEeax5dAdYESVpg" name="rack_offset11" visibility="800">
+      <domain uuid="_9AoB8ptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CIOqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_9NhOcJtZEeax5dAdYESVpg" name="rack_offset12" visibility="800">
+      <domain uuid="_9NhOcptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CIQKKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_9bgAEJtZEeax5dAdYESVpg" name="rack_offset13" visibility="800">
+      <domain uuid="_9bgAEptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CIRqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_9k7B0JtZEeax5dAdYESVpg" name="rack_offset14" visibility="800">
+      <domain uuid="_9k7B0ptZEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CITKKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_OPPqEJtaEeax5dAdYESVpg" name="rack_pos1" visibility="800" initValue="1">
+      <domain uuid="_OPPqEptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CIUqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Oc1aIJtaEeax5dAdYESVpg" name="rack_pos2" visibility="800" initValue="1">
+      <domain uuid="_Oc1aIptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CIWKKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_OlQ9YJtaEeax5dAdYESVpg" name="rack_pos3" visibility="800" initValue="1">
+      <domain uuid="_OlQ9YptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CIXqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_OtP0sJtaEeax5dAdYESVpg" name="rack_pos4" visibility="800" initValue="1">
+      <domain uuid="_OtP0sptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CvMKKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_PCQbYJtaEeax5dAdYESVpg" name="rack_pos5" visibility="800" initValue="1">
+      <domain uuid="_PCQbYptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CvNqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_PXMJkJtaEeax5dAdYESVpg" name="rack_pos6" visibility="800" initValue="1">
+      <domain uuid="_PXMJkptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CvPKKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_PhuloJtaEeax5dAdYESVpg" name="rack_pos7" visibility="800" initValue="1">
+      <domain uuid="_PhuloptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CvQqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_PqguMJtaEeax5dAdYESVpg" name="rack_pos8" visibility="800" initValue="1">
+      <domain uuid="_PqguMptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CvSKKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_PyVNcJtaEeax5dAdYESVpg" name="rack_pos9" visibility="800" initValue="1">
+      <domain uuid="_PyVNcptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49CvTqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_P6RBcJtaEeax5dAdYESVpg" name="rack_pos10" visibility="800" initValue="1">
+      <domain uuid="_P6RBcptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49DWQqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_QBfDwJtaEeax5dAdYESVpg" name="rack_pos11" visibility="800" initValue="1">
+      <domain uuid="_QBfq0JtaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49DWSKKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_QI-y4JtaEeax5dAdYESVpg" name="rack_pos12" visibility="800" initValue="1">
+      <domain uuid="_QI-y4ptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49DWTqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_QQX0UJtaEeax5dAdYESVpg" name="rack_pos13" visibility="800" initValue="1">
+      <domain uuid="_QQX0UptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49DWVKKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_QW89cJtaEeax5dAdYESVpg" name="rack_pos14" visibility="800" initValue="1">
+      <domain uuid="_QW89cptaEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49DWWqKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Bt-h4JtaEeax5dAdYESVpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_avaCMJteEeax5dAdYESVpg" name="rack_setting" visibility="800" initValue="1">
+      <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_49DWXqKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" priority="1200"/>
+      <domain uuid="_avaCMZteEeax5dAdYESVpg" name="local" visibility="300">
+        <typeSet uuid="_49DWYaKVEea3uKyX2lIh0A" bitSet="393231"/>
+        <values uuid="_cJqXcJwTEeauR_1OH-lfXQ" name="1" editable="false" visibility="300"/>
+        <values uuid="_cXk3oJwTEeauR_1OH-lfXQ" name="2" editable="false" visibility="300"/>
+        <values uuid="_cmD_kJwTEeauR_1OH-lfXQ" name="3" editable="false" visibility="300"/>
+        <values uuid="_czGWAJwTEeauR_1OH-lfXQ" name="4" editable="false" visibility="300"/>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_c40lwJteEeax5dAdYESVpg" name="Logic_Rules" visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_fzoKAJteEeax5dAdYESVpg" name="rack_kits" visibility="800">
+      <columns uuid="_XwRtkJzdEeavpP-KQNuZaQ" name="connection_position" visibility="100">
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>bottom</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>top</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtkZzdEeavpP-KQNuZaQ" name="column_type" visibility="100">
+        <cells>'coupler'</cells>
+        <cells>'breaker'</cells>
+        <cells>'fuse_switch_disconnector'</cells>
+        <cells>'switch_disconnector_fuse'</cells>
+        <cells>'coupler'</cells>
+        <cells>'breaker'</cells>
+        <cells>'fuse_switch_disconnector'</cells>
+        <cells>'switch_disconnector_fuse'</cells>
+        <cells>!</cells>
+      </columns>
+      <columns uuid="_XwRtkpzdEeavpP-KQNuZaQ" name="SOFT.rack_kit1" visibility="100">
+        <cells>kit_npebusbarsystem</cells>
+        <cells>kit_npebusbarsystem</cells>
+        <cells>kit_npebusbarsystem</cells>
+        <cells>kit_npebusbarsystem</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtk5zdEeavpP-KQNuZaQ" name="rack_pos1" visibility="100">
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>1</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtlJzdEeavpP-KQNuZaQ" name="SOFT.rack_kit2" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtlZzdEeavpP-KQNuZaQ" name="rack_pos2" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtlpzdEeavpP-KQNuZaQ" name="SOFT.rack_kit3" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtl5zdEeavpP-KQNuZaQ" name="rack_pos3" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtmJzdEeavpP-KQNuZaQ" name="SOFT.rack_kit4" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>kit_coupler</cells>
+        <cells>kit_mouldedcasecircuitbreaker</cells>
+        <cells>kit_fuseswitchdisconnector</cells>
+        <cells>kit_switchdisconnector</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtmZzdEeavpP-KQNuZaQ" name="rack_pos4" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtmpzdEeavpP-KQNuZaQ" name="SOFT.rack_kit5" visibility="100">
+        <cells>kit_coupler</cells>
+        <cells>kit_mouldedcasecircuitbreaker</cells>
+        <cells>kit_fuseswitchdisconnector</cells>
+        <cells>kit_switchdisconnector</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtm5zdEeavpP-KQNuZaQ" name="rack_pos5" visibility="100">
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>5</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtnJzdEeavpP-KQNuZaQ" name="SOFT.rack_kit6" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtnZzdEeavpP-KQNuZaQ" name="rack_pos6" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtnpzdEeavpP-KQNuZaQ" name="SOFT.rack_kit7" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtn5zdEeavpP-KQNuZaQ" name="rack_pos7" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtoJzdEeavpP-KQNuZaQ" name="SOFT.rack_kit8" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtoZzdEeavpP-KQNuZaQ" name="rack_pos8" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtopzdEeavpP-KQNuZaQ" name="SOFT.rack_kit9" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>kit_npebusbarsystem</cells>
+        <cells>kit_npebusbarsystem</cells>
+        <cells>kit_npebusbarsystem</cells>
+        <cells>kit_npebusbarsystem</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRto5zdEeavpP-KQNuZaQ" name="rack_pos9" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>9</cells>
+        <cells>9</cells>
+        <cells>9</cells>
+        <cells>9</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtpJzdEeavpP-KQNuZaQ" name="SOFT.rack_kit10" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtpZzdEeavpP-KQNuZaQ" name="rack_pos10" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtppzdEeavpP-KQNuZaQ" name="SOFT.rack_kit11" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtp5zdEeavpP-KQNuZaQ" name="rack_pos11" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtqJzdEeavpP-KQNuZaQ" name="SOFT.rack_kit12" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtqZzdEeavpP-KQNuZaQ" name="rack_pos12" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtqpzdEeavpP-KQNuZaQ" name="SOFT.rack_kit13" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtq5zdEeavpP-KQNuZaQ" name="rack_pos13" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_XwRtrJzdEeavpP-KQNuZaQ" name="SOFT.rack_kit14" visibility="100">
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+        <cells>NONE</cells>
+      </columns>
+      <columns uuid="_XwRtrZzdEeavpP-KQNuZaQ" name="rack_pos14" visibility="100">
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+        <cells>?</cells>
+      </columns>
+    </children>
+  </logic>
+  <template href="_SP8eMJtAEeaFuoDF6TwUoA.xml#_SP8eMJtAEeaFuoDF6TwUoA"/>
+  <geometry deletable="false" uuid="_wAUCwZtYEeax5dAdYESVpg" name="root">
+    <units uuid="_USHygJtaEeax5dAdYESVpg" name="column_front_view">
+      <children uuid="_c7DXMJtaEeax5dAdYESVpg" name="rack_kit1" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49D9a6KVEea3uKyX2lIh0A" variable="rack_offset1" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_dGfyMJtaEeax5dAdYESVpg" name="rack_kit2" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkYKKVEea3uKyX2lIh0A" variable="rack_offset2" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_dOR1MJtaEeax5dAdYESVpg" name="rack_kit3" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkYqKVEea3uKyX2lIh0A" variable="rack_offset3" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_dWbEkJtaEeax5dAdYESVpg" name="rack_kit4" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkZKKVEea3uKyX2lIh0A" variable="rack_offset4" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_denXQJtaEeax5dAdYESVpg" name="rack_kit5" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkZqKVEea3uKyX2lIh0A" variable="rack_offset5" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_dmI7kJtaEeax5dAdYESVpg" name="rack_kit6" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkaKKVEea3uKyX2lIh0A" variable="rack_offset6" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_dt-B4JtaEeax5dAdYESVpg" name="rack_kit7" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkaqKVEea3uKyX2lIh0A" variable="rack_offset7" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_d1yhIJtaEeax5dAdYESVpg" name="rack_kit8" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkbKKVEea3uKyX2lIh0A" variable="rack_offset8" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_edv5AJtaEeax5dAdYESVpg" name="rack_kit9" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkbqKVEea3uKyX2lIh0A" variable="rack_offset9" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_eor9sJtaEeax5dAdYESVpg" name="rack_kit10" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkcKKVEea3uKyX2lIh0A" variable="rack_offset10" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_exEdoJtaEeax5dAdYESVpg" name="rack_kit11" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkcqKVEea3uKyX2lIh0A" variable="rack_offset11" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_e8cnMJtaEeax5dAdYESVpg" name="rack_kit12" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkdKKVEea3uKyX2lIh0A" variable="rack_offset12" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_fEyD0JtaEeax5dAdYESVpg" name="rack_kit13" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkdqKVEea3uKyX2lIh0A" variable="rack_offset13" vector="(0,0,-1)"/>
+      </children>
+      <children uuid="_fN15MJtaEeax5dAdYESVpg" name="rack_kit14" position="(50,0,-57)" order="2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_49EkeKKVEea3uKyX2lIh0A" variable="rack_offset14" vector="(0,0,-1)"/>
+      </children>
+    </units>
+    <parentPlugs uuid="_wAUCwptYEeax5dAdYESVpg" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_Wah-kJtcEeax5dAdYESVpg" name="rack_kit1" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49EkfqKVEea3uKyX2lIh0A" geoUnit="_c7DXMJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49FygKKVEea3uKyX2lIh0A" geoUnit="_c7DXMJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49GZkKKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_Wah-k5tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49GZk6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Wah-lJtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_9tdKYJtnEeax5dAdYESVpg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_9tdxcJtnEeax5dAdYESVpg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_9tdxcZtnEeax5dAdYESVpg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_9tdxcptnEeax5dAdYESVpg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_9tdxc5tnEeax5dAdYESVpg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_XFbVsJtcEeax5dAdYESVpg" name="rack_kit2" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49GZnqKVEea3uKyX2lIh0A" geoUnit="_dGfyMJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49GZn6KVEea3uKyX2lIh0A" geoUnit="_dGfyMJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49GZoKKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_XFbVs5tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49HAoqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_XFbVtJtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_As4v8JtoEeax5dAdYESVpg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_As4v8ZtoEeax5dAdYESVpg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_As4v8ptoEeax5dAdYESVpg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_As4v85toEeax5dAdYESVpg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_As4v9JtoEeax5dAdYESVpg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Xct0UJtcEeax5dAdYESVpg" name="rack_kit3" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49HAraKVEea3uKyX2lIh0A" geoUnit="_dOR1MJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49HArqKVEea3uKyX2lIh0A" geoUnit="_dOR1MJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49HAr6KVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_Xct0U5tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49HAsqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Xct0VJtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_P86vAJtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_P86vAZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_P86vAptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_P86vA5tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_P86vBJtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_XxHXAJtcEeax5dAdYESVpg" name="rack_kit4" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49HAvaKVEea3uKyX2lIh0A" geoUnit="_dWbEkJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49HnsKKVEea3uKyX2lIh0A" geoUnit="_dWbEkJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49HnsaKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_XxHXA5tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49HntKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_XxHXBJtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_QxV1kJtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_QxV1kZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_QxV1kptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_QxV1k5tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_QxV1lJtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_YF7wcJtcEeax5dAdYESVpg" name="rack_kit5" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49Hnv6KVEea3uKyX2lIh0A" geoUnit="_denXQJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49HnwKKVEea3uKyX2lIh0A" geoUnit="_denXQJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49HnwaKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_YF7wc5tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49HnxKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_YF7wdJtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_Rv36YJtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_Rv36YZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_Rv36YptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_Rv36Y5tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_Rv36ZJtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_YbfJsJtcEeax5dAdYESVpg" name="rack_kit6" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49IOxKKVEea3uKyX2lIh0A" geoUnit="_dmI7kJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49IOxaKVEea3uKyX2lIh0A" geoUnit="_dmI7kJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49IOxqKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_YbfJs5tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49IOyaKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_YbfJtJtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_S2UlEJtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_S2UlEZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_S2UlEptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_S2UlE5tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_S2UlFJtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Y1Ac8JtcEeax5dAdYESVpg" name="rack_kit7" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49IO1KKVEea3uKyX2lIh0A" geoUnit="_dt-B4JtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49IO1aKVEea3uKyX2lIh0A" geoUnit="_dt-B4JtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49IO1qKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_Y1Ac85tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49IO2aKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Y1Ac9JtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_T1imYJtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_T1imYZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_T1imYptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_T1imY5tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_T1imZJtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_aHpJgJtcEeax5dAdYESVpg" name="rack_kit8" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49I11qKVEea3uKyX2lIh0A" geoUnit="_d1yhIJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49I116KVEea3uKyX2lIh0A" geoUnit="_d1yhIJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49I12KKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_aHpJg5tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49I126KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_aHpJhJtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_U1eZYJtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_U1eZYZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_U1eZYptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_U1eZY5tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_U1fAcJtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_amg20JtcEeax5dAdYESVpg" name="rack_kit9" initValue="" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49I15qKVEea3uKyX2lIh0A" geoUnit="_edv5AJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49I156KVEea3uKyX2lIh0A" geoUnit="_edv5AJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49I16KKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_amg205tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49I166KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_amg21JtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_V3jhcJtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_V3jhcZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_V3jhcptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_V3jhc5tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_V3jhdJtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_bG3K0JtcEeax5dAdYESVpg" name="rack_kit10" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49Jc56KVEea3uKyX2lIh0A" geoUnit="_eor9sJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49Jc6KKVEea3uKyX2lIh0A" geoUnit="_eor9sJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49Jc6aKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_bG3K05tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49Jc7KKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_bG3K1JtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_XN-h0JtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_XN-h0ZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_XN-h0ptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_XN-h05tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_XN-h1JtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_bjPk0JtcEeax5dAdYESVpg" name="rack_kit11" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49Jc96KVEea3uKyX2lIh0A" geoUnit="_exEdoJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49Jc-KKVEea3uKyX2lIh0A" geoUnit="_exEdoJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49Jc-aKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_bjPk05tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49Jc_KKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_bjPk1JtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_YY75EJtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_YY75EZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_YY75EptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_YY75E5tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_YY75FJtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_b6uQsJtcEeax5dAdYESVpg" name="rack_kit12" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49KD-KKVEea3uKyX2lIh0A" geoUnit="_e8cnMJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49KD-aKVEea3uKyX2lIh0A" geoUnit="_e8cnMJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49KD-qKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_b6uQs5tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49KD_aKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_b6uQtJtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_bFyg4JtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_bFyg4ZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_bFyg4ptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_bFyg45tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_bFyg5JtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_cRzT8JtcEeax5dAdYESVpg" name="rack_kit13" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49KECKKVEea3uKyX2lIh0A" geoUnit="_fEyD0JtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49KECaKVEea3uKyX2lIh0A" geoUnit="_fEyD0JtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49KECqKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_cRzT85tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49KEDaKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_cRzT9JtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_cAAGYJtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_cAAGYZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_cAAGYptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_cAAGY5tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_cAAGZJtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_cn-_UJtcEeax5dAdYESVpg" name="rack_kit14" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_49KrCqKVEea3uKyX2lIh0A" geoUnit="_fN15MJtaEeax5dAdYESVpg"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_49KrC6KVEea3uKyX2lIh0A" geoUnit="_fN15MJtaEeax5dAdYESVpg">
+      <visual href="../product_model.xml#_hdAqAJtbEeax5dAdYESVpg"/>
+    </facets>
+    <facets xsi:type="array:VariableSoftConstraintFacet" uuid="_49KrDKKVEea3uKyX2lIh0A" declared="true" model="_c40lwJteEeax5dAdYESVpg" flow="OUT" rollback="SOFT"/>
+    <domain uuid="_cn-_U5tcEeax5dAdYESVpg" name="local" visibility="300">
+      <typeSet uuid="_49KrD6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_cn-_VJtcEeax5dAdYESVpg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_dF1tEJtpEeakHNhOAckSvg" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_dF1tEZtpEeakHNhOAckSvg" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_dF1tEptpEeakHNhOAckSvg" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_dF1tE5tpEeakHNhOAckSvg" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_dF1tFJtpEeakHNhOAckSvg" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <controllers xsi:type="comp:RackController" uuid="_uZY2UJtaEeax5dAdYESVpg" name="Rack_Controller">
+    <extraData xsi:type="appl:ExtraDataConstant" uuid="_uZY2UZtaEeax5dAdYESVpg" name="positioncontrolid" value="pos"/>
+    <extraData xsi:type="appl:ExtraDataConstant" uuid="_uZY2UptaEeax5dAdYESVpg" name="multiplier" value="150"/>
+    <extraData xsi:type="appl:ExtraDataList" uuid="_uZY2U5taEeax5dAdYESVpg" name="roles">
+      <elements>rack_kit1</elements>
+      <elements>rack_kit2</elements>
+      <elements>rack_kit3</elements>
+      <elements>rack_kit4</elements>
+      <elements>rack_kit5</elements>
+      <elements>rack_kit6</elements>
+      <elements>rack_kit7</elements>
+      <elements>rack_kit8</elements>
+      <elements>rack_kit9</elements>
+      <elements>rack_kit10</elements>
+      <elements>rack_kit11</elements>
+      <elements>rack_kit12</elements>
+      <elements>rack_kit13</elements>
+      <elements>rack_kit14</elements>
+    </extraData>
+    <extraData xsi:type="appl:ExtraDataList" uuid="_uZY2VJtaEeax5dAdYESVpg" name="positions">
+      <elements>rack_pos1</elements>
+      <elements>rack_pos2</elements>
+      <elements>rack_pos3</elements>
+      <elements>rack_pos4</elements>
+      <elements>rack_pos5</elements>
+      <elements>rack_pos6</elements>
+      <elements>rack_pos7</elements>
+      <elements>rack_pos8</elements>
+      <elements>rack_pos9</elements>
+      <elements>rack_pos10</elements>
+      <elements>rack_pos11</elements>
+      <elements>rack_pos12</elements>
+      <elements>rack_pos13</elements>
+      <elements>rack_pos14</elements>
+    </extraData>
+    <extraData xsi:type="appl:ExtraDataList" uuid="_uZY2VZtaEeax5dAdYESVpg" name="offsets">
+      <elements>rack_offset1</elements>
+      <elements>rack_offset2</elements>
+      <elements>rack_offset3</elements>
+      <elements>rack_offset4</elements>
+      <elements>rack_offset5</elements>
+      <elements>rack_offset6</elements>
+      <elements>rack_offset7</elements>
+      <elements>rack_offset8</elements>
+      <elements>rack_offset9</elements>
+      <elements>rack_offset10</elements>
+      <elements>rack_offset11</elements>
+      <elements>rack_offset12</elements>
+      <elements>rack_offset13</elements>
+      <elements>rack_offset14</elements>
+    </extraData>
+    <extraData xsi:type="appl:ExtraDataTable" uuid="_uZY2VptaEeax5dAdYESVpg" name="sizes">
+      <rows uuid="_49O8cKKVEea3uKyX2lIh0A" in="kit_coupler" out="1"/>
+      <rows uuid="_49O8caKVEea3uKyX2lIh0A" in="kit_mouldedcasecircuitbreaker" out="1"/>
+      <rows uuid="_49O8cqKVEea3uKyX2lIh0A" in="kit_fuseswitchdisconnector" out="1"/>
+      <rows uuid="_49O8c6KVEea3uKyX2lIh0A" in="kit_switchdisconnector" out="1"/>
+      <rows uuid="_49O8dKKVEea3uKyX2lIh0A" in="kit_npebusbarsystem" out="1"/>
+      <rows uuid="_49O8daKVEea3uKyX2lIh0A" in="kit_npeoffset" out="1"/>
+      <inTypeSet uuid="_49O8dqKVEea3uKyX2lIh0A" bitSet="458767"/>
+      <outTypeSet uuid="_49O8d6KVEea3uKyX2lIh0A" bitSet="458767"/>
+    </extraData>
+  </controllers>
+  <componentsUsingMe xsi:type="comp:Component" href="_SGdnMNvDEeWJgMr3GWrLIA.xml#_SGdnMNvDEeWJgMr3GWrLIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_psMfMIuHEea1H_HPwOxo9w.xml#_psMfMIuHEea1H_HPwOxo9w"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_iehiIIuIEea1H_HPwOxo9w.xml#_iehiIIuIEea1H_HPwOxo9w"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_k4QZoIuIEea1H_HPwOxo9w.xml#_k4QZoIuIEea1H_HPwOxo9w"/>
+</comp:ComponentTemplate>

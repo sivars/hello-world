@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_iehiIIuIEea1H_HPwOxo9w" name="column_fuse_switch_disconnector_insert" componentClass="LINK" cluster="true" displayName="Fuse Switch Disconnector Column" toaPrefix="column_main">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_DBOUIIuQEeatA5xS-EKmzQ" name="column_type" visibility="800" initValue="fuse_switch_disconnector">
+    <domain uuid="_DBOUIYuQEeatA5xS-EKmzQ" name="local" visibility="300">
+      <typeSet uuid="_4711WKKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <logic uuid="_YCMM8KEPEeaLe_7q6p69Xg" name="Logic_Rules" visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_YaHkwKEPEeaLe_7q6p69Xg" name="npe_offsert_insert" visibility="800">
+      <columns uuid="_Z2ifcKEPEeaLe_7q6p69Xg" name="depth_column" visibility="100">
+        <cells>500</cells>
+        <cells>!</cells>
+      </columns>
+      <columns uuid="_bJDQMKEPEeaLe_7q6p69Xg" name="npe_offset" visibility="100">
+        <cells>'kit_npeoffset'</cells>
+        <cells>'NONE'</cells>
+      </columns>
+    </children>
+  </logic>
+  <template href="_wAUCwJtYEeax5dAdYESVpg.xml#_wAUCwJtYEeax5dAdYESVpg"/>
+  <geometry deletable="false" uuid="_iehiIYuIEea1H_HPwOxo9w" name="root">
+    <units uuid="_7aQgYKFUEeapELp_Qrxrlg" name="column_front_view">
+      <children uuid="_UcYWgKFUEeapELp_Qrxrlg" name="place_npe_offset" order="1"/>
+    </units>
+    <parentPlugs uuid="_iehiIouIEea1H_HPwOxo9w" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_JP6oAJ85Eea5nZoP83oc6Q" name="npe_offset" initValue="kit_npeoffset" toas="kit_n185, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_4711ZaKVEea3uKyX2lIh0A" geoUnit="_UcYWgKFUEeapELp_Qrxrlg"/>
+    <domain uuid="_JP6oAZ85Eea5nZoP83oc6Q" name="local" visibility="300">
+      <typeSet uuid="_4711aKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_MagUsJ85Eea5nZoP83oc6Q" name="kit_npeoffset" editable="false" visibility="300"/>
+      <values uuid="_OxHlkKGQEeaemPIZjmIBXw" name="kit_fuseswitchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_OxRWkKGQEeaemPIZjmIBXw" name="kit_switchdisconnector" editable="false" visibility="300"/>
+      <values uuid="_OxRWkaGQEeaemPIZjmIBXw" name="kit_npebusbarsystem" editable="false" visibility="300"/>
+      <values uuid="_OxRWkqGQEeaemPIZjmIBXw" name="kit_coupler" editable="false" visibility="300"/>
+      <values uuid="_OxRWk6GQEeaemPIZjmIBXw" name="kit_mouldedcasecircuitbreaker" editable="false" visibility="300"/>
+      <values uuid="_QTAPEKGQEeaemPIZjmIBXw" name="NONE" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+</comp:Component>

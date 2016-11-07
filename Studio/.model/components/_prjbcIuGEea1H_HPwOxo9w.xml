@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_prjbcIuGEea1H_HPwOxo9w" name="column_breaker" toaPrefix="column">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_8wDqUIuKEeatA5xS-EKmzQ" name="column_type" visibility="800" initValue="breaker">
+    <domain uuid="_8wDqUYuKEeatA5xS-EKmzQ" name="local" visibility="300">
+      <typeSet uuid="_470nNaKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <template href="_z5ytQCygEeaMLJEvopK9fA.xml#_z5ytQCygEeaMLJEvopK9fA"/>
+  <cursorTwoD uuid="_7f5uYIuoEeatA5xS-EKmzQ" name="Cursor_column_breaker" twoDElementsColor="_3FbuMIuoEeatA5xS-EKmzQ" twoDElementsBgColor="_3FbuMIuoEeatA5xS-EKmzQ">
+    <onColor href="../product_model.xml#N65557"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_prjbcYuGEea1H_HPwOxo9w" name="root">
+    <units uuid="_3FbHIIuoEeatA5xS-EKmzQ" name="cursor_column_breaker">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_470nOaKVEea3uKyX2lIh0A" variable="column_height_outside_toa" vector="(0,0,-1)"/>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_3FbuMIuoEeatA5xS-EKmzQ" name="Box_column_breaker" cursorsUsingMeForBgColor="_7f5uYIuoEeatA5xS-EKmzQ" cursorsUsingMeForColor="_7f5uYIuoEeatA5xS-EKmzQ" strokeWidth="25">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_470nO6KVEea3uKyX2lIh0A" heightDynamic="column_height_cursor_toa" widthDynamic="column_width_outside_toa"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_prjbcouGEea1H_HPwOxo9w" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

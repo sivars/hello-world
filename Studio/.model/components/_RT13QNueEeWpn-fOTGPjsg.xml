@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_RT13QNueEeWpn-fOTGPjsg" name="system" componentClass="LINKOWNER" cluster="true" displayName="System" toaPrefix="" deleteMode="NEVER" insertFree="true">
+  <geometry deletable="false" uuid="_RT13QdueEeWpn-fOTGPjsg" name="root">
+    <parentPlugs uuid="_RT13QtueEeWpn-fOTGPjsg" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_4y56MNxwEeWJgMr3GWrLIA" name="switchboard_holder" public="false" type="SUBLINK" components="switchboard_holder, " lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_4z2-DKKVEea3uKyX2lIh0A" geoUnit="_RT13QdueEeWpn-fOTGPjsg" position="(0,0,100)" type="plugForLinkOwnerConnection"/>
+    <facets xsi:type="comp:LineControllerFacet" uuid="_4z2-DaKVEea3uKyX2lIh0A"/>
+    <domain uuid="_4y56MdxwEeWJgMr3GWrLIA" name="local" visibility="300">
+      <typeSet uuid="_4z3lEKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_F74FoOd0EeWPUq1lUdBTKg" name="switchboard_holder" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+</comp:Component>

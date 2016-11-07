@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_-EgDEBguEeaxOeZauvxXIA" name="kit_cabinetlighting" displayName="Cabinet lighting" toaPrefix="kit_future">
+  <template href="_t5UX4A38EeaVY4xFge6vag.xml#_t5UX4A38EeaVY4xFge6vag"/>
+  <geometry deletable="false" uuid="_-EgDERguEeaxOeZauvxXIA" name="root">
+    <parentPlugs uuid="_-EgDEhguEeaxOeZauvxXIA" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_EVqd4NvQEeWJgMr3GWrLIA" name="segregation" componentClass="LINK" displayName="Segregation">
+  <geometry deletable="false" uuid="_EVqd4dvQEeWJgMr3GWrLIA" name="root">
+    <parentPlugs uuid="_EVqd4tvQEeWJgMr3GWrLIA" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

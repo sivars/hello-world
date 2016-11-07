@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_psMfMIuHEea1H_HPwOxo9w" name="column_breaker_insert" componentClass="LINK" cluster="true" displayName="Breaker Column" toaPrefix="column_main">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_81ApgIuPEeatA5xS-EKmzQ" name="column_type" visibility="800" initValue="breaker">
+    <domain uuid="_81ApgYuPEeatA5xS-EKmzQ" name="local" visibility="300">
+      <typeSet uuid="_471OZKKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <template href="_wAUCwJtYEeax5dAdYESVpg.xml#_wAUCwJtYEeax5dAdYESVpg"/>
+  <geometry deletable="false" uuid="_psMfMYuHEea1H_HPwOxo9w" name="root">
+    <parentPlugs uuid="_psMfMouHEea1H_HPwOxo9w" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

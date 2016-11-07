@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_UY5j4NvDEeWJgMr3GWrLIA" name="column_offset_insert" displayName="Offset Column" toaPrefix="column_future">
+  <geometry deletable="false" uuid="_UY5j4dvDEeWJgMr3GWrLIA" name="root"/>
+</comp:Component>

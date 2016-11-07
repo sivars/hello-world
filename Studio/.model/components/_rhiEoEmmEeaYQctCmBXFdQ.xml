@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_rhiEoEmmEeaYQctCmBXFdQ" name="door" displayName="Door">
+  <variables xsi:type="comp:VariableGroup" uuid="_dwrm8I-OEeasgPZ0BroaKQ" name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_e1bogI-OEeasgPZ0BroaKQ" name="column_nextColumn_toa" visibility="800">
+      <domain uuid="_e1bogY-OEeasgPZ0BroaKQ" name="local" visibility="300">
+        <typeSet uuid="_47LuAKKVEea3uKyX2lIh0A" bitSet="393231"/>
+        <values uuid="_ftR2gI-OEeasgPZ0BroaKQ" name="NONE" editable="false" visibility="300"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_gQRO0I-OEeasgPZ0BroaKQ" name="column_prevColumn_toa" visibility="800">
+      <domain uuid="_gQRO0Y-OEeasgPZ0BroaKQ" name="local" visibility="300">
+        <typeSet uuid="_47LuB6KVEea3uKyX2lIh0A" bitSet="393231"/>
+        <values uuid="_h7nWUI-OEeasgPZ0BroaKQ" name="NONE" editable="false" visibility="300"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_kutJAI-OEeasgPZ0BroaKQ" name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_inoFsE59Eeag2NyHl3w4Hw" name="lever" visibility="800" initValue="PHLS0013">
+      <domain uuid="_inoFsk59Eeag2NyHl3w4Hw" name="local" visibility="300">
+        <typeSet uuid="_47LuD6KVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values deletable="false" uuid="_inoFs059Eeag2NyHl3w4Hw" name="'PHLS0011'" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKLaTQEeaqKufj5D79eA" name="_DisplayName" value="Padlockable lever handle (spare)"/>
+        </values>
+        <values deletable="false" uuid="_inoFtE59Eeag2NyHl3w4Hw" name="'PHLS0012'" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKL6TQEeaqKufj5D79eA" name="_DisplayName" value="Lever semicylinder inserts (40mm)"/>
+        </values>
+        <values deletable="false" uuid="_inoFtU59Eeag2NyHl3w4Hw" name="'PHLS0013'" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKMaTQEeaqKufj5D79eA" name="_DisplayName" value="Lever handle whitout push-button"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_giQ7sE59Eeag2NyHl3w4Hw" name="lever_insert" visibility="800" initValue="Included">
+      <domain uuid="_giQ7sk59Eeag2NyHl3w4Hw" name="local" visibility="300">
+        <typeSet uuid="_47LuG6KVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values deletable="false" uuid="_SMwbsFojEeaq-paKhHmIBw" name="Included" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKNqTQEeaqKufj5D79eA" name="_DisplayName" value="Included"/>
+        </values>
+        <values deletable="false" uuid="_SMwbsVojEeaq-paKhHmIBw" name="AA6200" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKOKTQEeaqKufj5D79eA" name="_DisplayName" value="Yale insert+key for external door, single door version"/>
+        </values>
+        <values deletable="false" uuid="_SMwbslojEeaq-paKhHmIBw" name="AA8004" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKOqTQEeaqKufj5D79eA" name="_DisplayName" value="E739 ronis insert+key for external door,single door version"/>
+        </values>
+        <values deletable="false" uuid="_SMwbs1ojEeaq-paKhHmIBw" name="PIFH0020" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKPKTQEeaqKufj5D79eA" name="_DisplayName" value="FIAT type insert for lever handle"/>
+        </values>
+        <values deletable="false" uuid="_SMwbtFojEeaq-paKhHmIBw" name="PITH0064" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKPqTQEeaqKufj5D79eA" name="_DisplayName" value="6.4 triangular male insert on Ø 7.6 for external door, single door version"/>
+        </values>
+        <values deletable="false" uuid="_SMwbtVojEeaq-paKhHmIBw" name="PISH0007" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKQKTQEeaqKufj5D79eA" name="_DisplayName" value="7 square male insert for external door,single door version"/>
+        </values>
+        <values deletable="false" uuid="_SMwbtlojEeaq-paKhHmIBw" name="PIEH0008" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKQqTQEeaqKufj5D79eA" name="_DisplayName" value="Insert 8mm hex socket type for standard handle (Key not available)"/>
+        </values>
+        <values deletable="false" uuid="_SMwbt1ojEeaq-paKhHmIBw" name="PIRH0405" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGKRKTQEeaqKufj5D79eA" name="_DisplayName" value="Ronis 405 insert and key for standard handle"/>
+        </values>
+        <values deletable="false" uuid="_SMwbuFojEeaq-paKhHmIBw" name="PIRH2432" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxMaTQEeaqKufj5D79eA" name="_DisplayName" value="Ronis insert 2432 and key for standard handle"/>
+        </values>
+        <values deletable="false" uuid="_SMwbuVojEeaq-paKhHmIBw" name="PIRH0455" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxM6TQEeaqKufj5D79eA" name="_DisplayName" value="Ronis 455 insert and key for standard handle"/>
+        </values>
+        <values deletable="false" uuid="_SMwbulojEeaq-paKhHmIBw" name="PIRH1242" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxNaTQEeaqKufj5D79eA" name="_DisplayName" value="Ronis 1242 insert and key for standard handle"/>
+        </values>
+        <values deletable="false" uuid="_SMwbu1ojEeaq-paKhHmIBw" name="PIDH0010" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxN6TQEeaqKufj5D79eA" name="_DisplayName" value="Double tab insert for closing handle/box"/>
+        </values>
+        <values deletable="false" uuid="_SMwbvFojEeaq-paKhHmIBw" name="ZH142" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxOaTQEeaqKufj5D79eA" name="_DisplayName" value="Dummy insert (instead of a semi-cylinder)"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_h282sE59Eeag2NyHl3w4Hw" name="lever_key" visibility="800" initValue="Included">
+      <domain uuid="_h282sk59Eeag2NyHl3w4Hw" name="local" visibility="300">
+        <typeSet uuid="_47M8IqKVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values deletable="false" uuid="_WJ5msFojEeaq-paKhHmIBw" name="Included" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxPqTQEeaqKufj5D79eA" name="_DisplayName" value="Included"/>
+        </values>
+        <values deletable="false" uuid="_WJ5msVojEeaq-paKhHmIBw" name="AA1570" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxQKTQEeaqKufj5D79eA" name="_DisplayName" value="FIAT key"/>
+        </values>
+        <values deletable="false" uuid="_WJ5mslojEeaq-paKhHmIBw" name="AA1560" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxQqTQEeaqKufj5D79eA" name="_DisplayName" value="Key for triangular insert"/>
+        </values>
+        <values deletable="false" uuid="_WJ5ms1ojEeaq-paKhHmIBw" name="-" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxRKTQEeaqKufj5D79eA" name="_DisplayName" value="-"/>
+        </values>
+        <values deletable="false" uuid="_WJ5mtFojEeaq-paKhHmIBw" name="AD1058" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxRqTQEeaqKufj5D79eA" name="_DisplayName" value="Key zama for double tab insert"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_u3kMYUmmEeaYQctCmBXFdQ" name="lever_position" visibility="800" initValue="left">
+      <domain uuid="_u3kMY0mmEeaYQctCmBXFdQ" name="local" visibility="300">
+        <typeSet uuid="_47M8MqKVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values uuid="_u3kMZEmmEeaYQctCmBXFdQ" name="left" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxS6TQEeaqKufj5D79eA" name="_DisplayName" value="Left"/>
+        </values>
+        <values uuid="_u3kMZUmmEeaYQctCmBXFdQ" name="right" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tBGxTaTQEeaqKufj5D79eA" name="_DisplayName" value="Right"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Vm_KUGqfEeaNvvCmXlBMkw" name="orientation" visibility="800" initValue="vertical">
+      <domain uuid="_Vm_KUmqfEeaNvvCmXlBMkw" name="local" visibility="300">
+        <typeSet uuid="_47M8PKKVEea3uKyX2lIh0A" bitSet="393231"/>
+        <values uuid="_Vm_KU2qfEeaNvvCmXlBMkw" name="vertical" editable="false" visibility="300"/>
+        <values uuid="_Vm_KVGqfEeaNvvCmXlBMkw" name="horizontal" editable="false" visibility="300"/>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_tncdcEy1EeaQnbnS2OLb2A" name="Logic_Rules" visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_qt2FAEyzEeaQnbnS2OLb2A" name="lever" visibility="800">
+      <columns uuid="_bCbO4E59Eeag2NyHl3w4Hw" name="lever" visibility="100">
+        <cells>PHLS0013</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0013,PHLS0011</cells>
+        <cells>PHLS0012</cells>
+      </columns>
+      <columns uuid="_bCbO4U59Eeag2NyHl3w4Hw" name="lever_insert" visibility="100">
+        <cells>Included</cells>
+        <cells>AA6200</cells>
+        <cells>AA8004</cells>
+        <cells>PIFH0020</cells>
+        <cells>PITH0064</cells>
+        <cells>PISH0007</cells>
+        <cells>PIEH0008</cells>
+        <cells>PIRH0405</cells>
+        <cells>PIRH2432</cells>
+        <cells>PIRH0455</cells>
+        <cells>PIRH1242</cells>
+        <cells>PIDH0010</cells>
+        <cells>ZH142</cells>
+      </columns>
+      <columns uuid="_bCbO4k59Eeag2NyHl3w4Hw" name="lever_key" visibility="100">
+        <cells>Included</cells>
+        <cells>Included</cells>
+        <cells>Included</cells>
+        <cells>AA1570</cells>
+        <cells>AA1560</cells>
+        <cells>-</cells>
+        <cells>-</cells>
+        <cells>Included</cells>
+        <cells>Included</cells>
+        <cells>-</cells>
+        <cells>-</cells>
+        <cells>AD1058</cells>
+        <cells>-</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_trpO0I-OEeasgPZ0BroaKQ" name="Expression" visibility="800" expression="column_nextColumn_toa(corner)->lever_position(left);&#xD;&#xA;column_prevColumn_toa(corner)->lever_position(right);"/>
+  </logic>
+  <geometry deletable="false" uuid="_rhiEoUmmEeaYQctCmBXFdQ" name="root">
+    <parentPlugs uuid="_rhiEokmmEeaYQctCmBXFdQ" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

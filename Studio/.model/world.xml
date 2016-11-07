@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:World xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" deletable="false" uuid="_8fNuADTNEeSDp-UE12WecQ" name="world">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_q24fgLVFEeW7jLhrI2b51g" name="InserterBarMenu" visibility="800">
+    <domain uuid="_q25GkLVFEeW7jLhrI2b51g" name="local" visibility="300">
+      <typeSet uuid="_5Ar5FqKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+    <domainGlobal href="product_model.xml#_p7tpMN7xEeWyf4dDBlxOgw"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_y89VwOXMEeWQ76Mf1McnSA" name="number" visibility="800" initValue="Info from quotation system">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AsgIKKVEea3uKyX2lIh0A" mirroredVariable="number_custom"/>
+    <domain uuid="_y89VweXMEeWQ76Mf1McnSA" name="local" visibility="300">
+      <typeSet uuid="_5AsgI6KVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_1whpkOXMEeWQ76Mf1McnSA" name="name" visibility="800" initValue="">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AsgJ6KVEea3uKyX2lIh0A" mirroredVariable="name_custom"/>
+    <domain uuid="_1whpkeXMEeWQ76Mf1McnSA" name="local" visibility="300">
+      <typeSet uuid="_5AsgKqKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_3XPIsOXMEeWQ76Mf1McnSA" name="description" visibility="800" initValue="Info from quotation system">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AsgLqKVEea3uKyX2lIh0A" mirroredVariable="description_custom"/>
+    <domain uuid="_3XPIseXMEeWQ76Mf1McnSA" name="local" visibility="300">
+      <typeSet uuid="_5AsgMaKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_uh1c8OtsEeWyxsSeXb4x5A" name="cable_entry_flanges_qty" visibility="800">
+    <domain uuid="_uh1c8etsEeWyxsSeXb4x5A" name="local" visibility="300">
+      <typeSet uuid="_5AsgN6KVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="product_model.xml#_j8lWYOzpEeWeYsu20mIHlw"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_5rnFUAI3Eea6wrUrywz9oA" name="system_count" visibility="800" initValue="0">
+    <facets xsi:type="comp:VariableCounterFacet" uuid="_5AsgO6KVEea3uKyX2lIh0A" toa="system"/>
+    <domain uuid="_5rnFUQI3Eea6wrUrywz9oA" name="local" visibility="300">
+      <typeSet uuid="_5AsgPqKVEea3uKyX2lIh0A" bitSet="393230"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_1riBUBdPEearBKi_r3YJIg" name="ui_header_left" visibility="800" initValue="Switchboard Elements">
+    <domain uuid="_1riBURdPEearBKi_r3YJIg" name="local" visibility="300">
+      <typeSet uuid="_5AtHMqKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_4zB9wBdPEearBKi_r3YJIg" name="ui_header_right" visibility="800" initValue="Properties">
+    <domain uuid="_4zB9wRdPEearBKi_r3YJIg" name="local" visibility="300">
+      <typeSet uuid="_5AtHOKKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_bfyk0BddEeag2sMse-lNhg" name="cable_entry_flanges" visibility="800">
+    <domain uuid="_bfyk0RddEeag2sMse-lNhg" name="local" visibility="300">
+      <typeSet uuid="_5AtHPqKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_OvLNsCijEeajAKim90QAgQ" name="show_kits" visibility="800" initValue="1">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_5AtHQqKVEea3uKyX2lIh0A" defaultVar="world_show_kits_toa"/>
+    <domain uuid="_OvLNsSijEeajAKim90QAgQ" name="local" visibility="300">
+      <typeSet uuid="_5AtHRaKVEea3uKyX2lIh0A" bitSet="393217"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_TUJNsCijEeajAKim90QAgQ" name="show_doors" visibility="800" initValue="1">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_5AtHSaKVEea3uKyX2lIh0A" defaultVar="world_show_doors_toa"/>
+    <domain uuid="_TUJNsSijEeajAKim90QAgQ" name="local" visibility="300">
+      <typeSet uuid="_5AtHTKKVEea3uKyX2lIh0A" bitSet="393217"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_X42H8CijEeajAKim90QAgQ" name="show_devices" visibility="800" initValue="1">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_5AtHUKKVEea3uKyX2lIh0A" defaultVar="world_show_devices_toa"/>
+    <domain uuid="_X42H8SijEeajAKim90QAgQ" name="local" visibility="300">
+      <typeSet uuid="_5AtHU6KVEea3uKyX2lIh0A" bitSet="393217"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_dRABsCu_Eea3LPeUhAToWw" name="mm" visibility="800" initValue="mm">
+    <domain uuid="_dRABsSu_Eea3LPeUhAToWw" name="local" visibility="300">
+      <typeSet uuid="_5AtuRaKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_e34f8Cu_Eea3LPeUhAToWw" name="mm" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_f9v70Cu_Eea3LPeUhAToWw" name="A" visibility="800" initValue="A">
+    <domain uuid="_f9v70Su_Eea3LPeUhAToWw" name="local" visibility="300">
+      <typeSet uuid="_5AtuTKKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_g2COsCu_Eea3LPeUhAToWw" name="A" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_h1_24Cu_Eea3LPeUhAToWw" name="kA" visibility="800" initValue="kA">
+    <domain uuid="_h1_24Su_Eea3LPeUhAToWw" name="local" visibility="300">
+      <typeSet uuid="_5AtuU6KVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_jmaroCu_Eea3LPeUhAToWw" name="kA" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_9GH8oDLEEeaHk5hd96vGCA" name="show_busbars" visibility="800" initValue="1">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_5AtuWKKVEea3uKyX2lIh0A" defaultVar="world_show_busbars_toa"/>
+    <domain uuid="_9GH8oTLEEeaHk5hd96vGCA" name="local" visibility="300">
+      <typeSet uuid="_5AuVUqKVEea3uKyX2lIh0A" bitSet="393217"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_yTrqUD0jEeaxp4PeXFXqeA" name="productline_empty_inserted" visibility="800">
+    <domain uuid="_yTrqUT0jEeaxp4PeXFXqeA" name="local" visibility="300">
+      <typeSet uuid="_5AuVWKKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_3oP7QD0jEeaxp4PeXFXqeA" name="productline_energy_inserted" visibility="800">
+    <domain uuid="_3oP7QT0jEeaxp4PeXFXqeA" name="local" visibility="300">
+      <typeSet uuid="_5AuVXqKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_5YUxwD0jEeaxp4PeXFXqeA" name="productline_rearbusbar_inserted" visibility="800">
+    <domain uuid="_5YUxwT0jEeaxp4PeXFXqeA" name="local" visibility="300">
+      <typeSet uuid="_5AuVZKKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_rqKjMD0kEeaxp4PeXFXqeA" name="productline_switchboards" visibility="800">
+    <facets xsi:type="comp:VariableResourcePoolFacet" uuid="_5AuVaKKVEea3uKyX2lIh0A" defaultVar="product_line_comma"/>
+    <domain uuid="_rqKjMT0kEeaxp4PeXFXqeA" name="local" visibility="300">
+      <typeSet uuid="_5AuVa6KVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_1SvLMENfEeasM_xfHIjbIg" name="date" visibility="800" initValue="Info from quotation system">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AuVb6KVEea3uKyX2lIh0A" mirroredVariable="date_custom"/>
+    <domain uuid="_1SvLMUNfEeasM_xfHIjbIg" name="local" visibility="300">
+      <typeSet uuid="_5Au8YqKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_4l_rsENfEeasM_xfHIjbIg" name="validity" visibility="800" initValue="Info from quotation system">
+    <domain uuid="_4mASwENfEeasM_xfHIjbIg" name="local" visibility="300">
+      <typeSet uuid="_5Au8aKKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_RbAdcENgEeasM_xfHIjbIg" name="system" visibility="800" initValue="pro_e_power">
+    <domain uuid="_RbAdcUNgEeasM_xfHIjbIg" name="local" visibility="300">
+      <typeSet uuid="_5Au8bqKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_V7kekENgEeasM_xfHIjbIg" name="pro_e_power" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCdcZaTQEeaqKufj5D79eA" name="_DisplayName" value="System pro E power"/>
+      </values>
+      <values uuid="_WnODoENgEeasM_xfHIjbIg" name="pro_e_energy" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCdcZ6TQEeaqKufj5D79eA" name="_DisplayName" value="System pro E energy"/>
+      </values>
+      <values uuid="_XQpbIENgEeasM_xfHIjbIg" name="pro_e_combi" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCdcaaTQEeaqKufj5D79eA" name="_DisplayName" value="System pro E combi"/>
+      </values>
+      <values uuid="_X027cENgEeasM_xfHIjbIg" name="pro_e_control" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCdca6TQEeaqKufj5D79eA" name="_DisplayName" value="System pro E control"/>
+      </values>
+      <values uuid="_YaR8sENgEeasM_xfHIjbIg" name="pro_e_comfort" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCdcbaTQEeaqKufj5D79eA" name="_DisplayName" value="System pro E comfort"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_h_otYENgEeasM_xfHIjbIg" name="country" visibility="800" initValue="de">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AvjeaKVEea3uKyX2lIh0A" mirroredVariable="country_custom"/>
+    <domain uuid="_h_otYUNgEeasM_xfHIjbIg" name="local" visibility="300">
+      <typeSet uuid="_5AvjfKKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_96xQsISJEeajR8uL1hYESg" name="de" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDJKTQEeaqKufj5D79eA" name="_DisplayName" value="Germany"/>
+      </values>
+      <values uuid="_96xQsYSJEeajR8uL1hYESg" name="at" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDJqTQEeaqKufj5D79eA" name="_DisplayName" value="Austria"/>
+      </values>
+      <values uuid="_96xQsoSJEeajR8uL1hYESg" name="nl" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDKKTQEeaqKufj5D79eA" name="_DisplayName" value="Netherlands"/>
+      </values>
+      <values uuid="_96xQs4SJEeajR8uL1hYESg" name="ru" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDKqTQEeaqKufj5D79eA" name="_DisplayName" value="Russia"/>
+      </values>
+      <values uuid="_96xQtISJEeajR8uL1hYESg" name="eg" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDLKTQEeaqKufj5D79eA" name="_DisplayName" value="Egypt"/>
+      </values>
+      <values uuid="_96xQtYSJEeajR8uL1hYESg" name="se" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDLqTQEeaqKufj5D79eA" name="_DisplayName" value="Sweden"/>
+      </values>
+      <values uuid="_96xQtoSJEeajR8uL1hYESg" name="no" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDMKTQEeaqKufj5D79eA" name="_DisplayName" value="Norway"/>
+      </values>
+      <values uuid="_96xQt4SJEeajR8uL1hYESg" name="dk" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDMqTQEeaqKufj5D79eA" name="_DisplayName" value="Denmark"/>
+      </values>
+      <values uuid="_96xQuISJEeajR8uL1hYESg" name="fi" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDNKTQEeaqKufj5D79eA" name="_DisplayName" value="Finland"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_pgRNQENgEeasM_xfHIjbIg" name="language" visibility="800" initValue="en">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AwKiKKVEea3uKyX2lIh0A" mirroredVariable="language_custom"/>
+    <domain uuid="_pgRNQUNgEeasM_xfHIjbIg" name="local" visibility="300">
+      <typeSet uuid="_5AwKi6KVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_rORnMENgEeasM_xfHIjbIg" name="en" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDOqTQEeaqKufj5D79eA" name="_DisplayName" value="English"/>
+      </values>
+      <values uuid="_rx_YQENgEeasM_xfHIjbIg" name="de" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDPKTQEeaqKufj5D79eA" name="_DisplayName" value="German"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_fOnP4ENjEeaMMeSovOHsdg" name="department_customer" visibility="800" initValue="Info from quotation system">
+    <domain uuid="_fOnP4UNjEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5AwKlaKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_nlpMQENjEeaMMeSovOHsdg" name="mail_customer" visibility="800" initValue="Info from quotation system">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AwKmaKVEea3uKyX2lIh0A" mirroredVariable="mail_customer_custom"/>
+    <domain uuid="_nlpMQUNjEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5AwKnKKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_o91uQENjEeaMMeSovOHsdg" name="phone_customer" visibility="800" initValue="+493365842154">
+    <domain uuid="_o91uQUNjEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5AwxkqKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_l84MwENlEeaMMeSovOHsdg" name="name_user" visibility="800" initValue="Info from quotation system">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AwxlqKVEea3uKyX2lIh0A" mirroredVariable="name_user_custom"/>
+    <domain uuid="_l84MwkNlEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5AwxmaKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_pxbccENlEeaMMeSovOHsdg" name="name_customer" visibility="800" initValue="Info from quotation system">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AwxnaKVEea3uKyX2lIh0A" mirroredVariable="name_customer_custom"/>
+    <domain uuid="_pxcDgENlEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5AwxoKKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_0m04sENlEeaMMeSovOHsdg" name="department_user" visibility="800" initValue="Info from quotation system">
+    <domain uuid="_0m04skNlEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5AwxpqKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2tecIENlEeaMMeSovOHsdg" name="mail_user" visibility="800" initValue="Info from quotation system">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AwxqqKVEea3uKyX2lIh0A" mirroredVariable="mail_user_custom"/>
+    <domain uuid="_2tfDMENlEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5AwxraKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_5JnHYENlEeaMMeSovOHsdg" name="phone_user" visibility="800" initValue="Info from quotation system">
+    <domain uuid="_5JnHYkNlEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5Awxs6KVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_nsQqQENmEeaMMeSovOHsdg" name="currency" visibility="800" initValue="EUR">
+    <domain uuid="_nsQqQUNmEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5AxYpaKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_pHD0UENmEeaMMeSovOHsdg" name="EUR" editable="false" visibility="300"/>
+      <values uuid="_pwDG8ENmEeaMMeSovOHsdg" name="USD" editable="false" visibility="300"/>
+      <values uuid="_qQb3MENmEeaMMeSovOHsdg" name="CHF" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_0lOgwENmEeaMMeSovOHsdg" name="validity_date" visibility="800" initValue="">
+    <domain uuid="_0lOgwUNmEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5AxYrqKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_eq0CcENnEeaMMeSovOHsdg" name="country_price" visibility="800" initValue="de">
+    <domain uuid="_eq0pgENnEeaMMeSovOHsdg" name="local" visibility="300">
+      <typeSet uuid="_5AxYtKKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_eq0pgUNnEeaMMeSovOHsdg" name="de" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDZqTQEeaqKufj5D79eA" name="_DisplayName" value="Germany"/>
+      </values>
+      <values uuid="_eq0pgkNnEeaMMeSovOHsdg" name="pl" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDaKTQEeaqKufj5D79eA" name="_DisplayName" value="Poland"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_j67rIEpgEeaoz4O8h5NZIA" name="doc_format" visibility="800">
+    <domain uuid="_j67rIUpgEeaoz4O8h5NZIA" name="local" visibility="300">
+      <typeSet uuid="_5AxYvqKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_lxqjQEpgEeaoz4O8h5NZIA" name="pdf" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDbaTQEeaqKufj5D79eA" name="_DisplayName" value=".pdf"/>
+      </values>
+      <values uuid="_mbqigEpgEeaoz4O8h5NZIA" name="doc" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDb6TQEeaqKufj5D79eA" name="_DisplayName" value=".doc"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_pl_JcEpgEeaoz4O8h5NZIA" name="drawing" visibility="800" initValue="Yes">
+    <domain uuid="_pl_JcUpgEeaoz4O8h5NZIA" name="local" visibility="300">
+      <typeSet uuid="_5Ax_uKKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_3z8VgFAJEeaw1q8az4PwYg" name="component_copy_type" visibility="800">
+    <domain uuid="_3z8VgVAJEeaw1q8az4PwYg" name="local" visibility="300">
+      <typeSet uuid="_5Ax_vqKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_pNV2sFoIEeaO1e8t11-WDg" name="show_views" visibility="800" initValue="All">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_5Ax_wqKVEea3uKyX2lIh0A" defaultVar="world_show_views_toa"/>
+    <domain uuid="_pNV2sVoIEeaO1e8t11-WDg" name="local" visibility="300">
+      <typeSet uuid="_5Ax_xaKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_dHIwcF1WEeasu4Z8qPLqHQ" name="Front_top" editable="false" visibility="300" preference="3">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDfKTQEeaqKufj5D79eA" name="_DisplayName" value="Front + Top"/>
+      </values>
+      <values uuid="_dHJXgF1WEeasu4Z8qPLqHQ" name="Front_bottom" editable="false" visibility="300" preference="1">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDfqTQEeaqKufj5D79eA" name="_DisplayName" value="Front + Bottom"/>
+      </values>
+      <values uuid="_dHJXgV1WEeasu4Z8qPLqHQ" name="All" editable="false" visibility="300" preference="4">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDgKTQEeaqKufj5D79eA" name="_DisplayName" value="All"/>
+      </values>
+      <values uuid="_dHJXgl1WEeasu4Z8qPLqHQ" name="Front" editable="false" visibility="300" preference="2">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDgqTQEeaqKufj5D79eA" name="_DisplayName" value="Front"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_RTg8AFoiEeaVe7PXcpgUoA" name="show_hide_dimensions" visibility="800" initValue="true">
+    <domain uuid="_RTg8AloiEeaVe7PXcpgUoA" name="local" visibility="300">
+      <typeSet uuid="_5AymxaKVEea3uKyX2lIh0A" bitSet="393217"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_LpfCcHENEeatmq3OYJ5WBg" name="combiline_inserted_RP" visibility="800">
+    <facets xsi:type="comp:VariableResourcePoolFacet" uuid="_5AymyaKVEea3uKyX2lIh0A" defaultVar="combiline_inserted"/>
+    <domain uuid="_LpfCcXENEeatmq3OYJ5WBg" name="local" visibility="300">
+      <typeSet uuid="_5AymzKKVEea3uKyX2lIh0A" bitSet="393218"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_kloW8HENEeatmq3OYJ5WBg" name="devices_inserted" visibility="800">
+    <facets xsi:type="comp:VariableResourcePoolFacet" uuid="_5Aym0KKVEea3uKyX2lIh0A" defaultVar="device_type_comma"/>
+    <domain uuid="_kloW8XENEeatmq3OYJ5WBg" name="local" visibility="300">
+      <typeSet uuid="_5Aym06KVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_xJO0QHs7EeaoH4wYtEzC9g" name="accessories_holder_inserted" visibility="800">
+    <domain uuid="_xJO0QXs7EeaoH4wYtEzC9g" name="local" visibility="300">
+      <typeSet uuid="_5Aym2aKVEea3uKyX2lIh0A" bitSet="393217"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_1Qp8oHs7EeaoH4wYtEzC9g" name="version" visibility="800" initValue="0.0.1">
+    <domain uuid="_1Qp8oXs7EeaoH4wYtEzC9g" name="local" visibility="300">
+      <typeSet uuid="_5Aym36KVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="__lg3oHs7EeaoH4wYtEzC9g" name="name_project" visibility="800" initValue="Info from Quoting System">
+    <domain uuid="__lg3ons7EeaoH4wYtEzC9g" name="local" visibility="300">
+      <typeSet uuid="_5AzN0KKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_qnu8YH88EearjIpNW3Fr2w" name="pdc" visibility="800" initValue="Yes">
+    <domain uuid="_qnu8Yn88EearjIpNW3Fr2w" name="local" visibility="300">
+      <typeSet uuid="_5AzN1qKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Uso-0H_QEeazg5BpH4_tIw" name="bom" visibility="800" initValue="Yes">
+    <domain uuid="_Uso-0n_QEeazg5BpH4_tIw" name="local" visibility="300">
+      <typeSet uuid="_5AzN3KKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_zkysgIYXEeao7NlViPohVA" name="bom_format" visibility="800">
+    <domain uuid="_zkysgoYXEeao7NlViPohVA" name="local" visibility="300">
+      <typeSet uuid="_5AzN4qKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_zkysg4YXEeao7NlViPohVA" name="xls" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDo6TQEeaqKufj5D79eA" name="_DisplayName" value=".xls"/>
+      </values>
+      <values uuid="_zkyshIYXEeao7NlViPohVA" name="doc" editable="false" visibility="300">
+        <facets xsi:type="appl:PropertyFacet" uuid="_tCeDpaTQEeaqKufj5D79eA" name="_DisplayName" value=".doc"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2QZrMIlZEea-VMV3zdqyGQ" name="show_front_panel" visibility="800" initValue="1">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_5AzN6qKVEea3uKyX2lIh0A" defaultVar="world_show_front_panel_toa"/>
+    <domain uuid="_2QZrMolZEea-VMV3zdqyGQ" name="local" visibility="300">
+      <typeSet uuid="_5AzN7aKVEea3uKyX2lIh0A" bitSet="393217"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_LafvIJEVEeaPQdew5teKAA" name="address_customer" visibility="800" initValue="">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5AzN8aKVEea3uKyX2lIh0A" mirroredVariable="address_customer_custom"/>
+    <domain uuid="_LafvIZEVEeaPQdew5teKAA" name="local" visibility="300">
+      <typeSet uuid="_5Az04KKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_OvMaEJEVEeaPQdew5teKAA" name="zip_code_customer" visibility="800" initValue="">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5Az05KKVEea3uKyX2lIh0A" mirroredVariable="zip_code_customer_custom"/>
+    <domain uuid="_OvMaEZEVEeaPQdew5teKAA" name="local" visibility="300">
+      <typeSet uuid="_5Az056KVEea3uKyX2lIh0A" bitSet="393226"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_RQ2egJEVEeaPQdew5teKAA" name="city_customer" visibility="800" initValue="">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5Az066KVEea3uKyX2lIh0A" mirroredVariable="city_customer_custom"/>
+    <domain uuid="_RQ2egZEVEeaPQdew5teKAA" name="local" visibility="300">
+      <typeSet uuid="_5Az07qKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_WUORwJEVEeaPQdew5teKAA" name="contact_customer" visibility="800" initValue="">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5Az08qKVEea3uKyX2lIh0A" mirroredVariable="contact_customer_custom"/>
+    <domain uuid="_WUORwZEVEeaPQdew5teKAA" name="local" visibility="300">
+      <typeSet uuid="_5Az09aKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_fHBK0JEaEeaPQdew5teKAA" name="status_quoter" visibility="800" initValue="n/a">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_5Az0-aKVEea3uKyX2lIh0A" mirroredVariable="status_quoter_custom"/>
+    <domain uuid="_fHBK0ZEaEeaPQdew5teKAA" name="local" visibility="300">
+      <typeSet uuid="_5Az0_KKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_shTUkJqwEeaddpjNs50Fnw" name="date_configuration" visibility="800">
+    <domain uuid="_shTUkZqwEeaddpjNs50Fnw" name="local" visibility="300">
+      <typeSet uuid="_5A0b8qKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_z80D4JqwEeaddpjNs50Fnw" name="name_configuration" visibility="800">
+    <domain uuid="_z80D4pqwEeaddpjNs50Fnw" name="local" visibility="300">
+      <typeSet uuid="_5A0b-KKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <calculation uuid="_fbnGMD0lEeaxp4PeXFXqeA" name="Calculation_Rules" visibility="800" text="var current_productlines = productline_switchboards.toArray(&quot;,&quot;);&#xD;&#xA;var productlines = current_productlines.size();&#xD;&#xA;&#xD;&#xA;productline_empty_inserted = false;&#xD;&#xA;productline_energy_inserted = false;&#xD;&#xA;productline_rearbusbar_inserted = false;&#xD;&#xA;&#xD;&#xA;for(var i = 0; i &lt; productlines; i = i +1){&#xD;&#xA;&#x9;if(current_productlines[i] == &quot;energy&quot;){&#xD;&#xA;&#x9;&#x9;productline_energy_inserted = true;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;if(current_productlines[i] == &quot;empty&quot;){&#xD;&#xA;&#x9;&#x9;productline_empty_inserted = true;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;if(current_productlines[i] == &quot;rearbusbar&quot;){&#xD;&#xA;&#x9;&#x9;productline_rearbusbar_inserted = true;&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;var current_devices = devices_inserted.toArray(&quot;,&quot;);&#xD;&#xA;var devices = current_devices.size();&#xD;&#xA;&#xD;&#xA;T7_inserted = false;&#xD;&#xA;E12orE22_inserted = false;&#xD;&#xA;inline2_inserted = false;&#xD;&#xA;&#xD;&#xA;for(var i = 0; i &lt; devices; i = i +1){&#xD;&#xA;&#x9;if(current_devices[i] == &quot;T7&quot;){&#xD;&#xA;&#x9;&#x9;T7_inserted = true;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;if(current_devices[i] == &quot;E12&quot; || current_devices[i] == &quot;E22&quot;){&#xD;&#xA;&#x9;&#x9;E12orE22_inserted = true;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;if(current_devices[i] == &quot;inline2&quot;){&#xD;&#xA;&#x9;&#x9;inline2_inserted = true;&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;if(combiline_inserted_RP > 0){&#xD;&#xA;&#x9;combiline_inserted = true;&#xD;&#xA;}&#xD;&#xA;else{&#xD;&#xA;&#x9;combiline_inserted = false;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;currency = &quot;EUR&quot;;&#x9;&#xD;&#xA;validity_date=validity;&#xD;&#xA;country_price=country;&#xD;&#xA;system=&quot;pro_e_power&quot;;&#xD;&#xA;&#xD;&#xA;date_configuration = date.replaceAll(&quot; &quot;, &quot;_&quot;);&#xD;&#xA;name_configuration = name.replaceAll(&quot; &quot;, &quot;_&quot;);&#xD;&#xA;"/>
+  <role uuid="_F6s_EOYCEeWQ76Mf1McnSA" name="insertfree" customType="insertfree">
+    <domain uuid="_F6s_EeYCEeWQ76Mf1McnSA" name="local" visibility="300">
+      <typeSet uuid="_5A1DBaKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_SNph8OYDEeWQ76Mf1McnSA" name="system" editable="false" visibility="300"/>
+      <values uuid="_NZtWgHmrEeaMX44rrPMmaQ" name="accessory_holder" editable="false" visibility="300"/>
+    </domain>
+  </role>
+  <viewPointsTwoD uuid="_x_QZwElnEeSga5qFy3girQ" name="ViewPoint_initial" fieldOfView="5150" isInitial="true" positionX="2250" positionY="1700"/>
+  <customData uuid="_9DANIISHEeajR8uL1hYESg" name="number_custom" initValue="1SdDC1237" refID="sys_config_id"/>
+  <customData uuid="_9t_D0ISHEeajR8uL1hYESg" name="name_custom" initValue="E-Configure Configuration #999" refID="sys_config_name"/>
+  <customData uuid="_ZyURQISIEeajR8uL1hYESg" name="description_custom" initValue="Configurator notes" refID="sys_config_note"/>
+  <customData uuid="_aEZfwISIEeajR8uL1hYESg" name="date_custom" initValue="1st January 2017" refID="sys_config_modifydate"/>
+  <customData uuid="_aXKqwISIEeajR8uL1hYESg" name="country_custom" initValue="de" refID="sys_customer_country"/>
+  <customData uuid="_ayy20ISIEeajR8uL1hYESg" name="language_custom" initValue="en" refID="sys_system_locale"/>
+  <customData uuid="_bVc38ISIEeajR8uL1hYESg" name="name_user_custom" initValue="John Doe" refID="sys_user_realname"/>
+  <customData uuid="_bVdfAISIEeajR8uL1hYESg" name="name_customer_custom" initValue="C. U. Stomer" refID="sys_customer_name"/>
+  <customData uuid="_bcbCoISIEeajR8uL1hYESg" name="mail_user_custom" initValue="user@email.com" refID="sys_user_email"/>
+  <customData uuid="_bcbpsISIEeajR8uL1hYESg" name="mail_customer_custom" initValue="stomer@muller.de" refID="sys_customer_email"/>
+  <customData uuid="_QSWwwJEnEeaPQdew5teKAA" name="status_quoter_custom" initValue="n/a" refID="sys_quote_status"/>
+  <customData uuid="_FY6QEJEpEeaPQdew5teKAA" name="address_customer_custom" initValue="Hauptstraße 42" refID="sys_customer_address1"/>
+  <customData uuid="_IUFAsJEpEeaPQdew5teKAA" name="zip_code_customer_custom" initValue="10115" refID="sys_customer_zipcode"/>
+  <customData uuid="_MSVmAJEpEeaPQdew5teKAA" name="city_customer_custom" initValue="Berlin" refID="sys_customer_city"/>
+  <customData uuid="_RfSzEJEpEeaPQdew5teKAA" name="contact_customer_custom" initValue="mail" refID="sys_customer_contact"/>
+</comp:World>

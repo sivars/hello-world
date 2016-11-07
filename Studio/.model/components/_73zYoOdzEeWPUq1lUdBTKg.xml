@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_73zYoOdzEeWPUq1lUdBTKg" name="switchboard_holder" componentClass="LINK" displayName="Switchboard">
+  <calculation uuid="__LtXgBHzEeaO5LEMqTTscg" name="Calculation_Rules" visibility="800" text="//Running number needed for table ordering in paragraph 3 in export document&#xD;&#xA;switchboard_number = prev_number +1;"/>
+  <geometry deletable="false" uuid="_73zYoedzEeWPUq1lUdBTKg" name="root">
+    <units uuid="_g3Pv0On5EeWV-8Rb3Be-yA" name="Geo_Unit"/>
+    <parentPlugs uuid="_73zYoudzEeWPUq1lUdBTKg" name="ParentPlug" type="plugForLinkOwnerConnection"/>
+  </geometry>
+  <roles uuid="_OiEfYOd0EeWPUq1lUdBTKg" name="nextLink" public="false" type="LINKINSUBLINK" components="NONE, switchboard_holder, " lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_4z7PcKKVEea3uKyX2lIh0A" position="(0,0,3300)" type="plugForLinkConnection">
+      <geoUnit xsi:type="comp:Geometry" href="_Wva2kNrXEeWpn-fOTGPjsg.xml#_Wva2kdrXEeWpn-fOTGPjsg"/>
+    </facets>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_4z7PcaKVEea3uKyX2lIh0A"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_4z72gKKVEea3uKyX2lIh0A">
+      <chains uuid="_ZLqSYBH0EeaO5LEMqTTscg" name="switchboard_number" value=" " chained="prev_number" refVar="switchboard_number"/>
+    </facets>
+    <domain uuid="_OiEfY-d0EeWPUq1lUdBTKg" name="local" visibility="300">
+      <typeSet uuid="_4z9EoqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_OiEfZOd0EeWPUq1lUdBTKg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_SfpIMOd0EeWPUq1lUdBTKg" name="switchboard_holder" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_WbSeYOd0EeWPUq1lUdBTKg" name="switchboard" components="switchboard, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_4z9EqaKVEea3uKyX2lIh0A" position="(0,0,3200)"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_4z9EqqKVEea3uKyX2lIh0A">
+      <chains uuid="_GgSYYBH0EeaO5LEMqTTscg" name="switchboard_number" value="" chained="switchboard_number" refVar="switchboard_number"/>
+    </facets>
+    <domain uuid="_WbSeYed0EeWPUq1lUdBTKg" name="local" visibility="300">
+      <typeSet uuid="_4z9ErqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Z6MOMOd0EeWPUq1lUdBTKg" name="switchboard" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+</comp:Component>

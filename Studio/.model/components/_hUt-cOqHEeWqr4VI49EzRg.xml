@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_hUt-cOqHEeWqr4VI49EzRg" name="template_device">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_hUuloeqHEeWqr4VI49EzRg" name="width" visibility="800" initValue="100">
+    <domain uuid="_hUulo-qHEeWqr4VI49EzRg" name="local" visibility="300">
+      <typeSet uuid="_48i__6KVEea3uKyX2lIh0A" bitSet="393230"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_hUulpuqHEeWqr4VI49EzRg" name="height" visibility="800" initValue="200">
+    <domain uuid="_hUulqOqHEeWqr4VI49EzRg" name="local" visibility="300">
+      <typeSet uuid="_48jABaKVEea3uKyX2lIh0A" bitSet="393226"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_UeWB8D3WEear0I2JQCMoQw" name="switchboard_quantity_switchboard_toa" visibility="800">
+    <domain uuid="_UeWB8j3WEear0I2JQCMoQw" name="local" visibility="300">
+      <typeSet uuid="_48jAC6KVEea3uKyX2lIh0A" bitSet="393218"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_EOP9EGrEEeadJYz59wr9kg" name="orientation" visibility="800">
+    <domain uuid="_EOQkIWrEEeadJYz59wr9kg" name="local" visibility="300">
+      <typeSet uuid="_48jnAqKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_EOQkImrEEeadJYz59wr9kg" name="vertical" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <geometry deletable="false" uuid="_hUulqeqHEeWqr4VI49EzRg" name="root">
+    <units uuid="_hUulquqHEeWqr4VI49EzRg" name="nextlink">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_48jnBqKVEea3uKyX2lIh0A" variable="height" vector="(0,0,-1)"/>
+    </units>
+    <units uuid="_hUulq-qHEeWqr4VI49EzRg" name="Geo_Unit"/>
+    <parentPlugs uuid="_hUulreqHEeWqr4VI49EzRg" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_hUulruqHEeWqr4VI49EzRg" name="busbar_system_distribution" components="NONE, busbar_system_distribution, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_48jnDaKVEea3uKyX2lIh0A"/>
+    <domain uuid="_hUulseqHEeWqr4VI49EzRg" name="local" visibility="300">
+      <typeSet uuid="_48jnEKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_hUulsuqHEeWqr4VI49EzRg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_ARRAEOqREeW6RN3TP2SeZA" name="busbar_system_distribution" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_hUulweqHEeWqr4VI49EzRg" name="nextLink" public="false" type="LINKINSUBLINK" toas="device, " lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_48jnF6KVEea3uKyX2lIh0A" geoUnit="_hUulquqHEeWqr4VI49EzRg" type="plugForLinkConnection"/>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_48jnGKKVEea3uKyX2lIh0A"/>
+    <domain uuid="_hUvMkOqHEeWqr4VI49EzRg" name="local" visibility="300">
+      <typeSet uuid="_48kOEaKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_cV3AEBwREea7D_I4mI9smA" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_ny7jgBwVEeao7bF0kxt3Dg" name="device_E22" editable="false" visibility="300"/>
+      <values uuid="_ny7jgRwVEeao7bF0kxt3Dg" name="device_E12" editable="false" visibility="300"/>
+      <values uuid="_ny7jghwVEeao7bF0kxt3Dg" name="device_T7" editable="false" visibility="300"/>
+      <values uuid="_xNRm0EmjEeahJongW1lyZA" name="device_InLine2" editable="false" visibility="300"/>
+      <values uuid="_85uYQIx9Eea124uLXtqeqw" name="device_SlimLine" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <componentsUsingMe xsi:type="comp:Component" href="_R-UQ4BXkEea7g5aKkWNu_w.xml#_R-UQ4BXkEea7g5aKkWNu_w"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_0kkcQBwQEea7D_I4mI9smA.xml#_0kkcQBwQEea7D_I4mI9smA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_7x6MsBwQEea7D_I4mI9smA.xml#_7x6MsBwQEea7D_I4mI9smA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_4GMqgDecEeaxnc6hanXW6A.xml#_4GMqgDecEeaxnc6hanXW6A"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_Vp6YkIx3Eea124uLXtqeqw.xml#_Vp6YkIx3Eea124uLXtqeqw"/>
+</comp:ComponentTemplate>

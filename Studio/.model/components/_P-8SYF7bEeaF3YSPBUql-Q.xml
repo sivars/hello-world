@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_P-8SYF7bEeaF3YSPBUql-Q" name="column_rear_panel">
+  <variables xsi:type="comp:VariableGroup" uuid="_hMXFMKEJEeaLe_7q6p69Xg" name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_mzMK0KEJEeaLe_7q6p69Xg" name="column_height_toa" visibility="800">
+      <domain uuid="_mzMK0aEJEeaLe_7q6p69Xg" name="local" visibility="300">
+        <typeSet uuid="_47xj4qKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_nmFnYKEJEeaLe_7q6p69Xg" name="column_width_toa" visibility="800">
+      <domain uuid="_nmFnYaEJEeaLe_7q6p69Xg" name="local" visibility="300">
+        <typeSet uuid="_47xj6KKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_rAAJgKEJEeaLe_7q6p69Xg" name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_WhFwwF7bEeaF3YSPBUql-Q" name="height_rear_panel" visibility="800">
+      <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_47xj7aKVEea3uKyX2lIh0A" mirroredVariable="column_height_toa"/>
+      <domain uuid="_WhFwwV7bEeaF3YSPBUql-Q" name="local" visibility="300">
+        <typeSet uuid="_47xj8KKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_X7-aYF7bEeaF3YSPBUql-Q" name="width_rear_panel" visibility="800">
+      <facets xsi:type="comp:VariableMirrorConstraintFacet" uuid="_47xj9KKVEea3uKyX2lIh0A" mirroredVariable="column_width_toa"/>
+      <domain uuid="_X7-aYV7bEeaF3YSPBUql-Q" name="local" visibility="300">
+        <typeSet uuid="_47xj96KVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_v2LOEHTyEeaVG-vYRkYXyw" name="orientation" visibility="800">
+      <domain uuid="_v2LOEXTyEeaVG-vYRkYXyw" name="local" visibility="300">
+        <typeSet uuid="_47xj_aKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_8THXMJ80Eea5nZoP83oc6Q"/>
+    </children>
+  </variables>
+  <geometry deletable="false" uuid="_P-8SYV7bEeaF3YSPBUql-Q" name="root">
+    <parentPlugs uuid="_P-8SYl7bEeaF3YSPBUql-Q" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

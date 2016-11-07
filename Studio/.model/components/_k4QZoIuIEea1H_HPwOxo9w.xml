@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_k4QZoIuIEea1H_HPwOxo9w" name="column_switch_disconnector_fuse_insert" componentClass="LINK" cluster="true" displayName="Switch Disconnector Fuse Column" toaPrefix="column_main">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_GbATYIuQEeatA5xS-EKmzQ" name="column_type" visibility="800" initValue="switch_disconnector_fuse">
+    <domain uuid="_GbATYYuQEeatA5xS-EKmzQ" name="local" visibility="300">
+      <typeSet uuid="_472caqKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+  </variables>
+  <template href="_wAUCwJtYEeax5dAdYESVpg.xml#_wAUCwJtYEeax5dAdYESVpg"/>
+  <geometry deletable="false" uuid="_k4QZoYuIEea1H_HPwOxo9w" name="root">
+    <parentPlugs uuid="_k4QZoouIEea1H_HPwOxo9w" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

@@ -1,0 +1,2380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_Vp6YkIx3Eea124uLXtqeqw" name="device_SlimLine" componentClass="LINK" toaPrefix="device">
+  <variables xsi:type="comp:VariableGroup" uuid="_1UOKAIx-Eea124uLXtqeqw" name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_AVbVAIx8Eea124uLXtqeqw" name="busbar_section" visibility="800">
+      <domain uuid="_AVbVAox8Eea124uLXtqeqw" name="local" visibility="300">
+        <typeSet uuid="_472cdqKVEea3uKyX2lIh0A" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_-Ku_EIx7Eea124uLXtqeqw" name="efm" visibility="800">
+      <domain uuid="_-Ku_Eox7Eea124uLXtqeqw" name="local" visibility="300">
+        <typeSet uuid="_472cfKKVEea3uKyX2lIh0A" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_C982cIx8Eea124uLXtqeqw" name="its2_1" visibility="800">
+      <domain uuid="_C982cox8Eea124uLXtqeqw" name="local" visibility="300">
+        <typeSet uuid="_472cgqKVEea3uKyX2lIh0A" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Ez8HsIx8Eea124uLXtqeqw" name="its2_d" visibility="800">
+      <domain uuid="_Ez8Hsox8Eea124uLXtqeqw" name="local" visibility="300">
+        <typeSet uuid="_472ciKKVEea3uKyX2lIh0A" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_7-1IMIx7Eea124uLXtqeqw" name="mot" visibility="800">
+      <domain uuid="_7-1IMox7Eea124uLXtqeqw" name="local" visibility="300">
+        <typeSet uuid="_473DcqKVEea3uKyX2lIh0A" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_o-adMIx5Eea124uLXtqeqw" name="number_of_poles" visibility="800">
+      <domain uuid="_o-adMox5Eea124uLXtqeqw" name="local" visibility="300">
+        <typeSet uuid="_473DeKKVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values deletable="false" uuid="_o-adM4x5Eea124uLXtqeqw" name="'2dc'" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tCPZuqTQEeaqKufj5D79eA" name="_DisplayName" value="2 DC"/>
+        </values>
+        <values deletable="false" uuid="_o-adNIx5Eea124uLXtqeqw" name="3" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_o-adNYx5Eea124uLXtqeqw" name="4" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_zp-LgIx6Eea124uLXtqeqw" name="type_code" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_473DgKKVEea3uKyX2lIh0A" declared="true" model="_9BrCEIx3Eea124uLXtqeqw" flow="OUT"/>
+      <domain uuid="_zp-ykIx6Eea124uLXtqeqw" name="local" visibility="300">
+        <typeSet uuid="_473Dg6KVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values deletable="false" uuid="_zp-ykYx6Eea124uLXtqeqw" name="'XRE00-185-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ykox6Eea124uLXtqeqw" name="'XRE00-185-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yk4x6Eea124uLXtqeqw" name="'XRE00-185-4P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ylIx6Eea124uLXtqeqw" name="'XRE00-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ylYx6Eea124uLXtqeqw" name="'XRE00-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ylox6Eea124uLXtqeqw" name="'XRE00-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yl4x6Eea124uLXtqeqw" name="'XRE00-50-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ymIx6Eea124uLXtqeqw" name="'XRE00-50-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ymYx6Eea124uLXtqeqw" name="'XRE00-185-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ymox6Eea124uLXtqeqw" name="'XRE00-50-4P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ym4x6Eea124uLXtqeqw" name="'XRE00-50-4P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ynIx6Eea124uLXtqeqw" name="'XRE00-50-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ynYx6Eea124uLXtqeqw" name="'XRE00-50-4P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ynox6Eea124uLXtqeqw" name="'XRE1-185_3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yn4x6Eea124uLXtqeqw" name="'XRE1-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yoIx6Eea124uLXtqeqw" name="'XRE1-50-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yoYx6Eea124uLXtqeqw" name="'XRE1-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yoox6Eea124uLXtqeqw" name="'XRE1-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yo4x6Eea124uLXtqeqw" name="'XRE1-50-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ypIx6Eea124uLXtqeqw" name="'XRE00-185-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ypYx6Eea124uLXtqeqw" name="'XRE1-185-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ypox6Eea124uLXtqeqw" name="'XRE1-50-4P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yp4x6Eea124uLXtqeqw" name="'XRE1-50-4P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yqIx6Eea124uLXtqeqw" name="'XRE1-50-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yqYx6Eea124uLXtqeqw" name="'XRE1-185-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yqox6Eea124uLXtqeqw" name="'XRE1-50-4P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yq4x6Eea124uLXtqeqw" name="'XRE160BS-185-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yrIx6Eea124uLXtqeqw" name="'XRE160BS-185-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yrYx6Eea124uLXtqeqw" name="'XRE160BS-50-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yrox6Eea124uLXtqeqw" name="'XRE160BS-185-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yr4x6Eea124uLXtqeqw" name="'XRE160BS-50-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ysIx6Eea124uLXtqeqw" name="'XRE2-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ysYx6Eea124uLXtqeqw" name="'XRE2-185-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ysox6Eea124uLXtqeqw" name="'XRE2-185-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ys4x6Eea124uLXtqeqw" name="'XRE2-185-4P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ytIx6Eea124uLXtqeqw" name="'XRE2-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ytYx6Eea124uLXtqeqw" name="'XRE2-50-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ytox6Eea124uLXtqeqw" name="'XRE2-50-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yt4x6Eea124uLXtqeqw" name="'XRE2-50-4P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yuIx6Eea124uLXtqeqw" name="'XRE2-50-4P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yuYx6Eea124uLXtqeqw" name="'XRE2-50-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yuox6Eea124uLXtqeqw" name="'XRE2-50-4P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yu4x6Eea124uLXtqeqw" name="'XRE250BS-50-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yvIx6Eea124uLXtqeqw" name="'XRE250BS-185-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yvYx6Eea124uLXtqeqw" name="'XRE250BS-50-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yvox6Eea124uLXtqeqw" name="'XRE250BS-50-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yv4x6Eea124uLXtqeqw" name="'XRE3-185-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ywIx6Eea124uLXtqeqw" name="'XRE3-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ywYx6Eea124uLXtqeqw" name="'XRE3-50-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-ywox6Eea124uLXtqeqw" name="'XRE1-185-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yw4x6Eea124uLXtqeqw" name="'XRE2-185-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yxIx6Eea124uLXtqeqw" name="'XRE2-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yxYx6Eea124uLXtqeqw" name="'XRE250BS-185-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yxox6Eea124uLXtqeqw" name="'XRE3-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yx4x6Eea124uLXtqeqw" name="'XRE3-185-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yyIx6Eea124uLXtqeqw" name="'XRE3-185-4P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yyYx6Eea124uLXtqeqw" name="'XRE3-50-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yyox6Eea124uLXtqeqw" name="'XRE3-50-4P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yy4x6Eea124uLXtqeqw" name="'XRE3-50-4P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yzIx6Eea124uLXtqeqw" name="'XRE3-50-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yzYx6Eea124uLXtqeqw" name="'XRE2-185-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yzox6Eea124uLXtqeqw" name="'XRE3-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-yz4x6Eea124uLXtqeqw" name="'XRE3-50-4P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y0Ix6Eea124uLXtqeqw" name="'XRE1-185-4P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y0Yx6Eea124uLXtqeqw" name="'XRE160BS-50-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y0ox6Eea124uLXtqeqw" name="'XRE400BS-185-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y04x6Eea124uLXtqeqw" name="'XRE400BS-50-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y1Ix6Eea124uLXtqeqw" name="'XRE400BS-185-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y1Yx6Eea124uLXtqeqw" name="'XRE400BS-50-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y1ox6Eea124uLXtqeqw" name="'XRE630BS-50-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y14x6Eea124uLXtqeqw" name="'XRE400BS-185-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y2Ix6Eea124uLXtqeqw" name="'XRE400BS-50-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y2Yx6Eea124uLXtqeqw" name="'XRE630BS-185-4P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y2ox6Eea124uLXtqeqw" name="'XRE630BS-50-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y24x6Eea124uLXtqeqw" name="'XRE250BS-185-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y3Ix6Eea124uLXtqeqw" name="'XRE3-185-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y3Yx6Eea124uLXtqeqw" name="'XRE3-185-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y3ox6Eea124uLXtqeqw" name="'XRE630BS-185-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y34x6Eea124uLXtqeqw" name="'XRE630BS-185-4P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y4Ix6Eea124uLXtqeqw" name="'XRE630BS-50-4P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y4Yx6Eea124uLXtqeqw" name="'XRM00-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y4ox6Eea124uLXtqeqw" name="'XRM00-185-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y44x6Eea124uLXtqeqw" name="'XRM00-185-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y5Ix6Eea124uLXtqeqw" name="'XRM00-185-3P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y5Yx6Eea124uLXtqeqw" name="'XRM00-185-3P-ITS2.D'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y5ox6Eea124uLXtqeqw" name="'XRM00-185-3P-ITS2.D-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y54x6Eea124uLXtqeqw" name="'XRM00-185-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y6Ix6Eea124uLXtqeqw" name="'XRM00-185-3P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y6Yx6Eea124uLXtqeqw" name="'XRM00-185-DC'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y6ox6Eea124uLXtqeqw" name="'XRM00-185-DC-EFM-110'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y64x6Eea124uLXtqeqw" name="'XRM00-185-DC-EFM-500'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y7Ix6Eea124uLXtqeqw" name="'XRM00-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y7Yx6Eea124uLXtqeqw" name="'XRM00-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y7ox6Eea124uLXtqeqw" name="'XRM00-50-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y74x6Eea124uLXtqeqw" name="'XRM00-50-3P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y8Ix6Eea124uLXtqeqw" name="'XRM00-50-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y8Yx6Eea124uLXtqeqw" name="'XRM00-50-3P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y8ox6Eea124uLXtqeqw" name="'XRM00-50-DC'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y84x6Eea124uLXtqeqw" name="'XRM1-185_3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y9Ix6Eea124uLXtqeqw" name="'XRM1-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y9Yx6Eea124uLXtqeqw" name="'XRM1-185-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y9ox6Eea124uLXtqeqw" name="'XRM1-185-3P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y94x6Eea124uLXtqeqw" name="'XRM1-185-3P-ITS2.D'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y-Ix6Eea124uLXtqeqw" name="'XRM1-185-3P-ITS2.D-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y-Yx6Eea124uLXtqeqw" name="'XRM1-185-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y-ox6Eea124uLXtqeqw" name="'XRM1-185-3P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y-4x6Eea124uLXtqeqw" name="'XRM1-185-DC'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y_Ix6Eea124uLXtqeqw" name="'XRM1-185-DC-EFM-110'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y_Yx6Eea124uLXtqeqw" name="'XRM1-185-DC-EFM-500'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y_ox6Eea124uLXtqeqw" name="'XRM1-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-y_4x6Eea124uLXtqeqw" name="'XRM1-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-zAIx6Eea124uLXtqeqw" name="'XRM1-50-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp-zAYx6Eea124uLXtqeqw" name="'XRM1-50-3P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZoIx6Eea124uLXtqeqw" name="'XRM1-50-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZoYx6Eea124uLXtqeqw" name="'XRM1-50-3P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zoox6Eea124uLXtqeqw" name="'XRM1-50-DC'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zo4x6Eea124uLXtqeqw" name="'XRM100BS-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZpIx6Eea124uLXtqeqw" name="'XRM160BS-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZpYx6Eea124uLXtqeqw" name="'XRM100BS-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zpox6Eea124uLXtqeqw" name="'XRM160BS-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zp4x6Eea124uLXtqeqw" name="'XRM160BS-185-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZqIx6Eea124uLXtqeqw" name="'XRM160BS-185-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZqYx6Eea124uLXtqeqw" name="'XRM160BS-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zqox6Eea124uLXtqeqw" name="'XRM160BS-185-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zq4x6Eea124uLXtqeqw" name="'XRM160BS-50-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZrIx6Eea124uLXtqeqw" name="'XRM2-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZrYx6Eea124uLXtqeqw" name="'XRM2-185-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zrox6Eea124uLXtqeqw" name="'XRM2-185-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zr4x6Eea124uLXtqeqw" name="'XRM2-185-3P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZsIx6Eea124uLXtqeqw" name="'XRM2-185-3P-ITS2.D'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZsYx6Eea124uLXtqeqw" name="'XRM2-185-3P-ITS2.D-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zsox6Eea124uLXtqeqw" name="'XRM2-185-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zs4x6Eea124uLXtqeqw" name="'XRM2-185-DC'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZtIx6Eea124uLXtqeqw" name="'XRM2-185-DC-EFM-110'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZtYx6Eea124uLXtqeqw" name="'XRM2-185-DC-EFM-500'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Ztox6Eea124uLXtqeqw" name="'XRM2-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zt4x6Eea124uLXtqeqw" name="'XRM2-50-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZuIx6Eea124uLXtqeqw" name="'XRM2-50-3P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZuYx6Eea124uLXtqeqw" name="'XRM2-50-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zuox6Eea124uLXtqeqw" name="'XRM2-50-3P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zu4x6Eea124uLXtqeqw" name="'XRM2-185-3P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZvIx6Eea124uLXtqeqw" name="'XRM2-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZvYx6Eea124uLXtqeqw" name="'XRM2-50-DC'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zvox6Eea124uLXtqeqw" name="'XRM250BS-185-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zv4x6Eea124uLXtqeqw" name="'XRM250BS-185-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZwIx6Eea124uLXtqeqw" name="'XRM250BS-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZwYx6Eea124uLXtqeqw" name="'XRM250BS-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zwox6Eea124uLXtqeqw" name="'XRM250BS-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zw4x6Eea124uLXtqeqw" name="'XRM250BS-185-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZxIx6Eea124uLXtqeqw" name="'XRM250BS-50-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZxYx6Eea124uLXtqeqw" name="'XRM3-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zxox6Eea124uLXtqeqw" name="'XRM3-185-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zx4x6Eea124uLXtqeqw" name="'XRM3-185-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZyIx6Eea124uLXtqeqw" name="'XRM3-185-3P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZyYx6Eea124uLXtqeqw" name="'XRM3-185-3P-ITS2.D'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zyox6Eea124uLXtqeqw" name="'XRM3-185-3P-ITS2.D-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zy4x6Eea124uLXtqeqw" name="'XRM3-185-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZzIx6Eea124uLXtqeqw" name="'XRM3-185-3P-SS'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_ZzYx6Eea124uLXtqeqw" name="'XRM3-185-DC'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zzox6Eea124uLXtqeqw" name="'XRM3-185-DC-EFM-110'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Zz4x6Eea124uLXtqeqw" name="'XRM3-185-DC-EFM-500'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z0Ix6Eea124uLXtqeqw" name="'XRM3-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z0Yx6Eea124uLXtqeqw" name="'XRM3-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z0ox6Eea124uLXtqeqw" name="'XRM3-50-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z04x6Eea124uLXtqeqw" name="'XRM3-50-3P-ITS2.1-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z1Ix6Eea124uLXtqeqw" name="'XRM3-50-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z1Yx6Eea124uLXtqeqw" name="'XRM3-50-3P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z1ox6Eea124uLXtqeqw" name="'XRM3-185-3P-MOT-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z14x6Eea124uLXtqeqw" name="'XRM3-50-3P-SP'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z2Ix6Eea124uLXtqeqw" name="'XRM3-50-3P-SS'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z2Yx6Eea124uLXtqeqw" name="'XRM3-50-DC'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z2ox6Eea124uLXtqeqw" name="'XRM400BS-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z24x6Eea124uLXtqeqw" name="'XRM400BS-185-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z3Ix6Eea124uLXtqeqw" name="'XRM400BS-185-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z3Yx6Eea124uLXtqeqw" name="'XRM400BS-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z3ox6Eea124uLXtqeqw" name="'XRM400BS-50-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z34x6Eea124uLXtqeqw" name="'XRM400BS-185-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z4Ix6Eea124uLXtqeqw" name="'XRM400BS-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z4Yx6Eea124uLXtqeqw" name="'XRM630BS-185-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z4ox6Eea124uLXtqeqw" name="'XRM630BS-185-3P-ITS2.1'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z44x6Eea124uLXtqeqw" name="'XRM630BS-185-3P-MOT'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z5Ix6Eea124uLXtqeqw" name="'XRM63BS-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z5Yx6Eea124uLXtqeqw" name="'XRM630BS-50-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z5ox6Eea124uLXtqeqw" name="'XRM63BS-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z54x6Eea124uLXtqeqw" name="'XRM630BS-185-3P'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z6Ix6Eea124uLXtqeqw" name="'XRM630BS-50-3P-EFM'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_zp_Z6Yx6Eea124uLXtqeqw" name="'XRM630BS-50-3P-MOT'" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_dH_BwIx5Eea124uLXtqeqw" name="utilization_category" visibility="800">
+      <domain uuid="_dH_Bwox5Eea124uLXtqeqw" name="local" visibility="300">
+        <typeSet uuid="_477U-qKVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values deletable="false" uuid="_dH_Bw4x5Eea124uLXtqeqw" name="'ac22b@690v'" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tCQnwaTQEeaqKufj5D79eA" name="_DisplayName" value="AC22B at 690 V"/>
+        </values>
+        <values deletable="false" uuid="_dH_BxIx5Eea124uLXtqeqw" name="'ac23b@690v'" editable="false" visibility="300">
+          <facets xsi:type="appl:PropertyFacet" uuid="_tCQnw6TQEeaqKufj5D79eA" name="_DisplayName" value="AC23B at 690 V"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_2s50MIx-Eea124uLXtqeqw" name="Svg" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_wQntQIx-Eea124uLXtqeqw" name="display_device_slim_line_3p" visibility="800">
+      <domain uuid="_wQntQox-Eea124uLXtqeqw" name="local" visibility="300">
+        <typeSet uuid="_4777-aKVEea3uKyX2lIh0A" bitSet="4"/>
+        <values uuid="_wwijcIx-Eea124uLXtqeqw" name="inline" editable="false" visibility="300"/>
+        <values uuid="_xFKvoIx-Eea124uLXtqeqw" name="none" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_yE5HQIx-Eea124uLXtqeqw" name="display_device_slim_line_4p" visibility="800">
+      <domain uuid="_yE5HQox-Eea124uLXtqeqw" name="local" visibility="300">
+        <typeSet uuid="_4778AaKVEea3uKyX2lIh0A" bitSet="4"/>
+        <values uuid="_yehvQIx-Eea124uLXtqeqw" name="inline&#x9;" editable="false" visibility="300"/>
+        <values uuid="_yehvQYx-Eea124uLXtqeqw" name="none&#x9;" editable="false" visibility="300"/>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_9BrCEIx3Eea124uLXtqeqw" name="Logic_Rules" visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_oNRpQIx7Eea124uLXtqeqw" name="utilization_category" visibility="800">
+      <columns uuid="_3ymYUIx7Eea124uLXtqeqw" name="type_code" visibility="100">
+        <cells>XRE00-50-3P</cells>
+        <cells>XRE1-50-3P</cells>
+        <cells>XRE2-50-3P</cells>
+        <cells>XRE3-50-3P</cells>
+        <cells>XRM00-50-3P</cells>
+        <cells>XRM1-50-3P</cells>
+        <cells>XRM2-50-3P</cells>
+        <cells>XRM3-50-3P</cells>
+        <cells>XRE00-50-3P-EFM</cells>
+        <cells>XRE1-50-3P-EFM</cells>
+        <cells>XRE2-50-3P-EFM</cells>
+        <cells>XRE3-50-3P-EFM</cells>
+        <cells>XRM00-50-3P-EFM</cells>
+        <cells>XRM1-50-3P-EFM</cells>
+        <cells>XRM2-50-3P-EFM</cells>
+        <cells>XRM3-50-3P-EFM</cells>
+        <cells>XRM00-50-3P-MOT</cells>
+        <cells>XRM1-50-3P-MOT</cells>
+        <cells>XRM2-50-3P-MOT</cells>
+        <cells>XRM3-50-3P-MOT</cells>
+        <cells>XRM00-50-3P-MOT-EFM</cells>
+        <cells>XRM1-50-3P-MOT-EFM</cells>
+        <cells>XRM2-50-3P-MOT-EFM</cells>
+        <cells>XRM3-50-3P-MOT-EFM</cells>
+        <cells>XRM00-50-3P-ITS2.1</cells>
+        <cells>XRM1-50-3P-ITS2.1</cells>
+        <cells>XRM2-50-3P-ITS2.1</cells>
+        <cells>XRM3-50-3P-ITS2.1</cells>
+        <cells>XRM00-50-3P-ITS2.1-MOT</cells>
+        <cells>XRM1-50-3P-ITS2.1-MOT</cells>
+        <cells>XRM2-50-3P-ITS2.1-MOT</cells>
+        <cells>XRM3-50-3P-ITS2.1-MOT</cells>
+        <cells>XRM3-50-3P-SP</cells>
+        <cells>XRM3-50-3P-SS</cells>
+        <cells>XRE00-50-4P</cells>
+        <cells>XRE1-50-4P</cells>
+        <cells>XRE2-50-4P</cells>
+        <cells>XRE3-50-4P</cells>
+        <cells>XRE00-50-4P-EFM</cells>
+        <cells>XRE1-50-4P-EFM</cells>
+        <cells>XRE2-50-4P-EFM</cells>
+        <cells>XRE3-50-4P-EFM</cells>
+        <cells>XRE00-50-4P-MOT</cells>
+        <cells>XRE1-50-4P-MOT</cells>
+        <cells>XRE2-50-4P-MOT</cells>
+        <cells>XRE3-50-4P-MOT</cells>
+        <cells>XRE00-50-4P-MOT-EFM</cells>
+        <cells>XRE1-50-4P-MOT-EFM</cells>
+        <cells>XRE2-50-4P-MOT-EFM</cells>
+        <cells>XRE3-50-4P-MOT-EFM</cells>
+        <cells>XRE00-50-4P-ITS2.1</cells>
+        <cells>XRE1-50-4P-ITS2.1</cells>
+        <cells>XRE2-50-4P-ITS2.1</cells>
+        <cells>XRE3-50-4P-ITS2.1</cells>
+        <cells>XRE00-50-4P-ITS2.1-MOT</cells>
+        <cells>XRE1-50-4P-ITS2.1-MOT</cells>
+        <cells>XRE2-50-4P-ITS2.1-MOT</cells>
+        <cells>XRE3-50-4P-ITS2.1-MOT</cells>
+        <cells>XRM00-50-DC</cells>
+        <cells>XRM1-50-DC</cells>
+        <cells>XRM2-50-DC</cells>
+        <cells>XRM3-50-DC</cells>
+        <cells>XRE00-185-3P</cells>
+        <cells>XRE1-185-3P</cells>
+        <cells>XRE2-185-3P</cells>
+        <cells>XRE3-185-3P</cells>
+        <cells>XRM00-185-3P</cells>
+        <cells>XRM1-185-3P</cells>
+        <cells>XRM2-185-3P</cells>
+        <cells>XRM3-185-3P</cells>
+        <cells>XRE00-185-3P-EFM</cells>
+        <cells>XRE1-185 3P-EFM</cells>
+        <cells>XRE2-185-3P-EFM</cells>
+        <cells>XRE3-185-3P-EFM</cells>
+        <cells>XRM00-185-3P-EFM</cells>
+        <cells>XRM1-185 3P-EFM</cells>
+        <cells>XRM2-185-3P-EFM</cells>
+        <cells>XRM3-185-3P-EFM</cells>
+        <cells>XRM00-185-3P-MOT</cells>
+        <cells>XRM1-185-3P-MOT</cells>
+        <cells>XRM2-185-3P-MOT</cells>
+        <cells>XRM3-185-3P-MOT</cells>
+        <cells>XRM00-185-3P-MOT-EFM</cells>
+        <cells>XRM1-185-3P-MOT-EFM</cells>
+        <cells>XRM2-185-3P-MOT-EFM</cells>
+        <cells>XRM3-185-3P-MOT-EFM</cells>
+        <cells>XRM00-185-3P-ITS2.1</cells>
+        <cells>XRM1-185-3P-ITS2.1</cells>
+        <cells>XRM2-185-3P-ITS2.1</cells>
+        <cells>XRM3-185-3P-ITS2.1</cells>
+        <cells>XRM00-185-3P-ITS2.1-MOT</cells>
+        <cells>XRM1-185-3P-ITS2.1-MOT</cells>
+        <cells>XRM2-185-3P-ITS2.1-MOT</cells>
+        <cells>XRM3-185-3P-ITS2.1-MOT</cells>
+        <cells>XRM00-185-3P-ITS2.D</cells>
+        <cells>XRM1-185-3P-ITS2.D</cells>
+        <cells>XRM2-185-3P-ITS2.D</cells>
+        <cells>XRM3-185-3P-ITS2.D</cells>
+        <cells>XRM00-185-3P-ITS2.D-MOT</cells>
+        <cells>XRM1-185-3P-ITS2.D-MOT</cells>
+        <cells>XRM2-185-3P-ITS2.D-MOT</cells>
+        <cells>XRM3-185-3P-ITS2.D-MOT</cells>
+        <cells>XRM3-185-3P-SS</cells>
+        <cells>XRE00-185-4P</cells>
+        <cells>XRE1-185-4P</cells>
+        <cells>XRE2-185-4P</cells>
+        <cells>XRE3-185-4P</cells>
+        <cells>XRE00-185-4P-EFM</cells>
+        <cells>XRE1-185-4P-EFM</cells>
+        <cells>XRE2-185-4P-EFM</cells>
+        <cells>XRE3-185-4P-EFM</cells>
+        <cells>XRE00-185-4P-MOT</cells>
+        <cells>XRE1-185-4P-MOT</cells>
+        <cells>XRE2-185-4P-MOT</cells>
+        <cells>XRE3-185-4P-MOT</cells>
+        <cells>XRE00-185-4P-MOT-EFM</cells>
+        <cells>XRE1-185-4P-MOT-EFM</cells>
+        <cells>XRE2-185-4P-MOT-EFM</cells>
+        <cells>XRE3-185-4P-MOT-EFM</cells>
+        <cells>XRM00-185-DC</cells>
+        <cells>XRM1-185-DC</cells>
+        <cells>XRM2-185-DC</cells>
+        <cells>XRM3-185-DC</cells>
+        <cells>XRM00-185-DC-EFM-110</cells>
+        <cells>XRM1-185-DC-EFM-110</cells>
+        <cells>XRM2-185-DC-EFM-110</cells>
+        <cells>XRM3-185-DC-EFM-110</cells>
+        <cells>XRM00-185-DC-EFM-500</cells>
+        <cells>XRM1-185-DC-EFM-500</cells>
+        <cells>XRM2-185-DC-EFM-500</cells>
+        <cells>XRM3-185-DC-EFM-500</cells>
+        <cells>XRM63BS-50-3P</cells>
+        <cells>XRM100BS-50-3P</cells>
+        <cells>XRM160BS-50-3P</cells>
+        <cells>XRM250BS-50-3P</cells>
+        <cells>XRM400BS-50-3P</cells>
+        <cells>XRM630BS-50-3P</cells>
+        <cells>XRM160BS-50-3P-EFM</cells>
+        <cells>XRM250BS-50-3P-EFM</cells>
+        <cells>XRM400BS-50-3P-EFM</cells>
+        <cells>XRM630BS-50-3P-EFM</cells>
+        <cells>XRM160BS-50-3P-MOT</cells>
+        <cells>XRM250BS-50-3P-MOT</cells>
+        <cells>XRM400BS-50-3P-MOT</cells>
+        <cells>XRM630BS-50-3P-MOT</cells>
+        <cells>XRE160BS-50-4P</cells>
+        <cells>XRE250BS-50-4P</cells>
+        <cells>XRE400BS-50-4P</cells>
+        <cells>XRE630BS-50-4P</cells>
+        <cells>XRE160BS-50-4P-EFM</cells>
+        <cells>XRE250BS-50-4P-EFM</cells>
+        <cells>XRE400BS-50-4P-EFM</cells>
+        <cells>XRE630BS-50-4P-EFM</cells>
+        <cells>XRE160BS-50-4P-MOT</cells>
+        <cells>XRE250BS-50-4P-MOT</cells>
+        <cells>XRE400BS-50-4P-MOT</cells>
+        <cells>XRE630BS-50-4P-MOT</cells>
+        <cells>XRM63BS-185-3P</cells>
+        <cells>XRM100BS-185-3P</cells>
+        <cells>XRM160BS-185-3P</cells>
+        <cells>XRM250BS-185-3P</cells>
+        <cells>XRM400BS-185-3P</cells>
+        <cells>XRM630BS-185-3P</cells>
+        <cells>XRM160BS-185-3P-EFM</cells>
+        <cells>XRM250BS-185-3P-EFM</cells>
+        <cells>XRM400BS-185-3P-EFM</cells>
+        <cells>XRM630BS-185-3P-EFM</cells>
+        <cells>XRM160BS-185-3P-MOT</cells>
+        <cells>XRM250BS-185-3P-MOT</cells>
+        <cells>XRM400BS-185-3P-MOT</cells>
+        <cells>XRM630BS-185-3P-MOT</cells>
+        <cells>XRM160BS-185-3P-ITS2.1</cells>
+        <cells>XRM250BS-185-3P-ITS2.1</cells>
+        <cells>XRM400BS-185-3P-ITS2.1</cells>
+        <cells>XRM630BS-185-3P-ITS2.1</cells>
+        <cells>XRE160BS-185-4P</cells>
+        <cells>XRE250BS-185-4P</cells>
+        <cells>XRE400BS-185-4P</cells>
+        <cells>XRE630BS-185-4P</cells>
+        <cells>XRE160BS-185-4P-EFM</cells>
+        <cells>XRE250BS-185-4P-EFM</cells>
+        <cells>XRE400BS-185-4P-EFM</cells>
+        <cells>XRE630BS-185-4P-EFM</cells>
+        <cells>XRE160BS-185-4P-MOT</cells>
+        <cells>XRE250BS-185-4P-MOT</cells>
+        <cells>XRE400BS-185-4P-MOT</cells>
+        <cells>XRE630BS-185-4P-MOT</cells>
+      </columns>
+      <columns uuid="_3ymYUYx7Eea124uLXtqeqw" name="utilization_category" visibility="100">
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac23b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+        <cells>ac22b@690v</cells>
+      </columns>
+      <columns uuid="_3ymYUox7Eea124uLXtqeqw" name="version" visibility="100">
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>DIN</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+        <cells>BS</cells>
+      </columns>
+      <columns uuid="_3ymYU4x7Eea124uLXtqeqw" name="rated_operation_current" visibility="100">
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>630</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>63</cells>
+        <cells>100</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>63</cells>
+        <cells>100</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+        <cells>160</cells>
+        <cells>250</cells>
+        <cells>400</cells>
+        <cells>630</cells>
+      </columns>
+      <columns uuid="_3ymYVIx7Eea124uLXtqeqw" name="busbar_distance" visibility="100">
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>50</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+        <cells>185</cells>
+      </columns>
+      <columns uuid="_3ymYVYx7Eea124uLXtqeqw" name="number_of_poles" visibility="100">
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>2dc</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>3</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+        <cells>4</cells>
+      </columns>
+      <columns uuid="_3ymYVox7Eea124uLXtqeqw" name="mot" visibility="100">
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+      </columns>
+      <columns uuid="_3ymYV4x7Eea124uLXtqeqw" name="efm" visibility="100">
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_3ymYWIx7Eea124uLXtqeqw" name="its2_1" visibility="100">
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_3ymYWYx7Eea124uLXtqeqw" name="its2_d" visibility="100">
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_3ymYWox7Eea124uLXtqeqw" name="busbar_section" visibility="100">
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>Yes</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+        <cells>No</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_9Umg8Ix-Eea124uLXtqeqw" name="display_slim_line_svg" visibility="800">
+      <columns uuid="_-UU4kIx-Eea124uLXtqeqw" name="number_of_poles" visibility="100">
+        <cells>'2dc','3'</cells>
+        <cells>'4'</cells>
+      </columns>
+      <columns uuid="__KOl0Ix-Eea124uLXtqeqw" name="display_device_slim_line_3p" visibility="100">
+        <cells>'inline'</cells>
+        <cells>'none'</cells>
+      </columns>
+      <columns uuid="__xDVQIx-Eea124uLXtqeqw" name="display_device_slim_line_4p" visibility="100">
+        <cells>'none'</cells>
+        <cells>'inline'</cells>
+      </columns>
+    </children>
+  </logic>
+  <template href="_hUt-cOqHEeWqr4VI49EzRg.xml#_hUt-cOqHEeWqr4VI49EzRg"/>
+  <geometry deletable="false" uuid="_Vp6YkYx3Eea124uLXtqeqw" name="root">
+    <units uuid="_WPlNQIx-Eea124uLXtqeqw" name="slim_line">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_Wq_98Ix-Eea124uLXtqeqw" name="SlimLine3p_svg" checksum="325647e0a949589f82933885daa5ecf16efbd8d2">
+        <file href="../../build_model.studio#_bqFuIIx-Eea124uLXtqeqw"/>
+        <handles uuid="_qRuF4Ix-Eea124uLXtqeqw" name="svg2" visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_qRuF4Yx-Eea124uLXtqeqw" name="displayManipulation" fieldId="display" variableReference="display_device_slim_line_3p" target="xml"/>
+        </handles>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_gz-ZEIx-Eea124uLXtqeqw" name="SlimLine4p_svg" checksum="fa7d005a8d26b468e98393dc8f2c78fc9ee1f1a5">
+        <file href="../../build_model.studio#_cbUWwIx-Eea124uLXtqeqw"/>
+        <handles uuid="_uxSBcIx-Eea124uLXtqeqw" name="svg2" visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_uxSBcYx-Eea124uLXtqeqw" name="displayManipulation" fieldId="display" variableReference="display_device_slim_line_4p" target="xml"/>
+        </handles>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_Vp6Ykox3Eea124uLXtqeqw" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

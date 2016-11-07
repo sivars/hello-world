@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_6uMZEOqQEeW6RN3TP2SeZA" name="busbar_system_distribution" displayName="Busbar System Distribution">
+  <geometry deletable="false" uuid="_6uNAIOqQEeW6RN3TP2SeZA" name="root">
+    <parentPlugs uuid="_6uNAIeqQEeW6RN3TP2SeZA" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_mT5-0FrhEeaC5pUCQwPL7g" name="column_cable_compartment_insert" componentClass="LINK" displayName="Cable Compartment Column" toaPrefix="column_main">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2LCcUFrxEeatCqpuhZS-Gg" name="column_type" visibility="800" initValue="cable_compartment">
+    <domain uuid="_2LCcUlrxEeatCqpuhZS-Gg" name="local" visibility="300">
+      <typeSet uuid="_47iTXKKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <template href="_hp-DQNvBEeWJgMr3GWrLIA.xml#_hp-DQNvBEeWJgMr3GWrLIA"/>
+  <geometry deletable="false" uuid="_mT5-0VrhEeaC5pUCQwPL7g" name="root">
+    <parentPlugs uuid="_mT5-0lrhEeaC5pUCQwPL7g" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

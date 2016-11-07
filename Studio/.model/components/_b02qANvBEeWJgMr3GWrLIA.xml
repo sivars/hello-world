@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_b02qANvBEeWJgMr3GWrLIA" name="column_empty_insert" componentClass="LINK" displayName="Empty Column" toaPrefix="column_main">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_CTpmgA3bEearGp4q8yakZw" name="column_type" visibility="800" initValue="empty">
+    <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_4z3lGKKVEea3uKyX2lIh0A" declared="true">
+      <model href="_hp-DQNvBEeWJgMr3GWrLIA.xml#_5S2lUPfqEeWNk_3WamkIOg"/>
+      <priorities href="../product_model.xml#_x2NZ0XSwEeO0QL2ZiJsN_Q"/>
+    </facets>
+    <domain uuid="_CTpmgg3bEearGp4q8yakZw" name="local" visibility="300">
+      <typeSet uuid="_4z3lG6KVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <calculation uuid="_Vq_mACMhEeajWf9DR7mdZA" name="Calculation_Rules" visibility="800" text="//svgs cursor&#xD;&#xA;height_cursor=height_column_outside+height_base;"/>
+  <template href="_hp-DQNvBEeWJgMr3GWrLIA.xml#_hp-DQNvBEeWJgMr3GWrLIA"/>
+  <cursorTwoD uuid="_QICwQCMgEeajWf9DR7mdZA" name="Cursor_empty">
+    <onColor href="../product_model.xml#N65557"/>
+    <twoDElementsColor xsi:type="comp:TwoDBox" href="#_PUyuYSMgEeajWf9DR7mdZA"/>
+    <twoDElementsColor xsi:type="comp:TwoDBox" href="_JhQr8NvDEeWJgMr3GWrLIA.xml#_buv2ACMSEea6yu-B_fPQmg"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+    <twoDElementsBgColor xsi:type="comp:TwoDBox" href="#_PUyuYSMgEeajWf9DR7mdZA"/>
+    <twoDElementsBgColor xsi:type="comp:TwoDBox" href="_JhQr8NvDEeWJgMr3GWrLIA.xml#_buv2ACMSEea6yu-B_fPQmg"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_b02qAdvBEeWJgMr3GWrLIA" name="root">
+    <units uuid="_PUyHUCMgEeajWf9DR7mdZA" name="cursor_empty">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_4z4MI6KVEea3uKyX2lIh0A" variable="height_base" vector="(0,0,1)"/>
+      <children uuid="_PUyuYCMgEeajWf9DR7mdZA" name="Geo_Unit">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_4z4zMaKVEea3uKyX2lIh0A" variable="height_cursor" vector="(0,0,-1)"/>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_PUyuYSMgEeajWf9DR7mdZA" name="Box_empty" cursorsUsingMeForBgColor="_QICwQCMgEeajWf9DR7mdZA" cursorsUsingMeForColor="_QICwQCMgEeajWf9DR7mdZA" strokeWidth="25">
+          <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_4z4zM6KVEea3uKyX2lIh0A" heightDynamic="height_dim" widthDynamic="width_column_outside"/>
+          <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+          <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        </twoDElement>
+      </children>
+    </units>
+  </geometry>
+</comp:Component>

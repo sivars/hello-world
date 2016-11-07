@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_veKTQIuGEea1H_HPwOxo9w" name="column_coupler" toaPrefix="column">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_4VIFMIuMEeatA5xS-EKmzQ" name="column_type" visibility="800" initValue="coupler">
+    <domain uuid="_4VIsQIuMEeatA5xS-EKmzQ" name="local" visibility="300">
+      <typeSet uuid="_470nVaKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_82McoIuMEeatA5xS-EKmzQ" name="width_column" visibility="800" initValue="500">
+    <domain uuid="_82McoYuMEeatA5xS-EKmzQ" name="local" visibility="300">
+      <typeSet uuid="_471OQqKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_Cm-IcIuNEeatA5xS-EKmzQ" name="500" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <calculation uuid="_GUw6sIxPEeaj6704KHE9-A" name="Calculation_Rules" visibility="800" text="requirements = &quot;&quot;+width_column;"/>
+  <template href="_z5ytQCygEeaMLJEvopK9fA.xml#_z5ytQCygEeaMLJEvopK9fA"/>
+  <cursorTwoD uuid="_OQWVoIupEeatA5xS-EKmzQ" name="Cursor_column_coupler" twoDElementsColor="_KKyOcYupEeatA5xS-EKmzQ" twoDElementsBgColor="_KKyOcYupEeatA5xS-EKmzQ">
+    <onColor href="../product_model.xml#N65557"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_veKTQYuGEea1H_HPwOxo9w" name="root">
+    <units uuid="_KKyOcIupEeatA5xS-EKmzQ" name="cursor_column_coupler">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_471OSKKVEea3uKyX2lIh0A" variable="column_height_outside_toa" vector="(0,0,-1)"/>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_KKyOcYupEeatA5xS-EKmzQ" name="Box_column_coupler" cursorsUsingMeForBgColor="_OQWVoIupEeatA5xS-EKmzQ" cursorsUsingMeForColor="_OQWVoIupEeatA5xS-EKmzQ" strokeWidth="25">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_471OSqKVEea3uKyX2lIh0A" heightDynamic="column_height_cursor_toa" widthDynamic="column_width_outside_toa"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_veKTQouGEea1H_HPwOxo9w" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

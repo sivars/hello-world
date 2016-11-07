@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_jWVDwJeEEeag-PSJU4jtOQ" name="kit_npeoffset" displayName="N/PE offset" toaPrefix="kit_n185" deleteMode="NEVER">
+  <variables xsi:type="comp:VariableGroup" uuid="_u4hJYJ8rEea5nZoP83oc6Q" name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_6APrwJ8rEea5nZoP83oc6Q" name="busbar_current" visibility="800" initValue="1000">
+      <domain uuid="_6APrwp8rEea5nZoP83oc6Q" name="local" visibility="300">
+        <typeSet uuid="_48CppaKVEea3uKyX2lIh0A" bitSet="393231"/>
+        <values uuid="_6APrw58rEea5nZoP83oc6Q" name="1000" editable="false" visibility="300"/>
+        <values uuid="_6APrxJ8rEea5nZoP83oc6Q" name="1250" editable="false" visibility="300"/>
+        <values uuid="_6APrxZ8rEea5nZoP83oc6Q" name="1600" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_6AQS1J8rEea5nZoP83oc6Q" name="copper_dimension_N" visibility="800">
+      <domain uuid="_6AQS1p8rEea5nZoP83oc6Q" name="local" visibility="300">
+        <typeSet uuid="_48DQt6KVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_6AQS258rEea5nZoP83oc6Q" name="copper_dimension_PE" visibility="800">
+      <domain uuid="_6AQS3Z8rEea5nZoP83oc6Q" name="local" visibility="300">
+        <typeSet uuid="_48DQvaKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_6AQ55J8rEea5nZoP83oc6Q" name="order_copper" visibility="800" initValue="No">
+      <domain uuid="_6AQ55p8rEea5nZoP83oc6Q" name="local" visibility="300">
+        <typeSet uuid="_48DQw6KVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_6BGncJ8rEea5nZoP83oc6Q" name="type" visibility="800">
+      <domain uuid="_6BHOcJ8rEea5nZoP83oc6Q" name="local" visibility="300">
+        <typeSet uuid="_48DQyaKVEea3uKyX2lIh0A" bitSet="393231"/>
+        <values uuid="_6BHOcZ8rEea5nZoP83oc6Q" name="N/PE offset" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_703rEJ8rEea5nZoP83oc6Q" name="N_PE_offset" visibility="800" initValue="No">
+      <domain uuid="_703rEZ8rEea5nZoP83oc6Q" name="local" visibility="300">
+        <typeSet uuid="_48DQ0KKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_FzKKQJ9aEea-Z_sxUtabgw" name="Svg" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_EGo-EJ9aEea-Z_sxUtabgw" name="height_offsetTop_N" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_48DQ1aKVEea3uKyX2lIh0A" declared="true" model="_QYDbQJ8sEea5nZoP83oc6Q" flow="OUT"/>
+      <domain uuid="_EGo-Ep9aEea-Z_sxUtabgw" name="local" visibility="300">
+        <typeSet uuid="_48D3wqKVEea3uKyX2lIh0A" bitSet="393230"/>
+        <values deletable="false" uuid="_EGo-E59aEea-Z_sxUtabgw" name="50" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_EGo-FJ9aEea-Z_sxUtabgw" name="60" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_EGo-FZ9aEea-Z_sxUtabgw" name="80" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_kubIkJ9aEea-Z_sxUtabgw" name="height_offsetTop_PE" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_48D3yaKVEea3uKyX2lIh0A" declared="true" model="_QYDbQJ8sEea5nZoP83oc6Q" flow="OUT"/>
+      <domain uuid="_kubIkZ9aEea-Z_sxUtabgw" name="local" visibility="300">
+        <typeSet uuid="_48D3zKKVEea3uKyX2lIh0A" bitSet="393230"/>
+        <values uuid="_nT9AYJ9aEea-Z_sxUtabgw" name="30" editable="false" visibility="300"/>
+        <values uuid="_nlzlYJ9aEea-Z_sxUtabgw" name="40" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_7TlRoKFJEeapELp_Qrxrlg" name="offset_position" visibility="800" initValue="right">
+      <domain uuid="_7TlRoaFJEeapELp_Qrxrlg" name="local" visibility="300">
+        <typeSet uuid="_48D31KKVEea3uKyX2lIh0A" bitSet="393231"/>
+        <values uuid="_8EhmYKFJEeapELp_Qrxrlg" name="left" editable="false" visibility="300"/>
+        <values uuid="_8eJnUKFJEeapELp_Qrxrlg" name="right" editable="false" visibility="300"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_NU-IkKFMEeapELp_Qrxrlg" name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_TS8GYKFNEeapELp_Qrxrlg" name="column_width_outside_toa" visibility="800">
+      <domain uuid="_TS8GYaFNEeapELp_Qrxrlg" name="local" visibility="300">
+        <typeSet uuid="_48D33aKVEea3uKyX2lIh0A" bitSet="393230"/>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_QYDbQJ8sEea5nZoP83oc6Q" name="Logic_Rules" visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_QugMYJ8sEea5nZoP83oc6Q" name="copper_dimension_N" visibility="800">
+      <columns uuid="_QugMYZ8sEea5nZoP83oc6Q" name="busbar_current" visibility="100">
+        <cells>1000</cells>
+        <cells>1250</cells>
+        <cells>1600</cells>
+      </columns>
+      <columns uuid="_QugMYp8sEea5nZoP83oc6Q" name="copper_dimension_N" visibility="100">
+        <cells>50 x 10</cells>
+        <cells>60 x 10</cells>
+        <cells>80 x 10</cells>
+      </columns>
+      <columns uuid="_QugMY58sEea5nZoP83oc6Q" name="copper_dimension_PE" visibility="100">
+        <cells>30 x 10</cells>
+        <cells>30 x 10</cells>
+        <cells>40 x 10</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_Av2ocJ9aEea-Z_sxUtabgw" name="height_offsetTop_svg" visibility="800">
+      <columns uuid="_DiOCYJ9aEea-Z_sxUtabgw" name="busbar_current" visibility="100">
+        <cells>1000</cells>
+        <cells>1250</cells>
+        <cells>1600</cells>
+      </columns>
+      <columns uuid="_DiOCYZ9aEea-Z_sxUtabgw" name="height_offsetTop_N" visibility="100">
+        <cells>50</cells>
+        <cells>60</cells>
+        <cells>80</cells>
+      </columns>
+      <columns uuid="_qnJ2gJ9aEea-Z_sxUtabgw" name="height_offsetTop_PE" visibility="100">
+        <cells>30</cells>
+        <cells>30</cells>
+        <cells>40</cells>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_AouWYKACEeawHspTqGhvnw" name="Calculation_Rules" visibility="800" text="//***************************product rules here*******************************************&#xD;&#xA;&#xD;&#xA;//***************************svg area - Start*******************************************&#xD;&#xA;height_offsetVertical_N=column_height_toa-425+height_offsetTop_N;&#xD;&#xA;move_y_offsetBottom_N=height_offsetVertical_N-1755+80-height_offsetTop_N;&#xD;&#xA;&#xD;&#xA;height_offsetVertical_PE=column_height_toa-225+height_offsetTop_PE;&#xD;&#xA;move_y_offsetBottom_PE=height_offsetVertical_PE-1915+40-height_offsetTop_PE;&#xD;&#xA;&#xD;&#xA;if (offset_position==&quot;left&quot;) {&#xD;&#xA;&#x9;move_x_offsetCross=10-59;&#xD;&#xA;&#x9;move_x_offsetVertical=-10-59;&#xD;&#xA;&#x9;move_x_N=10+62;&#xD;&#xA;&#x9;move_x_PE=10+36;&#xD;&#xA;&#x9;} &#xD;&#xA;&#x9;else{&#xD;&#xA;&#x9;move_x_offsetCross=0;&#xD;&#xA;&#x9;move_x_offsetVertical=0;&#xD;&#xA;&#x9;move_x_N=column_width_toa-69-62;&#xD;&#xA;&#x9;move_x_PE=column_width_toa-69-36;&#xD;&#xA;&#x9;}&#xD;&#xA;move_y_N=column_height_toa/2-height_offsetVertical_N/2;&#xD;&#xA;move_y_PE=column_height_toa/2-height_offsetVertical_PE/2;&#xD;&#xA;//***************************svg area - End*******************************************&#xD;&#xA;//Export&#xD;&#xA;current_height_deliveryform = &quot;&quot;+busbar_current+column_height_toa+kit_deliveryform;"/>
+  <template href="_3i110JeDEeag-PSJU4jtOQ.xml#_3i110JeDEeag-PSJU4jtOQ"/>
+  <geometry deletable="false" uuid="_jWVDwZeEEeag-PSJU4jtOQ" name="root">
+    <units uuid="_Xl1FAJ82Eea5nZoP83oc6Q" name="Geo" position="(50,0,57)">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_48Ee3KKVEea3uKyX2lIh0A" variable="column_height_outside_toa" vector="(0,0,-1)"/>
+      <children uuid="_naF40KADEeawHspTqGhvnw" name="Geo_Unit_N">
+        <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_YevqAJ82Eea5nZoP83oc6Q" name="CN_NBusbarOffset_svg" checksum="a569a006f523eafa877fda87aa6e107711ea7774">
+          <file href="../../build_model.studio#_WLWEAJ82Eea5nZoP83oc6Q"/>
+          <handles uuid="_OmHKMJ_1EeawHspTqGhvnw" name="rectTop" visualId="rectTop">
+            <fields xsi:type="comp:Field" uuid="_OmHKMZ_1EeawHspTqGhvnw" name="heightManipulation" fieldId="height" variableReference="height_offsetTop_N" target="xml"/>
+          </handles>
+          <handles uuid="_OmHKMp_1EeawHspTqGhvnw" name="rectTopCross" visualId="rectTopCross">
+            <fields xsi:type="comp:Field" uuid="_OmHKM5_1EeawHspTqGhvnw" name="heightManipulation" fieldId="height" variableReference="height_offsetTop_N" target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_9J3PEKFPEeapELp_Qrxrlg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_offsetCross" target="transform"/>
+          </handles>
+          <handles uuid="_Px5n4J_1EeawHspTqGhvnw" name="rectBottom" visualId="rectBottom">
+            <fields xsi:type="comp:Field" uuid="_Px5n4Z_1EeawHspTqGhvnw" name="heightManipulation" fieldId="height" variableReference="height_offsetTop_N" target="xml"/>
+          </handles>
+          <handles uuid="_Px5n4p_1EeawHspTqGhvnw" name="rectBottomCross" visualId="rectBottomCross">
+            <fields xsi:type="comp:Field" uuid="_Px5n45_1EeawHspTqGhvnw" name="heightManipulation" fieldId="height" variableReference="height_offsetTop_N" target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_9J3PEaFPEeapELp_Qrxrlg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_offsetCross" target="transform"/>
+          </handles>
+          <handles uuid="_C31SQKACEeawHspTqGhvnw" name="offsetVertical" visualId="offsetVertical">
+            <fields xsi:type="comp:Field" uuid="_C31SQaACEeawHspTqGhvnw" name="heightManipulation" fieldId="height" variableReference="height_offsetVertical_N" target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_bTTu4KFQEeapELp_Qrxrlg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_offsetVertical" target="transform"/>
+          </handles>
+          <handles uuid="_fHx50KACEeawHspTqGhvnw" name="offsetBottom" visualId="offsetBottom">
+            <fields xsi:type="comp:Field" uuid="_fHx50aACEeawHspTqGhvnw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_offsetBottom_N" target="transform"/>
+          </handles>
+          <handles uuid="_o4a5sKFQEeapELp_Qrxrlg" name="layer1" visualId="layer1">
+            <fields xsi:type="comp:Field" uuid="_o4a5saFQEeapELp_Qrxrlg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_N" target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_F7gFMKGPEeaemPIZjmIBXw" name="move_yManipulation" fieldId="move_y" variableReference="move_y_N" target="transform"/>
+          </handles>
+          <handles uuid="_S_fYwKG3EeakYckfWfj99g" name="svg2" visualId="svg2">
+            <fields xsi:type="comp:Field" uuid="_S_fYwaG3EeakYckfWfj99g" name="displayManipulation" fieldId="display" variableReference="display_busbars" target="xml"/>
+          </handles>
+        </twoDElement>
+      </children>
+      <children uuid="_ovHyEKADEeawHspTqGhvnw" name="Geo_Unit_PE">
+        <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_Mf69MJ9aEea-Z_sxUtabgw" name="CN_PEBusbarOffset_svg" checksum="5f6f0ad6ea952ff69a22f1c5c12d1916583b2fcb">
+          <file href="../../build_model.studio#_WPT-AJ82Eea5nZoP83oc6Q"/>
+          <handles uuid="_Vd3sMp_1EeawHspTqGhvnw" name="rectTopCross" visualId="rectTopCross">
+            <fields xsi:type="comp:Field" uuid="_lwE90KFSEeapELp_Qrxrlg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_offsetCross" target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_CH1dkqFTEeapELp_Qrxrlg" name="heightManipulation" fieldId="height" variableReference="height_offsetTop_PE" target="xml"/>
+          </handles>
+          <handles uuid="_Vd6Icp_1EeawHspTqGhvnw" name="rectBottomCross" visualId="rectBottomCross">
+            <fields xsi:type="comp:Field" uuid="_lwE90aFSEeapELp_Qrxrlg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_offsetCross" target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_CH1dlaFTEeapELp_Qrxrlg" name="heightManipulation" fieldId="height" variableReference="height_offsetTop_PE" target="xml"/>
+          </handles>
+          <handles uuid="_y8OUsKACEeawHspTqGhvnw" name="offsetVertical" visualId="offsetVertical">
+            <fields xsi:type="comp:Field" uuid="_nAljcKFSEeapELp_Qrxrlg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_offsetVertical" target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_HexQkKFUEeapELp_Qrxrlg" name="heightManipulation" fieldId="height" variableReference="height_offsetVertical_PE" target="xml"/>
+          </handles>
+          <handles uuid="_25adUKFSEeapELp_Qrxrlg" name="layer1" visualId="layer1">
+            <fields xsi:type="comp:Field" uuid="_25adUaFSEeapELp_Qrxrlg" name="move_xManipulation" fieldId="move_x" variableReference="move_x_PE" target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_asJg4KFTEeapELp_Qrxrlg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_PE" target="transform"/>
+          </handles>
+          <handles uuid="_CH1dkKFTEeapELp_Qrxrlg" name="rectTop" visualId="rectTop">
+            <fields xsi:type="comp:Field" uuid="_CH1dkaFTEeapELp_Qrxrlg" name="heightManipulation" fieldId="height" variableReference="height_offsetTop_PE" target="xml"/>
+          </handles>
+          <handles uuid="_CH1dk6FTEeapELp_Qrxrlg" name="rectBottom" visualId="rectBottom">
+            <fields xsi:type="comp:Field" uuid="_CH1dlKFTEeapELp_Qrxrlg" name="heightManipulation" fieldId="height" variableReference="height_offsetTop_PE" target="xml"/>
+          </handles>
+          <handles uuid="_KfGDcKFTEeapELp_Qrxrlg" name="offsetBottom" visualId="offsetBottom">
+            <fields xsi:type="comp:Field" uuid="_KfPNYKFTEeapELp_Qrxrlg" name="move_yManipulation" fieldId="move_y" variableReference="move_y_offsetBottom_PE" target="transform"/>
+          </handles>
+          <handles uuid="_VeWn4KG3EeakYckfWfj99g" name="svg2" visualId="svg2">
+            <fields xsi:type="comp:Field" uuid="_VeWn4aG3EeakYckfWfj99g" name="displayManipulation" fieldId="display" variableReference="display_busbars" target="xml"/>
+          </handles>
+        </twoDElement>
+      </children>
+    </units>
+    <parentPlugs uuid="_jWVDwpeEEeag-PSJU4jtOQ" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

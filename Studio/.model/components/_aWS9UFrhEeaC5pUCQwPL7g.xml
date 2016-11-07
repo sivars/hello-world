@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_aWS9UFrhEeaC5pUCQwPL7g" name="column_xline_hor_insert" componentClass="LINK" displayName="X Line Horizontal Column" toaPrefix="column_main">
+  <variables xsi:type="comp:VariableGroup" uuid="_lfz5gFsPEeapqoedSR3vzQ" name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_deHT8FsPEeapqoedSR3vzQ" name="column_type" visibility="800" initValue="xline_hor">
+      <domain uuid="_deHT8lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47P_f6KVEea3uKyX2lIh0A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_deH7BFsPEeapqoedSR3vzQ" name="InserterBarMenu" visibility="800">
+      <domain uuid="_deH7BlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47P_haKVEea3uKyX2lIh0A" bitSet="393231"/>
+        <values uuid="_deH7B1sPEeapqoedSR3vzQ" name="column_incoming_insert" editable="false" visibility="300"/>
+        <values uuid="_deH7CFsPEeapqoedSR3vzQ" name="column_outgoing_insert" editable="false" visibility="300"/>
+        <values uuid="_deH7CVsPEeapqoedSR3vzQ" name="column_combiline_insert" editable="false" visibility="300"/>
+        <values uuid="_deH7ClsPEeapqoedSR3vzQ" name="column_xline_hor_insert" editable="false" visibility="300"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_oBUM8FsPEeapqoedSR3vzQ" name="Rackcontroller offset" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_zkmC4FsPEeapqoedSR3vzQ" name="offset1" visibility="800">
+      <domain uuid="_zkmC4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47QmgKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_zthVYFsPEeapqoedSR3vzQ" name="offset2" visibility="800">
+      <domain uuid="_zthVYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47QmhqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_z1TYYFsPEeapqoedSR3vzQ" name="offset3" visibility="800">
+      <domain uuid="_z1TYYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47QmjKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_z6ah4FsPEeapqoedSR3vzQ" name="offset4" visibility="800">
+      <domain uuid="_z6ah4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47QmkqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_z_ICwFsPEeapqoedSR3vzQ" name="offset5" visibility="800">
+      <domain uuid="_z_Ip0VsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47QmmKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0BcW8FsPEeapqoedSR3vzQ" name="offset6" visibility="800">
+      <domain uuid="_0BcW8lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47QmnqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_1AIMwFsPEeapqoedSR3vzQ" name="offset7" visibility="800">
+      <domain uuid="_1AIz0VsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47QmpKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_1JrxYFsPEeapqoedSR3vzQ" name="offset8" visibility="800">
+      <domain uuid="_1JrxYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47RNlaKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_1QoG4FsPEeapqoedSR3vzQ" name="offset9" visibility="800">
+      <domain uuid="_1QoG4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47RNm6KVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_1Wuu4FsPEeapqoedSR3vzQ" name="offset10" visibility="800">
+      <domain uuid="_1Wuu4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47RNoaKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_1dEAYFsPEeapqoedSR3vzQ" name="offset11" visibility="800">
+      <domain uuid="_1dEAYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47RNp6KVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_1jjC4FsPEeapqoedSR3vzQ" name="offset12" visibility="800">
+      <domain uuid="_1jjC4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47RNraKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_10j6YFsPEeapqoedSR3vzQ" name="offset13" visibility="800">
+      <domain uuid="_10j6YlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47RNs6KVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_18uX4FsPEeapqoedSR3vzQ" name="offset14" visibility="800">
+      <domain uuid="_18uX4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47R0pKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_2C7GgFsPEeapqoedSR3vzQ" name="offset15" visibility="800">
+      <domain uuid="_2C7GglsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47R0qqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_2JKRYFsPEeapqoedSR3vzQ" name="offset16" visibility="800">
+      <domain uuid="_2JKRYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47R0sKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_2PMA4FsPEeapqoedSR3vzQ" name="offset17" visibility="800">
+      <domain uuid="_2PMA4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47R0tqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_2VcZ4FsPEeapqoedSR3vzQ" name="offset18" visibility="800">
+      <domain uuid="_2VdA8FsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47R0vKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_2bsy4FsPEeapqoedSR3vzQ" name="offset19" visibility="800">
+      <domain uuid="_2bsy4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47R0wqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_2iG84FsPEeapqoedSR3vzQ" name="offset20" visibility="800">
+      <domain uuid="_2iG84lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47SbsqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_2oSdYFsPEeapqoedSR3vzQ" name="offset21" visibility="800">
+      <domain uuid="_2oSdYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47SbuKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_2uFjYFsPEeapqoedSR3vzQ" name="offset22" visibility="800">
+      <domain uuid="_2uFjYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47SbvqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_20RD4FsPEeapqoedSR3vzQ" name="offset23" visibility="800">
+      <domain uuid="_20RD4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47SbxKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_26JCYFsPEeapqoedSR3vzQ" name="offset24" visibility="800">
+      <domain uuid="_26JpcFsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47SbyqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_2_yXYFsPEeapqoedSR3vzQ" name="offset25" visibility="800">
+      <domain uuid="_2_yXYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47Sb0KKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3FWz4FsPEeapqoedSR3vzQ" name="offset26" visibility="800">
+      <domain uuid="_3FXa8VsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47TCwKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3K7QYFsPEeapqoedSR3vzQ" name="offset27" visibility="800">
+      <domain uuid="_3K7QYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47TCxqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3QklYFsPEeapqoedSR3vzQ" name="offset28" visibility="800">
+      <domain uuid="_3QklYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47TCzKKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3WmU4FsPEeapqoedSR3vzQ" name="offset29" visibility="800">
+      <domain uuid="_3Wm78VsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47TC0qKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3ce6cFsPEeapqoedSR3vzQ" name="offset30" visibility="800">
+      <domain uuid="_3ce6clsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47TC2KKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3ipz4FsPEeapqoedSR3vzQ" name="offset31" visibility="800">
+      <domain uuid="_3ipz4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47TC3qKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3oTI4FsPEeapqoedSR3vzQ" name="offset32" visibility="800">
+      <domain uuid="_3oTI4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47TC5KKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3t8d4FsPEeapqoedSR3vzQ" name="offset33" visibility="800">
+      <domain uuid="_3t9E8VsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47Tp0qKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_30M24FsPEeapqoedSR3vzQ" name="offset34" visibility="800">
+      <domain uuid="_30M24lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47Tp2KKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_36E1YFsPEeapqoedSR3vzQ" name="offset35" visibility="800">
+      <domain uuid="_36E1YlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47Tp3qKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3_uxcFsPEeapqoedSR3vzQ" name="offset36" visibility="800">
+      <domain uuid="_3_uxclsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47Tp5KKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_4F_KcFsPEeapqoedSR3vzQ" name="offset37" visibility="800">
+      <domain uuid="_4F_KclsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47Tp6qKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_4MieYFsPEeapqoedSR3vzQ" name="offset38" visibility="800">
+      <domain uuid="_4MieYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47Tp8KKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_4Tok4FsPEeapqoedSR3vzQ" name="offset39" visibility="800">
+      <domain uuid="_4Tok4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47Tp9qKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_4a9U4FsPEeapqoedSR3vzQ" name="offset40" visibility="800">
+      <domain uuid="_4a9U4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47Tp_KKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_6T0T8FsPEeapqoedSR3vzQ" name="Rackcontroller pos" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="__wZRYFsPEeapqoedSR3vzQ" name="pos1" visibility="800">
+      <domain uuid="__wZRYlsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47TqA6KVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="__5Uj4FsPEeapqoedSR3vzQ" name="pos2" visibility="800">
+      <domain uuid="__5Uj4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47UQ4KKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="___Ra4FsPEeapqoedSR3vzQ" name="pos3" visibility="800">
+      <domain uuid="___Ra4lsPEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47UQ5qKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_AEsGYFsQEeapqoedSR3vzQ" name="pos4" visibility="800">
+      <domain uuid="_AEsGYlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47UQ7KKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_AIuR0FsQEeapqoedSR3vzQ" name="pos5" visibility="800">
+      <domain uuid="_AIuR0lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47UQ8qKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ANdA0FsQEeapqoedSR3vzQ" name="pos6" visibility="800">
+      <domain uuid="_ANdA0lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47U38KKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_BKepwFsQEeapqoedSR3vzQ" name="pos7" visibility="800">
+      <domain uuid="_BKepwlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47U39qKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_BPhh0FsQEeapqoedSR3vzQ" name="pos8" visibility="800">
+      <domain uuid="_BPhh0lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47U3_KKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_BVpX8FsQEeapqoedSR3vzQ" name="pos9" visibility="800">
+      <domain uuid="_BVpX8lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47U4AqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Bdba8FsQEeapqoedSR3vzQ" name="pos10" visibility="800">
+      <domain uuid="_Bdba8lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47U4CKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_BpPpYFsQEeapqoedSR3vzQ" name="pos11" visibility="800">
+      <domain uuid="_BpPpYlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47U4DqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_BuIwcFsQEeapqoedSR3vzQ" name="pos12" visibility="800">
+      <domain uuid="_BuIwclsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47VfAKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ByLi8FsQEeapqoedSR3vzQ" name="pos13" visibility="800">
+      <domain uuid="_ByLi8lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47VfBqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_CZWQoFsQEeapqoedSR3vzQ" name="pos14" visibility="800">
+      <domain uuid="_CZW3sFsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47VfDKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_CcuUwFsQEeapqoedSR3vzQ" name="pos15" visibility="800">
+      <domain uuid="_CcuUwlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47VfEqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ChijUFsQEeapqoedSR3vzQ" name="pos16" visibility="800">
+      <domain uuid="_ChijUlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47VfGKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ClM7UFsQEeapqoedSR3vzQ" name="pos17" visibility="800">
+      <domain uuid="_ClM7UlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47VfHqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Cp84cFsQEeapqoedSR3vzQ" name="pos18" visibility="800">
+      <domain uuid="_Cp84clsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WGEKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_CtPdAFsQEeapqoedSR3vzQ" name="pos19" visibility="800">
+      <domain uuid="_CtQEEFsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WGFqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Cw3YwFsQEeapqoedSR3vzQ" name="pos20" visibility="800">
+      <domain uuid="_Cw3YwlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WGHKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_C11_YFsQEeapqoedSR3vzQ" name="pos21" visibility="800">
+      <domain uuid="_C11_YlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WGIqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_C5H84FsQEeapqoedSR3vzQ" name="pos22" visibility="800">
+      <domain uuid="_C5H84lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WGKKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_C8Kp0FsQEeapqoedSR3vzQ" name="pos23" visibility="800">
+      <domain uuid="_C8Kp0lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WGLqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_C_jVAFsQEeapqoedSR3vzQ" name="pos24" visibility="800">
+      <domain uuid="_C_jVAlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WGNKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_DCvy8FsQEeapqoedSR3vzQ" name="pos25" visibility="800">
+      <domain uuid="_DCvy8lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WtJaKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_DGJsQFsQEeapqoedSR3vzQ" name="pos26" visibility="800">
+      <domain uuid="_DGJsQlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WtK6KVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_DJf7MFsQEeapqoedSR3vzQ" name="pos27" visibility="800">
+      <domain uuid="_DJf7MlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WtMaKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_DM-tAFsQEeapqoedSR3vzQ" name="pos28" visibility="800">
+      <domain uuid="_DM-tAlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WtN6KVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_DN8WUFsQEeapqoedSR3vzQ" name="pos29" visibility="800">
+      <domain uuid="_DN8WUlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WtPaKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_EigVgFsQEeapqoedSR3vzQ" name="pos30" visibility="800">
+      <domain uuid="_EigVglsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47WtQ6KVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_EoEK8FsQEeapqoedSR3vzQ" name="pos31" visibility="800">
+      <domain uuid="_EoEK8lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47XUMqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Et3Q8FsQEeapqoedSR3vzQ" name="pos32" visibility="800">
+      <domain uuid="_Et3Q8lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47XUOKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_EzDS8FsQEeapqoedSR3vzQ" name="pos33" visibility="800">
+      <domain uuid="_EzDS8lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47XUPqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_FPmFAFsQEeapqoedSR3vzQ" name="pos34" visibility="800">
+      <domain uuid="_FPmFAlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47XURKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_FUDuQFsQEeapqoedSR3vzQ" name="pos35" visibility="800">
+      <domain uuid="_FUDuQlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47XUSqKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_GvPS0FsQEeapqoedSR3vzQ" name="pos36" visibility="800">
+      <domain uuid="_GvPS0lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47XUUKKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_GzoDkFsQEeapqoedSR3vzQ" name="pos37" visibility="800">
+      <domain uuid="_GzoDklsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47X7RaKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_G4nRQFsQEeapqoedSR3vzQ" name="pos38" visibility="800">
+      <domain uuid="_G4nRQlsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47X7S6KVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_HpsI4FsQEeapqoedSR3vzQ" name="pos39" visibility="800">
+      <domain uuid="_HpsI4lsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47X7UaKVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_HzZegFsQEeapqoedSR3vzQ" name="pos40" visibility="800">
+      <domain uuid="_HzZeglsQEeapqoedSR3vzQ" name="local" visibility="300">
+        <typeSet uuid="_47X7V6KVEea3uKyX2lIh0A" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_t98jcFsPEeapqoedSR3vzQ"/>
+    </children>
+  </variables>
+  <geometry deletable="false" uuid="_aWS9UVrhEeaC5pUCQwPL7g" name="root">
+    <units uuid="_dXwX0FsQEeapqoedSR3vzQ" name="geo_kit1">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47X7WqKVEea3uKyX2lIh0A" variable="offset1" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_d_4HwFsQEeapqoedSR3vzQ" name="geo_kit2">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47X7XKKVEea3uKyX2lIh0A" variable="offset2" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_eILvMFsQEeapqoedSR3vzQ" name="geo_kit3">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47X7XqKVEea3uKyX2lIh0A" variable="offset3" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_eOwRQFsQEeapqoedSR3vzQ" name="geo_kit4">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiUaKVEea3uKyX2lIh0A" variable="offset4" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_edaYUFsQEeapqoedSR3vzQ" name="geo_kit5">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiU6KVEea3uKyX2lIh0A" variable="offset5" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_ek9KwFsQEeapqoedSR3vzQ" name="geo_kit6">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiVaKVEea3uKyX2lIh0A" variable="offset6" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_esumsFsQEeapqoedSR3vzQ" name="geo_kit7">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiV6KVEea3uKyX2lIh0A" variable="offset7" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_ezTv0FsQEeapqoedSR3vzQ" name="geo_kit8">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiWaKVEea3uKyX2lIh0A" variable="offset8" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_e7O8wFsQEeapqoedSR3vzQ" name="geo_kit9">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiW6KVEea3uKyX2lIh0A" variable="offset9" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_fCQx0FsQEeapqoedSR3vzQ" name="geo_kit10">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiXaKVEea3uKyX2lIh0A" variable="offset10" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_fKgH0FsQEeapqoedSR3vzQ" name="geo_kit11">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiX6KVEea3uKyX2lIh0A" variable="offset11" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_fR030FsQEeapqoedSR3vzQ" name="geo_kit12">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiYaKVEea3uKyX2lIh0A" variable="offset12" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_fZiCUFsQEeapqoedSR3vzQ" name="geo_kit13">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiY6KVEea3uKyX2lIh0A" variable="offset13" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_fgUm0FsQEeapqoedSR3vzQ" name="geo_kit14">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiZaKVEea3uKyX2lIh0A" variable="offset14" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_foaL0FsQEeapqoedSR3vzQ" name="geo_kit15">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiZ6KVEea3uKyX2lIh0A" variable="offset15" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_fuuPMFsQEeapqoedSR3vzQ" name="geo_kit16">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YiaaKVEea3uKyX2lIh0A" variable="offset16" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_f2rRUFsQEeapqoedSR3vzQ" name="geo_kit17">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47Yia6KVEea3uKyX2lIh0A" variable="offset17" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_f9YWQFsQEeapqoedSR3vzQ" name="geo_kit18">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YibaKVEea3uKyX2lIh0A" variable="offset18" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_gEfD0FsQEeapqoedSR3vzQ" name="geo_kit19">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47Yib6KVEea3uKyX2lIh0A" variable="offset19" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_gLMIwFsQEeapqoedSR3vzQ" name="geo_kit20">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YicaKVEea3uKyX2lIh0A" variable="offset20" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_gSSPQFsQEeapqoedSR3vzQ" name="geo_kit21">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47Yic6KVEea3uKyX2lIh0A" variable="offset21" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_gZit0FsQEeapqoedSR3vzQ" name="geo_kit22">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YidaKVEea3uKyX2lIh0A" variable="offset22" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_ggylUFsQEeapqoedSR3vzQ" name="geo_kit23">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47Yid6KVEea3uKyX2lIh0A" variable="offset23" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_gnbY0FsQEeapqoedSR3vzQ" name="geo_kit24">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YieaKVEea3uKyX2lIh0A" variable="offset24" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_gt07wFsQEeapqoedSR3vzQ" name="geo_kit25">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47Yie6KVEea3uKyX2lIh0A" variable="offset25" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_g0inwFsQEeapqoedSR3vzQ" name="geo_kit26">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47YifaKVEea3uKyX2lIh0A" variable="offset26" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_g68xwFsQEeapqoedSR3vzQ" name="geo_kit27">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJYKKVEea3uKyX2lIh0A" variable="offset27" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_hClDwFsQEeapqoedSR3vzQ" name="geo_kit28">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJYqKVEea3uKyX2lIh0A" variable="offset28" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_hIsS0FsQEeapqoedSR3vzQ" name="geo_kit29">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJZKKVEea3uKyX2lIh0A" variable="offset29" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_hPjIwFsQEeapqoedSR3vzQ" name="geo_kit30">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJZqKVEea3uKyX2lIh0A" variable="offset30" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_hWe3MFsQEeapqoedSR3vzQ" name="geo_kit31">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJaKKVEea3uKyX2lIh0A" variable="offset31" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_hc_H0FsQEeapqoedSR3vzQ" name="geo_kit32">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJaqKVEea3uKyX2lIh0A" variable="offset32" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_hjrlsFsQEeapqoedSR3vzQ" name="geo_kit33">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJbKKVEea3uKyX2lIh0A" variable="offset33" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_hq3y0FsQEeapqoedSR3vzQ" name="geo_kit34">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJbqKVEea3uKyX2lIh0A" variable="offset34" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_hxvP0FsQEeapqoedSR3vzQ" name="geo_kit35">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJcKKVEea3uKyX2lIh0A" variable="offset35" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_h5Xh0FsQEeapqoedSR3vzQ" name="geo_kit36">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJcqKVEea3uKyX2lIh0A" variable="offset36" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_iA_MwFsQEeapqoedSR3vzQ" name="geo_kit37">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJdKKVEea3uKyX2lIh0A" variable="offset37" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_iJEKsFsQEeapqoedSR3vzQ" name="geo_kit38">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJdqKVEea3uKyX2lIh0A" variable="offset38" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_iRE3MFsQEeapqoedSR3vzQ" name="geo_kit39">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJeKKVEea3uKyX2lIh0A" variable="offset39" vector="(0,1,0)"/>
+    </units>
+    <units uuid="_iZo9UFsQEeapqoedSR3vzQ" name="geo_kit40">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47ZJeqKVEea3uKyX2lIh0A" variable="offset40" vector="(0,1,0)"/>
+    </units>
+    <parentPlugs uuid="_aWS9UlrhEeaC5pUCQwPL7g" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_BgcIIFsPEeapqoedSR3vzQ" name="column_types" initValue="column_xline_hor" toas="column, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47ZJgKKVEea3uKyX2lIh0A"/>
+    <domain uuid="_BgcIIVsPEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47ZJg6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_JiUT4FsPEeapqoedSR3vzQ" name="column_outgoing" editable="false" visibility="300"/>
+      <values uuid="_JiUT4VsPEeapqoedSR3vzQ" name="column_corner" editable="false" visibility="300"/>
+      <values uuid="_JiUT4lsPEeapqoedSR3vzQ" name="column_xline_hor" editable="false" visibility="300"/>
+      <values uuid="_JiUT41sPEeapqoedSR3vzQ" name="column_combiline" editable="false" visibility="300"/>
+      <values uuid="_JiUT5FsPEeapqoedSR3vzQ" name="column_empty" editable="false" visibility="300"/>
+      <values uuid="_JiUT5VsPEeapqoedSR3vzQ" name="column_incoming" editable="false" visibility="300"/>
+      <values uuid="_JiUT5lsPEeapqoedSR3vzQ" name="column_cable_compartment" editable="false" visibility="300"/>
+      <values uuid="_JbuogIuHEea1H_HPwOxo9w" name="column_coupler" editable="false" visibility="300"/>
+      <values uuid="_LEiZYIuHEea1H_HPwOxo9w" name="column_breaker" editable="false" visibility="300"/>
+      <values uuid="_RuoS0IuHEea1H_HPwOxo9w" name="column_fuse_switch_disconnector" editable="false" visibility="300"/>
+      <values uuid="_TVdGsIuHEea1H_HPwOxo9w" name="switch_disconnector_fuse_column" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_RS43wFsQEeapqoedSR3vzQ" name="kit1" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47ZwdaKVEea3uKyX2lIh0A" geoUnit="_dXwX0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_RS43w1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47ZweKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_RS43xFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_RS43xVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_RS43xlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwMJXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_RYdUQFsQEeapqoedSR3vzQ" name="kit2" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47ZwgaKVEea3uKyX2lIh0A" geoUnit="_d_4HwFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_RYdUQ1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47ZwhKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_RYdURFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_RYdURVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_RYdURlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwMZXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_RdJnAFsQEeapqoedSR3vzQ" name="kit3" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47ZwjaKVEea3uKyX2lIh0A" geoUnit="_eILvMFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_RdKOElsQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47ZwkKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_RdKOE1sQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_RdKOFFsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_RdKOFVsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwMpXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Rhy2cFsQEeapqoedSR3vzQ" name="kit4" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47ZwmaKVEea3uKyX2lIh0A" geoUnit="_eOwRQFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_Rhy2c1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47ZwnKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_RhzdgFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_RhzdgVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_RhzdglsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwM5XREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_RmfwQFsQEeapqoedSR3vzQ" name="kit5" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47aXgKKVEea3uKyX2lIh0A" geoUnit="_edaYUFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_RmfwQ1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47aXg6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_RmfwRFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_RmfwRVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_RmfwRlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwNJXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Rs6hUFsQEeapqoedSR3vzQ" name="kit6" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47aXjKKVEea3uKyX2lIh0A" geoUnit="_ek9KwFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_Rs6hU1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47aXj6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Rs6hVFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_Rs6hVVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_Rs6hVlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwNZXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Rxk-4FsQEeapqoedSR3vzQ" name="kit7" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47aXmKKVEea3uKyX2lIh0A" geoUnit="_esumsFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_Rxll8FsQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47aXm6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Rxll8VsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_Rxll8lsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_Rxll81sQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwNpXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_R2TG0FsQEeapqoedSR3vzQ" name="kit8" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47aXpKKVEea3uKyX2lIh0A" geoUnit="_ezTv0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_R2Tt4VsQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47aXp6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_R2Tt4lsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_R2Tt41sQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_R2Tt5FsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwN5XREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_R6_ZkFsQEeapqoedSR3vzQ" name="kit9" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47aXsKKVEea3uKyX2lIh0A" geoUnit="_e7O8wFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_R6_Zk1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47a-kqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_R6_ZlFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_R6_ZlVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_R6_ZllsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwOJXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_R_rsUFsQEeapqoedSR3vzQ" name="kit10" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47a-m6KVEea3uKyX2lIh0A" geoUnit="_fCQx0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_R_rsU1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47a-nqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_R_rsVFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_R_rsVVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_R_rsVlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwOZXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_SEi-MFsQEeapqoedSR3vzQ" name="kit11" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47a-p6KVEea3uKyX2lIh0A" geoUnit="_fKgH0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_SEi-M1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47a-qqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_SEi-NFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_SEi-NVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_SEi-NlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwOpXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_SJfIkFsQEeapqoedSR3vzQ" name="kit12" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47a-s6KVEea3uKyX2lIh0A" geoUnit="_fR030FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_SJfIk1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47a-tqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_SJfIlFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_SJfIlVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_SJfIllsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwO5XREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_SOpVYFsQEeapqoedSR3vzQ" name="kit13" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47blpaKVEea3uKyX2lIh0A" geoUnit="_fZiCUFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_SOp8cVsQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47blqKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_SOp8clsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_SOp8c1sQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_SOp8dFsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwPJXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_STcV0FsQEeapqoedSR3vzQ" name="kit14" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47blsaKVEea3uKyX2lIh0A" geoUnit="_fgUm0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_STcV01sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47bltKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_STcV1FsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_STcV1VsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_STcV1lsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwPZXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_SZO0wFsQEeapqoedSR3vzQ" name="kit15" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47blvaKVEea3uKyX2lIh0A" geoUnit="_foaL0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_SZO0w1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47blwKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_SZO0xFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_SZO0xVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_SZO0xlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwPpXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_SeE4gFsQEeapqoedSR3vzQ" name="kit16" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47cMsKKVEea3uKyX2lIh0A" geoUnit="_fuuPMFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_SeE4g1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47cMs6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_SeE4hFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_SeE4hVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_SeE4hlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwP5XREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Si9YgFsQEeapqoedSR3vzQ" name="kit17" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47cMvKKVEea3uKyX2lIh0A" geoUnit="_f2rRUFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_Si9Yg1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47cMv6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Si9YhFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_Si9YhVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_Si9YhlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwQJXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Sn14gFsQEeapqoedSR3vzQ" name="kit18" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47cMyKKVEea3uKyX2lIh0A" geoUnit="_f9YWQFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_Sn14g1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47cMy6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Sn14hFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_Sn14hVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_Sn14hlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwQZXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Ssw0wFsQEeapqoedSR3vzQ" name="kit19" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47cM1KKVEea3uKyX2lIh0A" geoUnit="_gEfD0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_Ssxb0FsQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47cM16KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Ssxb0VsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_Ssxb0lsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_Ssxb01sQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwQpXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Sx5zcFsQEeapqoedSR3vzQ" name="kit20" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47cM4KKVEea3uKyX2lIh0A" geoUnit="_gLMIwFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_Sx5zc1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47czwqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Sx5zdFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_Sx5zdVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_Sx5zdlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwQ5XREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_S3CLEFsQEeapqoedSR3vzQ" name="kit21" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47czy6KVEea3uKyX2lIh0A" geoUnit="_gSSPQFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_S3CLE1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47czzqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_S3CLFFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_S3CLFVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_S3CLFlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwRJXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_S8XXAFsQEeapqoedSR3vzQ" name="kit22" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47cz16KVEea3uKyX2lIh0A" geoUnit="_gZit0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_S8XXA1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47cz2qKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_S8XXBFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_S8XXBVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_S8XXBlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwRZXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_TD7XkFsQEeapqoedSR3vzQ" name="kit23" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47da16KVEea3uKyX2lIh0A" geoUnit="_ggylUFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_TD7Xk1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47da2qKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_TD7XlFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_TD7XlVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_TD7XllsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwRpXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_TJChEFsQEeapqoedSR3vzQ" name="kit24" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47da46KVEea3uKyX2lIh0A" geoUnit="_gnbY0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_TJChE1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47da5qKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_TJDIIFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_TJDIIVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_TJDIIlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwR5XREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_TOIccFsQEeapqoedSR3vzQ" name="kit25" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47da76KVEea3uKyX2lIh0A" geoUnit="_gt07wFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_TOIcc1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47da8qKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_TOIcdFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_TOIcdVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_TOIcdlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwSJXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_TTMioFsQEeapqoedSR3vzQ" name="kit26" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47da-6KVEea3uKyX2lIh0A" geoUnit="_g0inwFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_TTMio1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47da_qKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_TTMipFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_TTMipVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_TTMiplsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwSZXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_TYUTMFsQEeapqoedSR3vzQ" name="kit27" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47eB5aKVEea3uKyX2lIh0A" geoUnit="_g68xwFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_TYUTM1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47eB6KKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_TYUTNFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_TYUTNVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_TYUTNlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwSpXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_TdYZYFsQEeapqoedSR3vzQ" name="kit28" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47eB8aKVEea3uKyX2lIh0A" geoUnit="_hClDwFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_TdYZY1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47eo8KKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_TdYZZFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_TdYZZVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_TdYZZlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwS5XREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_TicfkFsQEeapqoedSR3vzQ" name="kit29" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47eo-aKVEea3uKyX2lIh0A" geoUnit="_hIsS0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_TidGoFsQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47eo_KKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_TidGoVsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_TidGolsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_TidGo1sQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwTJXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_TnohkFsQEeapqoedSR3vzQ" name="kit30" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47fQCKKVEea3uKyX2lIh0A" geoUnit="_hPjIwFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_Tnohk1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47fQC6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_TnohlFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_TnohlVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_TnohllsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwTZXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Ts1xsFsQEeapqoedSR3vzQ" name="kit31" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47fQFKKVEea3uKyX2lIh0A" geoUnit="_hWe3MFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_Ts1xs1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47fQF6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Ts1xtFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_Ts1xtVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_Ts1xtlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwTpXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_TyDo4FsQEeapqoedSR3vzQ" name="kit32" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47fQIKKVEea3uKyX2lIh0A" geoUnit="_hc_H0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_TyDo41sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47f3EqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_TyDo5FsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_TyDo5VsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_TyDo5lsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwT5XREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_T3VxgFsQEeapqoedSR3vzQ" name="kit33" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47f3G6KVEea3uKyX2lIh0A" geoUnit="_hjrlsFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_T3Vxg1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47f3HqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_T3VxhFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_T3VxhVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_T3VxhlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwUJXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_UFlo4FsQEeapqoedSR3vzQ" name="kit34" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47f3J6KVEea3uKyX2lIh0A" geoUnit="_hq3y0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_UFmP8FsQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47f3KqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_UFmP8VsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_UFmP8lsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_UFmP81sQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwUZXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_ULRaIFsQEeapqoedSR3vzQ" name="kit35" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47geJaKVEea3uKyX2lIh0A" geoUnit="_hxvP0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_ULRaI1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47geKKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_ULRaJFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_ULRaJVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_ULRaJlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwUpXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_UQw-IFsQEeapqoedSR3vzQ" name="kit36" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47geMaKVEea3uKyX2lIh0A" geoUnit="_h5Xh0FsQEeapqoedSR3vzQ"/>
+    <domain uuid="_UQw-I1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47geNKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_UQw-JFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_UQw-JVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_UQw-JlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwU5XREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_UXHdwFsQEeapqoedSR3vzQ" name="kit37" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47gePaKVEea3uKyX2lIh0A" geoUnit="_iA_MwFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_UXHdw1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47hFMKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_UXHdxFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_UXHdxVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_UXHdxlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwVJXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_UdJ0UFsQEeapqoedSR3vzQ" name="kit38" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47hFOaKVEea3uKyX2lIh0A" geoUnit="_iJEKsFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_UdJ0U1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47hFPKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_UdJ0VFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_UdJ0VVsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_UdJ0VlsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwVZXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_Uk3l4FsQEeapqoedSR3vzQ" name="kit39" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47hFRaKVEea3uKyX2lIh0A" geoUnit="_iRE3MFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_Uk3l41sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47hFSKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_Uk3l5FsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_Uk3l5VsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_Uk3l5lsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwVpXREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_UqiJAFsQEeapqoedSR3vzQ" name="kit40" toas="kit, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_47hsRKKVEea3uKyX2lIh0A" geoUnit="_iZo9UFsQEeapqoedSR3vzQ"/>
+    <domain uuid="_UqiJA1sQEeapqoedSR3vzQ" name="local" visibility="300">
+      <typeSet uuid="_47hsR6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_UqiJBFsQEeapqoedSR3vzQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_UqiwEFsQEeapqoedSR3vzQ" name="kit_fusegear" editable="false" visibility="300"/>
+      <values uuid="_UqiwEVsQEeapqoedSR3vzQ" name="kit_breaker" editable="false" visibility="300"/>
+      <values uuid="_hHxwV5XREeaPIeZPO84fyg" name="kit_switchdisconnector185" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+</comp:Component>

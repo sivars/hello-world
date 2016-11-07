@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_P8MvENvDEeWJgMr3GWrLIA" name="column_corner_insert" componentClass="LINK" displayName="Corner Column" toaPrefix="column_main">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_CtnyABgpEea7wIicUXQpJQ" name="column_type" visibility="800" initValue="corner">
+    <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_4z6BUKKVEea3uKyX2lIh0A" declared="true" priority="1000">
+      <model href="_hp-DQNvBEeWJgMr3GWrLIA.xml#_5S2lUPfqEeWNk_3WamkIOg"/>
+    </facets>
+    <domain uuid="_CtnyARgpEea7wIicUXQpJQ" name="local" visibility="300">
+      <typeSet uuid="_4z6BU6KVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_BokwwDnvEeaLI6bSWQMbHw" name="prevColumn" visibility="800" initValue="incoming">
+    <domain uuid="_BokwwTnvEeaLI6bSWQMbHw" name="local" visibility="300">
+      <typeSet uuid="_4z6BWaKVEea3uKyX2lIh0A" bitSet="393220"/>
+      <values uuid="_KEFkgjnvEeaLI6bSWQMbHw" name="incoming" editable="false" visibility="300"/>
+      <values uuid="_KEFkgznvEeaLI6bSWQMbHw" name="outgoing" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_DdFbUDnvEeaLI6bSWQMbHw" name="nextColumn" visibility="800" initValue="outgoing">
+    <domain uuid="_DdFbUTnvEeaLI6bSWQMbHw" name="local" visibility="300">
+      <typeSet uuid="_4z6BYaKVEea3uKyX2lIh0A" bitSet="393220"/>
+      <values uuid="_JzBpsjnvEeaLI6bSWQMbHw" name="incoming" editable="false" visibility="300"/>
+      <values uuid="_JzBpsznvEeaLI6bSWQMbHw" name="outgoing" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <calculation uuid="_UCU_ECMhEeajWf9DR7mdZA" name="Calculation_Rules" visibility="800" text="//svgs cursor&#xD;&#xA;height_cursor=height_column_outside+height_base;&#xD;&#xA;&#xD;&#xA;//BOM export variable&#xD;&#xA;position = prevColumn  +&quot;-&quot; +nextColumn;"/>
+  <template href="_hp-DQNvBEeWJgMr3GWrLIA.xml#_hp-DQNvBEeWJgMr3GWrLIA"/>
+  <cursorTwoD uuid="_DLF8MCMhEeajWf9DR7mdZA" name="Cursor_corner">
+    <onColor href="../product_model.xml#N65557"/>
+    <twoDElementsColor xsi:type="comp:TwoDBox" href="_JhQr8NvDEeWJgMr3GWrLIA.xml#_buv2ACMSEea6yu-B_fPQmg"/>
+    <twoDElementsColor xsi:type="comp:TwoDBox" href="#_CaLcoSMhEeajWf9DR7mdZA"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+    <twoDElementsBgColor xsi:type="comp:TwoDBox" href="_JhQr8NvDEeWJgMr3GWrLIA.xml#_buv2ACMSEea6yu-B_fPQmg"/>
+    <twoDElementsBgColor xsi:type="comp:TwoDBox" href="#_CaLcoSMhEeajWf9DR7mdZA"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_P8MvEdvDEeWJgMr3GWrLIA" name="root">
+    <units uuid="_CaK1kCMhEeajWf9DR7mdZA" name="cursor_corner">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_4z6BaKKVEea3uKyX2lIh0A" variable="height_base" vector="(0,0,1)"/>
+      <children uuid="_CaLcoCMhEeajWf9DR7mdZA" name="Geo_Unit">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_4z6oYaKVEea3uKyX2lIh0A" variable="height_cursor" vector="(0,0,-1)"/>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_CaLcoSMhEeajWf9DR7mdZA" name="Box_corner" cursorsUsingMeForBgColor="_DLF8MCMhEeajWf9DR7mdZA" cursorsUsingMeForColor="_DLF8MCMhEeajWf9DR7mdZA" strokeWidth="25">
+          <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_4z6oY6KVEea3uKyX2lIh0A" heightDynamic="height_dim" widthDynamic="width_column_outside"/>
+          <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+          <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        </twoDElement>
+      </children>
+    </units>
+  </geometry>
+</comp:Component>

@@ -1,0 +1,62 @@
+ProductId,LocalOrderCode,Description,Price,DiscountFamilyGroup,,quantity
+1STQ002146B0000,PBBS0001,No.2 brackets for profile type RZ... and XZ3..,474,EnclosuresDiscount,,1
+1STQ002333B0000,PBBS0020,No.2 brackets for profiles only by type XZ3..,191,EnclosuresDiscount,,1
+2CPX046021R9999,RZB11,RZB11      Profile No.1 1PW,887,EnclosuresDiscount,,1
+2CPX046022R9999,RZB21,RZB21      Profile No.1 2PW,579,EnclosuresDiscount,,1
+2CPX046023R9999,RZB31,RZB31      Profile No.1 3PW,278,EnclosuresDiscount,,1
+2CPX046024R9999,RZB41,RZB41      Profile No.1 4PW,858,EnclosuresDiscount,,1
+2CPX046025R9999,RZB51,RZB51      Profile No.1 5PW,494,EnclosuresDiscount,,1
+2CPX046026R9999,RZT33,RZT33      Profile No.3 D3,894,EnclosuresDiscount,,1
+2CPX046027R9999,RZT43,RZT43      Profile No.3 D4,134,EnclosuresDiscount,,1
+2CPX046028R9999,RZT63,RZT63      Profile No.3 D6,644,EnclosuresDiscount,,1
+2CPX046029R9999,RZT83,RZT83      Profile No.3 D8,878,EnclosuresDiscount,,1
+2CPX046030R9999,RZB13,RZB13      Profile No.3 1PW,931,EnclosuresDiscount,,1
+2CPX046031R9999,RZB23,RZB23      Profile No.3 2PW,359,EnclosuresDiscount,,1
+2CPX046032R9999,RZB33,RZB33      Profile No.3 3PW,267,EnclosuresDiscount,,1
+2CPX046033R9999,RZB43,RZB43      Profile No.3 4PW,648,EnclosuresDiscount,,1
+2CPX046034R9999,RZB53,RZB53      Profile No.3 5PW,517,EnclosuresDiscount,,1
+2CPX046035R9999,RZT310,RZT310     Profile No.10 D3,791,EnclosuresDiscount,,1
+2CPX046036R9999,RZT410,RZT410     Profile No.10 D4,223,EnclosuresDiscount,,1
+2CPX046037R9999,RZT610,RZT610     Profile No.10 D6,420,EnclosuresDiscount,,1
+2CPX046038R9999,RZT810,RZT810     Profile No.10 D8,215,EnclosuresDiscount,,1
+2CPX046039R9999,RZB110,RZB110     Profile No.10 1PW,501,EnclosuresDiscount,,1
+2CPX046040R9999,RZB210,RZB210     Profile No.10 2PW,262,EnclosuresDiscount,,1
+2CPX046041R9999,RZB310,RZB310     Profile No.10 3PW,590,EnclosuresDiscount,,1
+2CPX046042R9999,RZB410,RZB410     Profile No.10 4PW,132,EnclosuresDiscount,,1
+2CPX046043R9999,RZB510,RZB510     Profile No.10 5PW,120,EnclosuresDiscount,,1
+2CPX060601R9999,XZ301,Profile rail no.1 - 25 x 14 mm,134,EnclosuresDiscount,,1
+2CPX060602R9999,XZ302,Profile rail no. 2 - 25 x 20 mm,546,EnclosuresDiscount,,1
+2CPX060603R9999,XZ303,Profile rail no. 3 - 32 x 25 mm,911,EnclosuresDiscount,,1
+2CPX060610R9999,XZ310,Profile rail no.10 - 35 x 19 mm,878,EnclosuresDiscount,,1
+2CPX060601R9999,XZ301,Profile rail no.1 - 25 x 14 mm,134,EnclosuresDiscount,,1
+2CPX060602R9999,XZ302,Profile rail no. 2 - 25 x 20 mm,546,EnclosuresDiscount,,1
+2CPX060603R9999,XZ303,Profile rail no. 3 - 32 x 25 mm,911,EnclosuresDiscount,,1
+2CPX060610R9999,XZ310,Profile rail no.10 - 35 x 19 mm,878,EnclosuresDiscount,,1
+2CPX060601R9999,XZ301,Profile rail no.1 - 25 x 14 mm,134,EnclosuresDiscount,,1
+2CPX060602R9999,XZ302,Profile rail no. 2 - 25 x 20 mm,546,EnclosuresDiscount,,1
+2CPX060603R9999,XZ303,Profile rail no. 3 - 32 x 25 mm,911,EnclosuresDiscount,,1
+2CPX060610R9999,XZ310,Profile rail no.10 - 35 x 19 mm,878,EnclosuresDiscount,,1
+2CPX060601R9999,XZ301,Profile rail no.1 - 25 x 14 mm,134,EnclosuresDiscount,,1
+2CPX060602R9999,XZ302,Profile rail no. 2 - 25 x 20 mm,546,EnclosuresDiscount,,1
+2CPX060603R9999,XZ303,Profile rail no. 3 - 32 x 25 mm,911,EnclosuresDiscount,,1
+2CPX060610R9999,XZ310,Profile rail no.10 - 35 x 19 mm,878,EnclosuresDiscount,,1
+1STQ000981A0000,EV1050,No.10 aluminium supporting sections 30x15 – W=2000mm,976,EnclosuresDiscount,,1
+1STQ008211A0000,TS4011,No. 2 EN sections 5002 C30 L=2000mm,449,EnclosuresDiscount,,1
+1STQ008212A0000,TS4012,No. 2 EN sections G32 L=2000mm,277,EnclosuresDiscount,,1
+1STQ008213A0000,TS4013,No. 2 DIN EN sections 5022 35x7.5 L=2000mm,581,EnclosuresDiscount,,1
+1STQ000999A0000,EV1090,No.10 cable blocking brackets min÷max ø 9÷16mm,452,EnclosuresDiscount,,1
+1STQ001000A0000,EV1091,No.10 cable blocking brackets min÷max ø 16÷30mm,659,EnclosuresDiscount,,1
+1STQ001001A0000,EV1092,No.5 cable blocking brackets min÷max ø 30÷48mm,916,EnclosuresDiscount,,1
+1STQ001002A0000,EV1093,No.5 cable blocking brackets min÷max ø 48÷72mm,201,EnclosuresDiscount,,1
+1STQ000982A0000,EV1051,No.25 fixing brackets for EV1050,374,EnclosuresDiscount,,1
+1STQ000983A0000,EV1056,No.100 aluminium M6 nuts for EV1050,366,EnclosuresDiscount,,1
+1STQ000984A0000,EV1058,No.100 aluminium M8 nuts for EV1050,182,EnclosuresDiscount,,1
+1STQ001005A0000,EV1100,No.1000 self-perforating 4.2x13mm cross-head screws,993,EnclosuresDiscount,,1
+1STQ001006A0000,EV1101,No.1000 self-perforating 4.2x19mm cross-head screws,966,EnclosuresDiscount,,1
+1STQ009182A0000,PSCP0024,No.24 screws Torx 30 for side/rear panels,630,EnclosuresDiscount,,1
+1STQ009183A0000,PCSS0024,No.24 screws Torx 30 1/4 turn with washers,647,EnclosuresDiscount,,1
+1STQ006608A0000,EV0103,No.20 M5 Torx screws and nylon washers L=16mm,102,EnclosuresDiscount,,1
+1STQ006609A0000,EV0104,No.20 M6 Torx screws and nylon washers L=16mm,308,EnclosuresDiscount,,1
+1STQ008110A0000,PSAF0016,No.16 axial screws for uprights,187,EnclosuresDiscount,,1
+1STQ009159A0000,PHDR0004,No.4 hinges for standard door,884,EnclosuresDiscount,,1
+1STQ009158A0000,PHFR4180,No.4 180° opening hinges,692,EnclosuresDiscount,,1

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" overflow="visible">
+  
+  <g>
+<!-- 	  <polyline id="myPoly" points="10,10 50,50 50,30 10,10" fill="orange" stroke="black" opacity="0.8" transform="translate(380,15) scale(1)" /> -->
+	  
+	  <text x="20" y="30" font-size="16">PROJECT:</text>
+	  <text id="firstParam" x="130" y="30" font-size="16">-</text>
+	  
+	  <line x1="3mm" y1="9.5mm" x2="100mm" y2="9.5mm" stroke="black" stroke-width="0.5mm" />
+	  <line x1="31mm" y1="3mm" x2="31mm" y2="21mm" stroke="black" stroke-width="0.5mm" />
+	   <line x1="3mm" y1="15.5mm" x2="100mm" y2="15.5mm" stroke="black" stroke-width="0.5mm" />
+	  
+	  
+	  <text x="20" y="52" font-size="16">PHASE:</text>
+	  <text id="secondParam" x="130" y="52" font-size="16">-</text>
+	  
+	  <text x="20" y="75" font-size="16">Page:</text>
+	  <text id="thirdParam" x="130" y="75" font-size="16">-</text>
+	  
+	  <line x1="3mm" y1="21mm" x2="100mm" y2="21mm" stroke="black" stroke-width="0.5mm" />
+	  <line x1="100mm" y1="3mm" x2="100mm" y2="21mm" stroke="black" stroke-width="0.5mm" />
+  </g>
+  
+  <rect x="3mm" y="3mm" width="291mm" height="204mm" fill="none" stroke-width="0.5mm" stroke="black" />
+
+  <rect id="myDrawingSpace" x="6mm" y="25mm" width="285mm" height="179mm" stroke-width="0.5mm" fill="none" stroke="red"/>
+</svg>

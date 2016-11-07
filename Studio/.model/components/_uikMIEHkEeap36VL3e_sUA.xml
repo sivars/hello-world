@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_uikMIEHkEeap36VL3e_sUA" name="column_combiline_insert" componentClass="LINK" displayName="Combiline Column" toaPrefix="column_main">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2K6EQEHpEeap36VL3e_sUA" name="column_type" visibility="800" initValue="combiline">
+    <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_47LG9qKVEea3uKyX2lIh0A" declared="true" priority="89">
+      <model href="_hp-DQNvBEeWJgMr3GWrLIA.xml#_5S2lUPfqEeWNk_3WamkIOg"/>
+      <priorities href="../product_model.xml#_x2NZ0XSwEeO0QL2ZiJsN_Q"/>
+    </facets>
+    <domain uuid="_2K6EQkHpEeap36VL3e_sUA" name="local" visibility="300">
+      <typeSet uuid="_47LG-aKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <calculation uuid="_rlXlwEHlEeap36VL3e_sUA" name="script" visibility="800" text="height_cursor=height_column_outside+height_base;"/>
+  <template href="_hp-DQNvBEeWJgMr3GWrLIA.xml#_hp-DQNvBEeWJgMr3GWrLIA"/>
+  <cursorTwoD uuid="_7hGCoEHlEeap36VL3e_sUA" name="Cursor_combiline" twoDElementsColor="_yI2g4EHlEeap36VL3e_sUA" twoDElementsBgColor="_yI2g4EHlEeap36VL3e_sUA">
+    <onColor href="../product_model.xml#N65557"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_uikMIUHkEeap36VL3e_sUA" name="root">
+    <units uuid="_W2lCgEHlEeap36VL3e_sUA" name="cursor_combiline">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47LG_qKVEea3uKyX2lIh0A" variable="height_base" vector="(0,0,1)"/>
+      <children uuid="_YQD98EHlEeap36VL3e_sUA" name="Geo_Unit">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47LHAKKVEea3uKyX2lIh0A" variable="height_cursor" vector="(0,0,-1)"/>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_yI2g4EHlEeap36VL3e_sUA" name="Box_combiline" cursorsUsingMeForBgColor="_7hGCoEHlEeap36VL3e_sUA" cursorsUsingMeForColor="_7hGCoEHlEeap36VL3e_sUA" strokeWidth="25">
+          <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_47LHAqKVEea3uKyX2lIh0A" heightDynamic="height_dim" widthDynamic="width_column_outside"/>
+          <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+          <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        </twoDElement>
+      </children>
+    </units>
+    <parentPlugs uuid="_uikMIkHkEeap36VL3e_sUA" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

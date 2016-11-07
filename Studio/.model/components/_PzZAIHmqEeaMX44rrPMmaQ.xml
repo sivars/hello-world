@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_PzZAIHmqEeaMX44rrPMmaQ" name="accessory" componentClass="LINK">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_TbehIHmqEeaMX44rrPMmaQ" name="Description" visibility="800">
+    <domain uuid="_TbehIXmqEeaMX44rrPMmaQ" name="local" visibility="300">
+      <typeSet uuid="_47yK8qKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_gtbfYHmqEeaMX44rrPMmaQ" name="quantity" visibility="800" initValue="1">
+    <domain uuid="_gtbfYXmqEeaMX44rrPMmaQ" name="local" visibility="300">
+      <typeSet uuid="_47yK-KKVEea3uKyX2lIh0A" bitSet="393218"/>
+      <values uuid="_j24joHmqEeaMX44rrPMmaQ" name="1..100" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_l1BEQHmqEeaMX44rrPMmaQ" name="combar_name" visibility="800">
+    <domain uuid="_l1BEQXmqEeaMX44rrPMmaQ" name="local" visibility="300">
+      <typeSet uuid="_47yK_6KVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_pIv9EH8UEeadrP1TgH8Dow" name="LocalOrderCode" visibility="800">
+    <domain uuid="_pIv9EX8UEeadrP1TgH8Dow" name="local" visibility="300">
+      <typeSet uuid="_47yLBaKVEea3uKyX2lIh0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <calculation uuid="_oTq4AHmqEeaMX44rrPMmaQ" name="Calculation_Rules" visibility="800" text="compbar_name = Description + &quot;- Qty: &quot;+quantity;"/>
+  <geometry deletable="false" uuid="_PzZAIXmqEeaMX44rrPMmaQ" name="root">
+    <parentPlugs uuid="_PzZAInmqEeaMX44rrPMmaQ" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_tGefsHmqEeaMX44rrPMmaQ" name="nextLink" public="false" type="LINKINSUBLINK" components="NONE, accessory, " lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_47yLDaKVEea3uKyX2lIh0A" type="plugForLinkConnection"/>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_47yyAKKVEea3uKyX2lIh0A"/>
+    <domain uuid="_tGefsXmqEeaMX44rrPMmaQ" name="local" visibility="300">
+      <typeSet uuid="_47yyA6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_tGefsnmqEeaMX44rrPMmaQ" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_vdCHYHmqEeaMX44rrPMmaQ" name="accessory" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+</comp:Component>

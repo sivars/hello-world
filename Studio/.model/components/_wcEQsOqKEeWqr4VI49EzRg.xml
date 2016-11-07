@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_wcEQsOqKEeWqr4VI49EzRg" name="device_holder" displayName="Device Holder">
+  <geometry deletable="false" uuid="_wcEQxOqKEeWqr4VI49EzRg" name="root">
+    <units uuid="_wcEQxeqKEeWqr4VI49EzRg" name="Geo_Unit">
+      <twoDElement xsi:type="comp:TwoDText" uuid="_wcEQxuqKEeWqr4VI49EzRg" name="insert_swichboard" translation="(0,500)" text="Switchboard Holder" fontSize="400">
+        <color href="../product_model.xml#N65572"/>
+        <bgColor href="../product_model.xml#N65562"/>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_wcEQx-qKEeWqr4VI49EzRg" name="Box" height="200.0" width="200.0" strokeWidth="4">
+        <bgColor href="../product_model.xml#N65567"/>
+        <color href="../product_model.xml#N65572"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_wcEQyOqKEeWqr4VI49EzRg" name="ParentPlug" type="plugForLinkOwnerConnection"/>
+  </geometry>
+  <roles uuid="_wcEQyeqKEeWqr4VI49EzRg" name="nextLink" public="false" type="LINKINSUBLINK" components="NONE, switchboard_holder, " lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_4z-SxqKVEea3uKyX2lIh0A" position="(0,0,3300)" type="plugForLinkConnection">
+      <geoUnit xsi:type="comp:Geometry" href="_Wva2kNrXEeWpn-fOTGPjsg.xml#_Wva2kdrXEeWpn-fOTGPjsg"/>
+    </facets>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_4z-Sx6KVEea3uKyX2lIh0A"/>
+    <domain uuid="_wcEQzOqKEeWqr4VI49EzRg" name="local" visibility="300">
+      <typeSet uuid="_4z-SyqKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_wcEQzeqKEeWqr4VI49EzRg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_wcEQzuqKEeWqr4VI49EzRg" name="switchboard_holder" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_wcEQz-qKEeWqr4VI49EzRg" name="prevLink" public="false" type="LINKINSUBLINK" components="NONE, switchboard_holder, " lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_4z-S0aKVEea3uKyX2lIh0A" gender="MALE" rotation="180.0" type="plugForLinkConnection">
+      <geoUnit xsi:type="comp:Geometry" href="_Wva2kNrXEeWpn-fOTGPjsg.xml#_Wva2kdrXEeWpn-fOTGPjsg"/>
+    </facets>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_4z-S0qKVEea3uKyX2lIh0A"/>
+    <domain uuid="_wcEQ0uqKEeWqr4VI49EzRg" name="local" visibility="300">
+      <typeSet uuid="_4z-S1aKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_wcEQ0-qKEeWqr4VI49EzRg" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_wcEQ1OqKEeWqr4VI49EzRg" name="switchboard_holder" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_wcE3wOqKEeWqr4VI49EzRg" name="device" toas="device, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_4z-S3KKVEea3uKyX2lIh0A" position="(0,0,3200)"/>
+    <domain uuid="_wcE3w-qKEeWqr4VI49EzRg" name="local" visibility="300">
+      <typeSet uuid="_4z-50qKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_H_Dn4PsIEeW-ofMWOOT3jA" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_sYlgABwVEeao7bF0kxt3Dg" name="device_E22" editable="false" visibility="300"/>
+      <values uuid="_sYlgARwVEeao7bF0kxt3Dg" name="device_E12" editable="false" visibility="300"/>
+      <values uuid="_sYlgAhwVEeao7bF0kxt3Dg" name="device_T7" editable="false" visibility="300"/>
+      <values uuid="_1k8PYD3WEear0I2JQCMoQw" name="device_InLine2" editable="false" visibility="300"/>
+      <values uuid="_5XOh4Ix9Eea124uLXtqeqw" name="device_SlimLine" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+</comp:Component>

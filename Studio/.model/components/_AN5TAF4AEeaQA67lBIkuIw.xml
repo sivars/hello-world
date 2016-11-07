@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_AN5TAF4AEeaQA67lBIkuIw" name="flange_set" displayName="Flange set">
+  <variables xsi:type="comp:VariableGroup" uuid="_zJ9PkGR2EeaiteYSIqkzJA" name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_hqry4F4AEeaQA67lBIkuIw" name="flange1" visibility="800" initValue="TZ107">
+      <domain uuid="_hqsZ8F4AEeaQA67lBIkuIw" name="local" visibility="300">
+        <typeSet uuid="_47q2TaKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_BkLo4GOEEeaZOu5LTB6vUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_YnwSMGOEEeaZOu5LTB6vUA" name="flange2" visibility="800" initValue="TZ107">
+      <domain uuid="_Ynw5QGOEEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47rdQqKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_BkLo4GOEEeaZOu5LTB6vUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_zq6K8GOOEeaZOu5LTB6vUA" name="flange3" visibility="800" initValue="TZ107">
+      <domain uuid="_zq6K8mOOEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47rdSKKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_BkLo4GOEEeaZOu5LTB6vUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_z8K6EGOOEeaZOu5LTB6vUA" name="flange4" visibility="800" initValue="TZ107">
+      <domain uuid="_z8K6EmOOEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47rdTqKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_BkLo4GOEEeaZOu5LTB6vUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0OvQwGOOEeaZOu5LTB6vUA" name="flange5" visibility="800" initValue="TZ107">
+      <domain uuid="_0OvQwmOOEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47rdVKKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_BkLo4GOEEeaZOu5LTB6vUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0a1zEGOOEeaZOu5LTB6vUA" name="flange6" visibility="800" initValue="TZ107">
+      <domain uuid="_0a1zEmOOEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47rdWqKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_BkLo4GOEEeaZOu5LTB6vUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0lOeIGOOEeaZOu5LTB6vUA" name="flange7" visibility="800" initValue="TZ107">
+      <domain uuid="_0lPFMWOOEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47rdYKKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_BkLo4GOEEeaZOu5LTB6vUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0vRK8GOOEeaZOu5LTB6vUA" name="flange8" visibility="800" initValue="TZ107">
+      <domain uuid="_0vRK8mOOEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47sEUqKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_BkLo4GOEEeaZOu5LTB6vUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_043y4GOOEeaZOu5LTB6vUA" name="flange9" visibility="800" initValue="TZ107">
+      <domain uuid="_043y4mOOEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47sEWKKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_BkLo4GOEEeaZOu5LTB6vUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_1BlqAGOOEeaZOu5LTB6vUA" name="flange10" visibility="800" initValue="TZ107">
+      <domain uuid="_1BlqAmOOEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47sEXqKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_BkLo4GOEEeaZOu5LTB6vUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_L_tPQISDEeakHp0aagACvw" name="orientation" visibility="800" initValue="vertical">
+      <domain uuid="_L_tPQYSDEeakHp0aagACvw" name="local" visibility="300">
+        <typeSet uuid="_47sEZKKVEea3uKyX2lIh0A" bitSet="393220"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_67VhMGR2EeaiteYSIqkzJA" name="Svg" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_Ls0zUGR1EeaiteYSIqkzJA" name="flange1_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_Ls0zUmR1EeaiteYSIqkzJA" name="local" visibility="300">
+        <typeSet uuid="_47sEa6KVEea3uKyX2lIh0A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_d8H1UGR1EeaiteYSIqkzJA" name="flange2_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_d8IcYWR1EeaiteYSIqkzJA" name="local" visibility="300">
+        <typeSet uuid="_47sEcaKVEea3uKyX2lIh0A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_egYY8GR1EeaiteYSIqkzJA" name="flange3_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_egYY8mR1EeaiteYSIqkzJA" name="local" visibility="300">
+        <typeSet uuid="_47sEd6KVEea3uKyX2lIh0A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_e8ftMGR1EeaiteYSIqkzJA" name="flange4_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_e8ftMmR1EeaiteYSIqkzJA" name="local" visibility="300">
+        <typeSet uuid="_47srYqKVEea3uKyX2lIh0A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_fZoVIGR1EeaiteYSIqkzJA" name="flange5_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_fZoVImR1EeaiteYSIqkzJA" name="local" visibility="300">
+        <typeSet uuid="_47sraKKVEea3uKyX2lIh0A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_f1ejoGR1EeaiteYSIqkzJA" name="flange6_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_f1ejomR1EeaiteYSIqkzJA" name="local" visibility="300">
+        <typeSet uuid="_47srbqKVEea3uKyX2lIh0A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_gUR_gGR1EeaiteYSIqkzJA" name="flange7_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_gUR_gmR1EeaiteYSIqkzJA" name="local" visibility="300">
+        <typeSet uuid="_47srdKKVEea3uKyX2lIh0A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_g_dDcGR1EeaiteYSIqkzJA" name="flange8_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_g_dDcmR1EeaiteYSIqkzJA" name="local" visibility="300">
+        <typeSet uuid="_47sreqKVEea3uKyX2lIh0A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hh1XwGR1EeaiteYSIqkzJA" name="flange9_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_hh1XwmR1EeaiteYSIqkzJA" name="local" visibility="300">
+        <typeSet uuid="_47srgKKVEea3uKyX2lIh0A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_jnJecGR1EeaiteYSIqkzJA" name="flange10_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_jnJecmR1EeaiteYSIqkzJA" name="local" visibility="300">
+        <typeSet uuid="_47srhqKVEea3uKyX2lIh0A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_G6Y0kG_lEeaTgoEC9KMIXw" name="move_y_triline_flange" visibility="800" initValue="90">
+      <domain uuid="_G6Y0km_lEeaTgoEC9KMIXw" name="local" visibility="300">
+        <typeSet uuid="_47tScqKVEea3uKyX2lIh0A" bitSet="10"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_KibwIHAjEeaucax1vsZ3SA" name="move_x_triline_flange" visibility="800" initValue="-10">
+      <domain uuid="_KibwInAjEeaucax1vsZ3SA" name="local" visibility="300">
+        <typeSet uuid="_47tSeKKVEea3uKyX2lIh0A" bitSet="10"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_5wXzIG9cEeaRX6ZGi7aaLg" name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_NDnpMGObEeaZOu5LTB6vUA" name="panel_cable_entry" visibility="800">
+      <domain uuid="_NDnpMWObEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47tSf6KVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_OcuxMGObEeaZOu5LTB6vUA" name="panel_cable_entry_rows" visibility="800">
+      <domain uuid="_OcuxMWObEeaZOu5LTB6vUA" name="local" visibility="300">
+        <typeSet uuid="_47tShaKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_pDdbkF7iEeaF3YSPBUql-Q" name="panel_panel_product_line" visibility="800">
+      <domain uuid="_pDdbkl7iEeaF3YSPBUql-Q" name="local" visibility="300">
+        <typeSet uuid="_47tSi6KVEea3uKyX2lIh0A" bitSet="393220"/>
+        <values deletable="false" uuid="_pDdbk17iEeaF3YSPBUql-Q" name="'spep'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_pDdblF7iEeaF3YSPBUql-Q" name="'triline'" editable="false" visibility="300"/>
+        <values deletable="false" uuid="_pDdblV7iEeaF3YSPBUql-Q" name="'twinline'" editable="false" visibility="300"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_bJkNcHQ0EeahONr4-ZFNMQ" name="panel_panel_type" visibility="800">
+      <domain uuid="_bJkNcXQ0EeahONr4-ZFNMQ" name="local" visibility="300">
+        <typeSet uuid="_47tSlKKVEea3uKyX2lIh0A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_fPIW0HRDEeaGEr9s0U2JUQ" name="move_y_row1" visibility="800">
+      <domain uuid="_fPIW0XRDEeaGEr9s0U2JUQ" name="local" visibility="300">
+        <typeSet uuid="_47t5gqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_kPtigHRIEeaGEr9s0U2JUQ" name="move_y_row2" visibility="800">
+      <domain uuid="_kPtigXRIEeaGEr9s0U2JUQ" name="local" visibility="300">
+        <typeSet uuid="_47t5iKKVEea3uKyX2lIh0A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0HfZ4HRQEealPdCdnY0ItQ" name="move_y_triline_cutout_bottom_view_right" visibility="800">
+      <domain uuid="_0HfZ4XRQEealPdCdnY0ItQ" name="local" visibility="300">
+        <typeSet uuid="_47t5jqKVEea3uKyX2lIh0A" bitSet="393226"/>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_QI3mQF7iEeaF3YSPBUql-Q" name="Logic_Rules" visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_Q3fm0F7iEeaF3YSPBUql-Q" name="flange_product_line_type1" visibility="800">
+      <columns uuid="_g8aakGhnEea2HZtTx2j_1A" name="panel_panel_product_line" visibility="100">
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_g8aakWhnEea2HZtTx2j_1A" name="flange1" visibility="100">
+        <cells>TZ101</cells>
+        <cells>TZ102</cells>
+        <cells>TZ103</cells>
+        <cells>TZ104</cells>
+        <cells>TZ105</cells>
+        <cells>TZ107</cells>
+        <cells>TZ106</cells>
+        <cells>TZ110</cells>
+        <cells>TZ111</cells>
+        <cells>TZ112</cells>
+        <cells>EV0114</cells>
+        <cells>EV0116</cells>
+        <cells>RFGA2</cells>
+        <cells>RFKA2</cells>
+        <cells>RFMA2</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_g8aakmhnEea2HZtTx2j_1A" name="switch1" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>-1</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_ybQ-YGRGEeaTfNQiYnQ6EA" name="flange_product_line_type2" visibility="800">
+      <columns uuid="_n3pHUGhnEea2HZtTx2j_1A" name="panel_panel_product_line" visibility="100">
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_n3pHUWhnEea2HZtTx2j_1A" name="flange2" visibility="100">
+        <cells>TZ101</cells>
+        <cells>TZ102</cells>
+        <cells>TZ103</cells>
+        <cells>TZ104</cells>
+        <cells>TZ105</cells>
+        <cells>TZ107</cells>
+        <cells>TZ106</cells>
+        <cells>TZ110</cells>
+        <cells>TZ111</cells>
+        <cells>TZ112</cells>
+        <cells>EV0114</cells>
+        <cells>EV0116</cells>
+        <cells>RFGA2</cells>
+        <cells>RFKA2</cells>
+        <cells>RFMA2</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_n3pHUmhnEea2HZtTx2j_1A" name="switch2" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>-1</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bJPz8GRHEeaTfNQiYnQ6EA" name="flange_product_line_type3" visibility="800">
+      <columns uuid="_25cSkGhnEea2HZtTx2j_1A" name="panel_panel_product_line" visibility="100">
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_25cSkWhnEea2HZtTx2j_1A" name="flange3" visibility="100">
+        <cells>TZ101</cells>
+        <cells>TZ102</cells>
+        <cells>TZ103</cells>
+        <cells>TZ104</cells>
+        <cells>TZ105</cells>
+        <cells>TZ107</cells>
+        <cells>TZ106</cells>
+        <cells>TZ110</cells>
+        <cells>TZ111</cells>
+        <cells>TZ112</cells>
+        <cells>EV0114</cells>
+        <cells>EV0116</cells>
+        <cells>RFGA2</cells>
+        <cells>RFKA2</cells>
+        <cells>RFMA2</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_25cSkmhnEea2HZtTx2j_1A" name="switch3" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>-1</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bVGeoGRHEeaTfNQiYnQ6EA" name="flange_product_line_type4" visibility="800">
+      <columns uuid="_2QXgYGhnEea2HZtTx2j_1A" name="panel_panel_product_line" visibility="100">
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_2QXgYWhnEea2HZtTx2j_1A" name="flange4" visibility="100">
+        <cells>TZ101</cells>
+        <cells>TZ102</cells>
+        <cells>TZ103</cells>
+        <cells>TZ104</cells>
+        <cells>TZ105</cells>
+        <cells>TZ107</cells>
+        <cells>TZ106</cells>
+        <cells>TZ110</cells>
+        <cells>TZ111</cells>
+        <cells>TZ112</cells>
+        <cells>EV0114</cells>
+        <cells>EV0116</cells>
+        <cells>RFGA2</cells>
+        <cells>RFKA2</cells>
+        <cells>RFMA2</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_2QXgYmhnEea2HZtTx2j_1A" name="switch4" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>-1</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bbxHUGRHEeaTfNQiYnQ6EA" name="flange_product_line_type5" visibility="800">
+      <columns uuid="_1u9ccGhnEea2HZtTx2j_1A" name="panel_panel_product_line" visibility="100">
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_1u9ccWhnEea2HZtTx2j_1A" name="flange5" visibility="100">
+        <cells>TZ101</cells>
+        <cells>TZ102</cells>
+        <cells>TZ103</cells>
+        <cells>TZ104</cells>
+        <cells>TZ105</cells>
+        <cells>TZ107</cells>
+        <cells>TZ106</cells>
+        <cells>TZ110</cells>
+        <cells>TZ111</cells>
+        <cells>TZ112</cells>
+        <cells>EV0114</cells>
+        <cells>EV0116</cells>
+        <cells>RFGA2</cells>
+        <cells>RFKA2</cells>
+        <cells>RFMA2</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_1u9ccmhnEea2HZtTx2j_1A" name="switch5" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>-1</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bgt4wGRHEeaTfNQiYnQ6EA" name="flange_product_line_type6" visibility="800">
+      <columns uuid="_1KGb4GhnEea2HZtTx2j_1A" name="panel_panel_product_line" visibility="100">
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_1KGb4WhnEea2HZtTx2j_1A" name="flange6" visibility="100">
+        <cells>TZ101</cells>
+        <cells>TZ102</cells>
+        <cells>TZ103</cells>
+        <cells>TZ104</cells>
+        <cells>TZ105</cells>
+        <cells>TZ107</cells>
+        <cells>TZ106</cells>
+        <cells>TZ110</cells>
+        <cells>TZ111</cells>
+        <cells>TZ112</cells>
+        <cells>EV0114</cells>
+        <cells>EV0116</cells>
+        <cells>RFGA2</cells>
+        <cells>RFKA2</cells>
+        <cells>RFMA2</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_1KGb4mhnEea2HZtTx2j_1A" name="switch6" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>-1</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_blaLgGRHEeaTfNQiYnQ6EA" name="flange_product_line_type7" visibility="800">
+      <columns uuid="_0lkLcGhnEea2HZtTx2j_1A" name="panel_panel_product_line" visibility="100">
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_0lkLcWhnEea2HZtTx2j_1A" name="flange7" visibility="100">
+        <cells>TZ101</cells>
+        <cells>TZ102</cells>
+        <cells>TZ103</cells>
+        <cells>TZ104</cells>
+        <cells>TZ105</cells>
+        <cells>TZ107</cells>
+        <cells>TZ106</cells>
+        <cells>TZ110</cells>
+        <cells>TZ111</cells>
+        <cells>TZ112</cells>
+        <cells>EV0114</cells>
+        <cells>EV0116</cells>
+        <cells>RFGA2</cells>
+        <cells>RFKA2</cells>
+        <cells>RFMA2</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_0lkLcmhnEea2HZtTx2j_1A" name="switch7" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>-1</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bp97YGRHEeaTfNQiYnQ6EA" name="flange_product_line_type8" visibility="800">
+      <columns uuid="_z-insGhnEea2HZtTx2j_1A" name="panel_panel_product_line" visibility="100">
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_z-insWhnEea2HZtTx2j_1A" name="flange8" visibility="100">
+        <cells>TZ101</cells>
+        <cells>TZ102</cells>
+        <cells>TZ103</cells>
+        <cells>TZ104</cells>
+        <cells>TZ105</cells>
+        <cells>TZ107</cells>
+        <cells>TZ106</cells>
+        <cells>TZ110</cells>
+        <cells>TZ111</cells>
+        <cells>TZ112</cells>
+        <cells>EV0114</cells>
+        <cells>EV0116</cells>
+        <cells>RFGA2</cells>
+        <cells>RFKA2</cells>
+        <cells>RFMA2</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_z-insmhnEea2HZtTx2j_1A" name="switch8" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>-1</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_buX6QGRHEeaTfNQiYnQ6EA" name="flange_product_line_type9" visibility="800">
+      <columns uuid="_zZMe8GhnEea2HZtTx2j_1A" name="panel_panel_product_line" visibility="100">
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_zZMe8WhnEea2HZtTx2j_1A" name="flange9" visibility="100">
+        <cells>TZ101</cells>
+        <cells>TZ102</cells>
+        <cells>TZ103</cells>
+        <cells>TZ104</cells>
+        <cells>TZ105</cells>
+        <cells>TZ107</cells>
+        <cells>TZ106</cells>
+        <cells>TZ110</cells>
+        <cells>TZ111</cells>
+        <cells>TZ112</cells>
+        <cells>EV0114</cells>
+        <cells>EV0116</cells>
+        <cells>RFGA2</cells>
+        <cells>RFKA2</cells>
+        <cells>RFMA2</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_zZMe8mhnEea2HZtTx2j_1A" name="switch9" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>-1</cells>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bytnsGRHEeaTfNQiYnQ6EA" name="flange_product_line_type10" visibility="800">
+      <columns uuid="_yzSVgGhnEea2HZtTx2j_1A" name="panel_panel_product_line" visibility="100">
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>twinline</cells>
+        <cells>spep</cells>
+        <cells>spep</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>triline</cells>
+        <cells>?</cells>
+      </columns>
+      <columns uuid="_yzSVgWhnEea2HZtTx2j_1A" name="flange10" visibility="100">
+        <cells>TZ101</cells>
+        <cells>TZ102</cells>
+        <cells>TZ103</cells>
+        <cells>TZ104</cells>
+        <cells>TZ105</cells>
+        <cells>TZ107</cells>
+        <cells>TZ106</cells>
+        <cells>TZ110</cells>
+        <cells>TZ111</cells>
+        <cells>TZ112</cells>
+        <cells>EV0114</cells>
+        <cells>EV0116</cells>
+        <cells>RFGA2</cells>
+        <cells>RFKA2</cells>
+        <cells>RFMA2</cells>
+        <cells>No</cells>
+      </columns>
+      <columns uuid="_yzSVgmhnEea2HZtTx2j_1A" name="switch10" visibility="100">
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>0</cells>
+        <cells>-1</cells>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_4BcHUGODEeaZOu5LTB6vUA" name="Calculation_Rules" visibility="800" text="//***************************product rules here*******************************************&#xD;&#xA;&#xD;&#xA;//***************************svg area - Start*******************************************&#xD;&#xA;flange1_svg=&quot;static_svgs/TWL_Flange_&quot;+flange1+&quot;.svg&quot;;&#xD;&#xA;flange2_svg=&quot;static_svgs/TWL_Flange_&quot;+flange2+&quot;.svg&quot;;&#xD;&#xA;flange3_svg=&quot;static_svgs/TWL_Flange_&quot;+flange3+&quot;.svg&quot;;&#xD;&#xA;flange4_svg=&quot;static_svgs/TWL_Flange_&quot;+flange4+&quot;.svg&quot;;&#xD;&#xA;flange5_svg=&quot;static_svgs/TWL_Flange_&quot;+flange5+&quot;.svg&quot;;&#xD;&#xA;flange6_svg=&quot;static_svgs/TWL_Flange_&quot;+flange6+&quot;.svg&quot;;&#xD;&#xA;flange7_svg=&quot;static_svgs/TWL_Flange_&quot;+flange7+&quot;.svg&quot;;&#xD;&#xA;flange8_svg=&quot;static_svgs/TWL_Flange_&quot;+flange8+&quot;.svg&quot;;&#xD;&#xA;flange9_svg=&quot;static_svgs/TWL_Flange_&quot;+flange9+&quot;.svg&quot;;&#xD;&#xA;flange10_svg=&quot;static_svgs/TWL_Flange_&quot;+flange10+&quot;.svg&quot;;&#xD;&#xA;&#xD;&#xA;if (panel_cable_entry>0) switch1=0; else switch1=-1;&#xD;&#xA;if ((panel_cable_entry/panel_cable_entry_rows)>1) switch2=0; else switch2=-1;&#xD;&#xA;if ((panel_cable_entry/panel_cable_entry_rows)>=3 ) switch3=0; else switch3=-1;&#xD;&#xA;if ((panel_cable_entry/panel_cable_entry_rows)>=4) switch4=0; else switch4=-1;&#xD;&#xA;if ((panel_cable_entry/panel_cable_entry_rows)>=5) switch5=0; else switch5=-1;&#xD;&#xA;&#xD;&#xA;if (panel_cable_entry_rows==2 &amp;&amp; panel_cable_entry>1) switch6=0; else switch6=-1;&#xD;&#xA;if (panel_cable_entry_rows==2 &amp;&amp; panel_cable_entry>2) switch7=0; else switch7=-1;&#xD;&#xA;if (panel_cable_entry_rows==2 &amp;&amp; panel_cable_entry>4) switch8=0; else switch8=-1;&#xD;&#xA;if (panel_cable_entry_rows==2 &amp;&amp; panel_cable_entry>6) switch9=0; else switch9=-1;&#xD;&#xA;if (panel_cable_entry_rows==2 &amp;&amp; panel_cable_entry>8) switch10=0; else switch10=-1;&#xD;&#xA;&#xD;&#xA;if (panel_panel_product_line==&quot;triline&quot;) switch1_triline=0;&#xD;&#xA;else switch1_triline=-1;&#xD;&#xA;if (panel_panel_product_line!=&quot;triline&quot;) switch1_twin_spep_flange=0;&#xD;&#xA;else switch1_twin_spep_flange=-1;&#xD;&#xA;&#xD;&#xA;if(panel_cable_entry>0){&#xD;&#xA;&#x9;var multiply_width = 0;&#xD;&#xA;&#x9;var multiply_height = 0;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;if(switch5 == 0){&#xD;&#xA;&#x9;&#x9;multiply_width = 3;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(switch4 == 0){&#xD;&#xA;&#x9;&#x9;multiply_width = 2;&#x9;&#x9;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(switch3 == 0){&#xD;&#xA;&#x9;&#x9;multiply_width = 1;&#x9;&#x9;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;if(switch6 == -1){&#xD;&#xA;&#x9;&#x9;multiply_height = 1;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;cursor_width = 515 + 515*multiply_width/2;&#xD;&#xA;&#x9;cursor_height = 365 - 365*multiply_height/2;&#xD;&#xA;}&#xD;&#xA;else{&#xD;&#xA;&#x9;cursor_width = 0;&#xD;&#xA;&#x9;cursor_height = 0;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;//***************************svg area - End*******************************************"/>
+  <cursorTwoD uuid="_mWM3kIFyEea6KeeaLHeOFw" name="Cursor" twoDElementsColor="_jDUKgIFyEea6KeeaLHeOFw">
+    <onColor href="../product_model.xml#_xMl9EAHyEeS27ulxLc-PaQ"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_AN5TAV4AEeaQA67lBIkuIw" name="root">
+    <twoDElement xsi:type="comp:TwoDBox" uuid="_jDUKgIFyEea6KeeaLHeOFw" name="Box" translation="(40,95)" height="365.0" width="515.0" cursorsUsingMeForColor="_mWM3kIFyEea6KeeaLHeOFw" strokeWidth="10">
+      <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_47vHsKKVEea3uKyX2lIh0A" heightDynamic="cursor_height" widthDynamic="cursor_width"/>
+      <bgColor href="../product_model.xml#N65562"/>
+      <color href="../product_model.xml#N65562"/>
+    </twoDElement>
+    <units uuid="_ezsBcG_kEeaTgoEC9KMIXw" name="flange1_triline" order="2">
+      <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47vHsqKVEea3uKyX2lIh0A" variable="switch1_triline"/>
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47vHs6KVEea3uKyX2lIh0A" variable="move_y_triline_cutout_bottom_view_right" vector="(0,0,1)"/>
+      <children uuid="_CPJEQHAjEeaucax1vsZ3SA" name="Geo_Unit" position="(50.5,0,180.5)">
+        <twoDElement xsi:type="comp:TwoDSVG" uuid="_ezsBcW_kEeaTgoEC9KMIXw" name="flange1_triline_svg">
+          <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47wVwKKVEea3uKyX2lIh0A" fileDynamic="flange1_svg"/>
+          <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+        </twoDElement>
+      </children>
+    </units>
+    <units uuid="_DU6tgHQpEeahONr4-ZFNMQ" name="flange_twinline_spep">
+      <children uuid="_COm40HRBEeaGEr9s0U2JUQ" name="Geo_Unit_moving_top">
+        <children uuid="_PwpvQHRGEeaGEr9s0U2JUQ" name="Geo_Unit_row_1">
+          <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47wVxKKVEea3uKyX2lIh0A" variable="move_y_row1" vector="(0,0,1)"/>
+          <children uuid="_Iwe3wF4DEeaQA67lBIkuIw" name="Geo_flange1" position="(66.5,0,104.5)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47wVxqKVEea3uKyX2lIh0A" variable="switch1_twin_spep_flange"/>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_yuLBcGOEEeaZOu5LTB6vUA" name="flange1_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47wVyKKVEea3uKyX2lIh0A" fileDynamic="flange1_svg"/>
+              <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_5LhfYGOEEeaZOu5LTB6vUA" name="Geo_flange2" position="(316.5,0,104.5)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47wVyqKVEea3uKyX2lIh0A" variable="switch2"/>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_6BKt8GOEEeaZOu5LTB6vUA" name="flange2_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47wVzKKVEea3uKyX2lIh0A" fileDynamic="flange2_svg"/>
+              <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_SbeKkGOOEeaZOu5LTB6vUA" name="Geo_flange3" position="(566.5,0,104.5)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47wVzqKVEea3uKyX2lIh0A" variable="switch3"/>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_SbeKkWOOEeaZOu5LTB6vUA" name="flange3_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47wV0KKVEea3uKyX2lIh0A" fileDynamic="flange3_svg"/>
+              <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_T1Oy0GOOEeaZOu5LTB6vUA" name="Geo_flange4" position="(816.5,0,104.5)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47wV0qKVEea3uKyX2lIh0A" variable="switch4"/>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_T1Oy0WOOEeaZOu5LTB6vUA" name="flange4_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47wV1KKVEea3uKyX2lIh0A" fileDynamic="flange4_svg"/>
+              <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_UsUL0GOOEeaZOu5LTB6vUA" name="Geo_flange5" position="(1066.5,0,104.5)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47w80aKVEea3uKyX2lIh0A" variable="switch5"/>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_UsUL0WOOEeaZOu5LTB6vUA" name="flange5_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47w806KVEea3uKyX2lIh0A" fileDynamic="flange5_svg"/>
+              <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+        </children>
+        <children uuid="_SfD2QHRGEeaGEr9s0U2JUQ" name="Geo_Unit_row_2">
+          <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47w81aKVEea3uKyX2lIh0A" variable="move_y_row2" vector="(0,0,1)"/>
+          <children uuid="_VYKlMGOOEeaZOu5LTB6vUA" name="Geo_flange6" position="(66.5,0,304.5)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47w816KVEea3uKyX2lIh0A" variable="switch6"/>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_VYKlMWOOEeaZOu5LTB6vUA" name="flange6_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47w82aKVEea3uKyX2lIh0A" fileDynamic="flange6_svg"/>
+              <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_WFV0QGOOEeaZOu5LTB6vUA" name="Geo_flange7" position="(316.5,0,304.5)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47w826KVEea3uKyX2lIh0A" variable="switch7"/>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_WFV0QWOOEeaZOu5LTB6vUA" name="flange7_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47w83aKVEea3uKyX2lIh0A" fileDynamic="flange7_svg"/>
+              <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_W_ZBsGOOEeaZOu5LTB6vUA" name="Geo_flange8" position="(566.5,0,304.5)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47w836KVEea3uKyX2lIh0A" variable="switch8"/>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_W_ZBsWOOEeaZOu5LTB6vUA" name="flange8_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47w84aKVEea3uKyX2lIh0A" fileDynamic="flange8_svg"/>
+              <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_XwS6MGOOEeaZOu5LTB6vUA" name="Geo_flange9" position="(816.5,0,304.5)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47w846KVEea3uKyX2lIh0A" variable="switch9"/>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_XwS6MWOOEeaZOu5LTB6vUA" name="flange9_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47w85aKVEea3uKyX2lIh0A" fileDynamic="flange9_svg"/>
+              <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_YtKyIGOOEeaZOu5LTB6vUA" name="Geo_flange10" position="(1066.5,0,304.5)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet" uuid="_47w856KVEea3uKyX2lIh0A" variable="switch10"/>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_YtKyIWOOEeaZOu5LTB6vUA" name="flange10_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_47w86aKVEea3uKyX2lIh0A" fileDynamic="flange10_svg"/>
+              <file href="../../build_model.studio#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+        </children>
+      </children>
+    </units>
+    <parentPlugs uuid="_AN5TAl4AEeaQA67lBIkuIw" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

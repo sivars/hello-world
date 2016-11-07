@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_CbCuMFPHEea9vNtzumHI4w" name="column_combiline" toaPrefix="column">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_CbDVQlPHEea9vNtzumHI4w" name="column_type" visibility="800" initValue="combiline">
+    <domain uuid="_CbDVRFPHEea9vNtzumHI4w" name="local" visibility="300">
+      <typeSet uuid="_47PYYqKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <template href="_z5ytQCygEeaMLJEvopK9fA.xml#_z5ytQCygEeaMLJEvopK9fA"/>
+  <cursorTwoD uuid="_WfL1QFS0Eeam1ZyxnTf7-g" name="Cursor_combiline">
+    <onColor href="../product_model.xml#N65557"/>
+    <twoDElementsColor xsi:type="comp:TwoDBox" href="_pTLfsFMHEeay9cNzFCks2w.xml#_ToW1UiMgEeajWf9DR7mdZA"/>
+    <twoDElementsColor xsi:type="comp:TwoDBox" href="#_92N7cVSzEeam1ZyxnTf7-g"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+    <twoDElementsBgColor xsi:type="comp:TwoDBox" href="_pTLfsFMHEeay9cNzFCks2w.xml#_ToW1UiMgEeajWf9DR7mdZA"/>
+    <twoDElementsBgColor xsi:type="comp:TwoDBox" href="#_92N7cVSzEeam1ZyxnTf7-g"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_CbDVRVPHEea9vNtzumHI4w" name="root">
+    <units uuid="_92N7cFSzEeam1ZyxnTf7-g" name="cursor_combiline">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_47PYZqKVEea3uKyX2lIh0A" variable="height_column_outside_chain" vector="(0,0,-1)"/>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_92N7cVSzEeam1ZyxnTf7-g" name="Box_combiline" cursorsUsingMeForBgColor="_WfL1QFS0Eeam1ZyxnTf7-g" cursorsUsingMeForColor="_WfL1QFS0Eeam1ZyxnTf7-g" strokeWidth="25">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_47PYaKKVEea3uKyX2lIh0A" heightDynamic="height_cursor_chain" widthDynamic="width_column_outside_chain"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_CbDVRlPHEea9vNtzumHI4w" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

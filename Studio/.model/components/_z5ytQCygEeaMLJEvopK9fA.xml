@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_z5ytQCygEeaMLJEvopK9fA" name="template_column">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2Z5SgCygEeaMLJEvopK9fA" name="illegal_state" visibility="800">
+    <domain uuid="_2Z5SgSygEeaMLJEvopK9fA" name="local" visibility="300">
+      <typeSet uuid="_48lcMKKVEea3uKyX2lIh0A" bitSet="393231"/>
+      <values uuid="_347cUCygEeaMLJEvopK9fA" name="illegal" editable="false" visibility="300"/>
+      <values uuid="_4DUucCygEeaMLJEvopK9fA" name="legal" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <geometry deletable="false" uuid="_z5ytQSygEeaMLJEvopK9fA" name="root">
+    <parentPlugs uuid="_z5ytQiygEeaMLJEvopK9fA" name="ParentPlug"/>
+  </geometry>
+  <componentsUsingMe xsi:type="comp:Component" href="_99JOECyLEea2sZE3j2Q6sg.xml#_99JOECyLEea2sZE3j2Q6sg"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_xBUJcCyOEeaMLJEvopK9fA.xml#_xBUJcCyOEeaMLJEvopK9fA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_pTLfsFMHEeay9cNzFCks2w.xml#_pTLfsFMHEeay9cNzFCks2w"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_uQOBcFMHEeay9cNzFCks2w.xml#_uQOBcFMHEeay9cNzFCks2w"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_CbCuMFPHEea9vNtzumHI4w.xml#_CbCuMFPHEea9vNtzumHI4w"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_k0L1UFrdEeaC5pUCQwPL7g.xml#_k0L1UFrdEeaC5pUCQwPL7g"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_zQdRoFrdEeaC5pUCQwPL7g.xml#_zQdRoFrdEeaC5pUCQwPL7g"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_prjbcIuGEea1H_HPwOxo9w.xml#_prjbcIuGEea1H_HPwOxo9w"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_silS8IuGEea1H_HPwOxo9w.xml#_silS8IuGEea1H_HPwOxo9w"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_veKTQIuGEea1H_HPwOxo9w.xml#_veKTQIuGEea1H_HPwOxo9w"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_yov_8IuGEea1H_HPwOxo9w.xml#_yov_8IuGEea1H_HPwOxo9w"/>
+</comp:ComponentTemplate>

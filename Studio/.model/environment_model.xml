@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appl:EnvironmentModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" deletable="false" uuid="_5AkkUKKVEea3uKyX2lIh0A">
+  <system uuid="_5AlycKKVEea3uKyX2lIh0A">
+    <server uuid="_5AmZgKKVEea3uKyX2lIh0A" host="10.16.131.116" portNo="7676">
+      <vbisCompositeActions uuid="_B7Q94CZUEeaQUMCL3F3tZg" name="save_document_transfer_exchange" serverScenarioId="save_document_transfer_exchange">
+        <customFields uuid="_5AnnoaKVEea3uKyX2lIh0A" all="true"/>
+        <exports uuid="_5AoOsKKVEea3uKyX2lIh0A">
+          <runExporters uuid="_-c4XUH87EearjIpNW3Fr2w" name="export_custom_data_vbis" fieldid="export_custom_data_vbis" target="MULTIFIELD"/>
+        </exports>
+        <vbisSubactions uuid="_EvA34CZUEeaQUMCL3F3tZg" name="01_save" serverScenarioId="save"/>
+        <vbisSubactions uuid="_LAYIQCZUEeaQUMCL3F3tZg" name="02_document_doc" serverScenarioId="document_doc">
+          <exports uuid="_5Ao1w6KVEea3uKyX2lIh0A">
+            <runExporters uuid="_SYrLgCZUEeaQUMCL3F3tZg" name="export_tender" filename="export_tender"/>
+          </exports>
+        </vbisSubactions>
+        <vbisSubactions uuid="_Nhdk8CZUEeaQUMCL3F3tZg" name="03_document_transfer_doc" serverScenarioId="document_transfer_doc"/>
+        <vbisSubactions uuid="_P6obwCZUEeaQUMCL3F3tZg" name="10_save_to_QS" serverScenarioId="save_to_QS"/>
+        <vbisSubactions uuid="_pJ29IH5gEea9b7PqzJacog" name="06_pdc" serverScenarioId="pdc_export">
+          <exports uuid="_5Ao1yKKVEea3uKyX2lIh0A">
+            <runExporters uuid="_Fp718H5iEea9b7PqzJacog" name="export_PDC" filename="export_PDC"/>
+          </exports>
+        </vbisSubactions>
+        <vbisSubactions uuid="_Le1MwH5iEea9b7PqzJacog" name="07_pdc_transfer" serverScenarioId="pdc_export_transfer"/>
+        <vbisSubactions uuid="_iyYKcH_QEeazg5BpH4_tIw" name="04_document_bom" serverScenarioId="document_bom">
+          <exports uuid="_5Apc06KVEea3uKyX2lIh0A">
+            <runExporters uuid="_rPEp8H_QEeazg5BpH4_tIw" name="export_BOM" filename="export_BOM"/>
+          </exports>
+        </vbisSubactions>
+        <vbisSubactions uuid="_4Pd-IH_QEeazg5BpH4_tIw" name="05_document_transfer_bom" serverScenarioId="document_transfer_bom"/>
+        <vbisSubactions uuid="_HXNP8H_qEeayjs62XBY5Ow" name="08_drawing" serverScenarioId="drawing_generation">
+          <exports uuid="_5Apc16KVEea3uKyX2lIh0A">
+            <runGenerators uuid="_MUKSIH_qEeayjs62XBY5Ow" name="export_2D_visuals_A4_landscape" filename="export_2D_visuals_A4_landscape"/>
+          </exports>
+        </vbisSubactions>
+        <vbisSubactions uuid="_bRWDIH_qEeayjs62XBY5Ow" name="09_drawing_transfer" serverScenarioId="drawing_generation_transfer"/>
+      </vbisCompositeActions>
+    </server>
+  </system>
+  <dataSources xsi:type="appl:DataSourceCsvSingle" uuid="_ipQhwAVdEeaBGJA_jmL9NQ" name="pricing" delimiter=";">
+    <internalSource href="../build_model.studio#_oqDjIJEhEeappJ5WMfOzAQ"/>
+  </dataSources>
+  <dataSources xsi:type="appl:DataSourceCsvSingle" uuid="_cuMG0HmjEeaxS4Bk-Q0K_A" name="accessories" delimiter=";">
+    <internalSource href="../build_model.studio#_oplCAJEhEeappJ5WMfOzAQ"/>
+  </dataSources>
+</appl:EnvironmentModel>

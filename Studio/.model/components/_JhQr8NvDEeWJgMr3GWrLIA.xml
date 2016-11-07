@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_JhQr8NvDEeWJgMr3GWrLIA" name="column_incoming_insert" componentClass="LINK" displayName="Incoming Column" toaPrefix="column_main">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_HYQv4A3bEearGp4q8yakZw" name="column_type" visibility="800" initValue="incoming">
+    <facets xsi:type="array:VariableLogicConstraintFacet" uuid="_4z4zOqKVEea3uKyX2lIh0A" declared="true" priority="98">
+      <model href="_hp-DQNvBEeWJgMr3GWrLIA.xml#_5S2lUPfqEeWNk_3WamkIOg"/>
+    </facets>
+    <domain uuid="_HYQv4g3bEearGp4q8yakZw" name="local" visibility="300">
+      <typeSet uuid="_4z4zPaKVEea3uKyX2lIh0A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <calculation uuid="_TjtHMCMSEea6yu-B_fPQmg" name="script" visibility="800" text="//svgs cursor&#xD;&#xA;height_cursor=height_column_outside+height_base;"/>
+  <template href="_hp-DQNvBEeWJgMr3GWrLIA.xml#_hp-DQNvBEeWJgMr3GWrLIA"/>
+  <cursorTwoD uuid="_03dm4CMSEea6yu-B_fPQmg" name="Cursor_incoming" twoDElementsColor="_buv2ACMSEea6yu-B_fPQmg" twoDElementsBgColor="_buv2ACMSEea6yu-B_fPQmg">
+    <onColor href="../product_model.xml#N65557"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_JhQr8dvDEeWJgMr3GWrLIA" name="root">
+    <units uuid="_XhoVUCMSEea6yu-B_fPQmg" name="cursor_incoming">
+      <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_4z4zQqKVEea3uKyX2lIh0A" variable="height_base" vector="(0,0,1)"/>
+      <children uuid="_YYzN4CMSEea6yu-B_fPQmg" name="Geo_Unit">
+        <facets xsi:type="comp:GeoUnitLineJointFacet" uuid="_4z4zRKKVEea3uKyX2lIh0A" variable="height_cursor" vector="(0,0,-1)"/>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_buv2ACMSEea6yu-B_fPQmg" name="Box_incoming" strokeWidth="25">
+          <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_4z4zRqKVEea3uKyX2lIh0A" heightDynamic="height_dim" widthDynamic="width_column_outside"/>
+          <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+          <cursorsUsingMeForBgColor href="_b02qANvBEeWJgMr3GWrLIA.xml#_QICwQCMgEeajWf9DR7mdZA"/>
+          <cursorsUsingMeForBgColor href="#_03dm4CMSEea6yu-B_fPQmg"/>
+          <cursorsUsingMeForBgColor href="_P8MvENvDEeWJgMr3GWrLIA.xml#_DLF8MCMhEeajWf9DR7mdZA"/>
+          <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+          <cursorsUsingMeForColor href="_b02qANvBEeWJgMr3GWrLIA.xml#_QICwQCMgEeajWf9DR7mdZA"/>
+          <cursorsUsingMeForColor href="#_03dm4CMSEea6yu-B_fPQmg"/>
+          <cursorsUsingMeForColor href="_P8MvENvDEeWJgMr3GWrLIA.xml#_DLF8MCMhEeajWf9DR7mdZA"/>
+        </twoDElement>
+      </children>
+    </units>
+  </geometry>
+  <roles uuid="_9JXsMEHeEeatXpWmOGsl4A" name="kit1" initValue="kit_breaker" toas="">
+    <domain uuid="_9JXsMUHeEeatXpWmOGsl4A" name="local" visibility="300">
+      <typeSet uuid="_4z5aRKKVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_9JXsMkHeEeatXpWmOGsl4A" name="NONE" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+</comp:Component>

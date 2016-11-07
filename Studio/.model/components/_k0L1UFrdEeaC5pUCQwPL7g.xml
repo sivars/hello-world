@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_k0L1UFrdEeaC5pUCQwPL7g" name="column_xline_hor" toaPrefix="column">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_4nIIcFrqEeatCqpuhZS-Gg" name="column_type" visibility="800" initValue="">
+    <domain uuid="_4nIIcVrqEeatCqpuhZS-Gg" name="local" visibility="300">
+      <typeSet uuid="_47PYcqKVEea3uKyX2lIh0A" bitSet="393220"/>
+      <values uuid="_2fQnkFrrEeatCqpuhZS-Gg" name="xline_hor" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <template href="_z5ytQCygEeaMLJEvopK9fA.xml#_z5ytQCygEeaMLJEvopK9fA"/>
+  <geometry deletable="false" uuid="_k0L1UVrdEeaC5pUCQwPL7g" name="root">
+    <parentPlugs uuid="_k0L1UlrdEeaC5pUCQwPL7g" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

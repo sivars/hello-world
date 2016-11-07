@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 210.00001 268"
+   height="268"
+   width="210"
+   overflow="visible">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-17.716525,-764.29163)"
+     id="layer1">
+    <rect
+       y="764.79102"
+       x="18.215927"
+       height="267.00122"
+       width="209.00121"
+       id="breakerRear"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99880356;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       style="display:inline"
+       transform="translate(-639.65981,0.86485609)"
+       id="operationGroup">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000012;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2"
+         width="25.000002"
+         height="268"
+         x="841.87634"
+         y="763.92676" />
+      <circle
+         style="fill:#f0ffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2"
+         cx="854.37634"
+         cy="806.42639"
+         r="8.500001" />
+      <rect
+         style="fill:#f0ffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000012;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1"
+         width="17"
+         height="17"
+         x="845.87634"
+         y="921.92639" />
+      <circle
+         style="fill:#f0ffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle1"
+         cx="854.37634"
+         cy="835.24371"
+         r="8.5000019" />
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(203.97695,-10.201784)"
+       id="rotaryDrive">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4146-9-2"
+         width="189.00002"
+         height="104.00001"
+         x="-175.76042"
+         y="856.49341" />
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4150-9-1"
+         width="189.00002"
+         height="14.000001"
+         x="-175.76042"
+         y="856.49341" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.35096645px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.02154529;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-164.07869"
+         y="909.05963"
+         id="text4152-7-2"
+         transform="scale(1.048296,0.95392902)"><tspan
+           id="tspan4154-2-8"
+           x="-164.07869"
+           y="909.05963"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.35096741px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.02154529;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ABB TMax T7</tspan></text>
+      <circle
+         style="fill:#ababab;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4282-3"
+         cx="-141.34843"
+         cy="902.66785"
+         r="24.500002" />
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4282-3-2"
+         cx="-8.2943554"
+         cy="891.02686"
+         r="9.500001" />
+      <rect
+         rx="9.500001"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4274"
+         width="96.918716"
+         height="20.78396"
+         x="-152.78337"
+         y="892.27588"
+         ry="9.500001" />
+    </g>
+    <g
+       transform="translate(-996.595,143.91894)"
+       id="rockerLever">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4146"
+         width="189.00002"
+         height="203.00002"
+         x="1024.8115"
+         y="652.87268" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0000006;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4148"
+         width="69"
+         height="39.000004"
+         x="1084.8115"
+         y="661.90253" />
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4150"
+         width="189.00002"
+         height="14.000001"
+         x="1024.8115"
+         y="708.55402" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:9.92363071px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.02154541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="1004.949"
+         y="735.81274"
+         id="text4152"
+         transform="scale(1.0233754,0.97715852)"><tspan
+           id="tspan4154"
+           x="1004.949"
+           y="735.81274"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.92363167px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.02154541;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ABB TMax T7</tspan></text>
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4174"
+         width="49.000004"
+         height="118.00001"
+         x="1094.8115"
+         y="729.77814" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4174-3"
+         width="49.000004"
+         height="9.000001"
+         x="1094.8115"
+         y="774.20758" />
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(-894.12277,99.060684)"
+       id="motorDrive">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4146-9"
+         width="208.94589"
+         height="204.94589"
+         x="912.36633"
+         y="696.758" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0000006;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4148-6"
+         width="69"
+         height="39.000004"
+         x="982.33929"
+         y="707.60077" />
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4150-9"
+         width="209.00002"
+         height="14"
+         x="912.33929"
+         y="757.79114" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:11.69247246px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.02154601;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="903.06586"
+         y="779.90656"
+         id="text4152-7"
+         transform="scale(1.014322,0.98588023)"><tspan
+           id="tspan4154-2"
+           x="903.06586"
+           y="779.90656"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69247437px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.02154601;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ABB TMax T7</tspan></text>
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4174-7"
+         width="11.000001"
+         height="104.00001"
+         x="959.92267"
+         y="790.65576" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4174-3-1"
+         width="11.000001"
+         height="4"
+         x="959.92267"
+         y="880.72241" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4174-3-1-1"
+         width="19.015369"
+         height="6.015368"
+         x="986.95618"
+         y="854.75073" />
+      <rect
+         style="fill:#007b00;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4148-6-1"
+         width="19.000002"
+         height="19.000002"
+         x="986.95618"
+         y="871.75708" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4174-3-1-1-9"
+         width="19.015369"
+         height="6.015368"
+         x="1025.0547"
+         y="854.75073" />
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4148-6-1-9"
+         width="19.000002"
+         height="19.000002"
+         x="1025.0547"
+         y="871.75708" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.78209114px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="994.18707"
+         y="885.17664"
+         id="text4241"><tspan
+           id="tspan4243"
+           x="994.18707"
+           y="885.17664">I</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.78209114px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1030.3087"
+         y="885.17664"
+         id="text4241-8"><tspan
+           id="tspan4263"
+           x="1030.3087"
+           y="885.17664">O</tspan><tspan
+           id="tspan4265"
+           x="1030.3087"
+           y="898.65424" /></text>
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4174-3-1-1-6"
+         width="2"
+         height="28.000002"
+         x="1097.4818"
+         y="810.65576" />
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4282"
+         cx="1098.4818"
+         cy="879.30908"
+         r="9.500001" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4174-3-1-1-6-8"
+         width="2"
+         height="15.000001"
+         x="1097.4818"
+         y="866.92371" />
+    </g>
+  </g>
+</svg>

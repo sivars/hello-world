@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_t5UX4A38EeaVY4xFge6vag" name="template_kit">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_aED18A4CEeaVY4xFge6vag" name="height" visibility="800" initValue="300">
+    <domain uuid="_aED18Q4CEeaVY4xFge6vag" name="local" visibility="300">
+      <typeSet uuid="_48kOIKKVEea3uKyX2lIh0A" bitSet="393226"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_b-uy4A4CEeaVY4xFge6vag" name="width" visibility="800" initValue="375">
+    <domain uuid="_b-uy4Q4CEeaVY4xFge6vag" name="local" visibility="300">
+      <typeSet uuid="_48kOJqKVEea3uKyX2lIh0A" bitSet="393226"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_VOtu8D3WEear0I2JQCMoQw" name="switchboard_quantity_switchboard_toa" visibility="800">
+    <domain uuid="_VOtu8j3WEear0I2JQCMoQw" name="local" visibility="300">
+      <typeSet uuid="_48k1IKKVEea3uKyX2lIh0A" bitSet="393218"/>
+    </domain>
+  </variables>
+  <geometry deletable="false" uuid="_t5UX4Q38EeaVY4xFge6vag" name="root">
+    <units uuid="_9RPx4A4BEeaVY4xFge6vag" name="visual"/>
+    <parentPlugs uuid="_t5UX4g38EeaVY4xFge6vag" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_iyh3YA4BEeaVY4xFge6vag" name="device" toas="device, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_48k1KKKVEea3uKyX2lIh0A"/>
+    <domain uuid="_iyh3YQ4BEeaVY4xFge6vag" name="local" visibility="300">
+      <typeSet uuid="_48k1K6KVEea3uKyX2lIh0A" bitSet="65536"/>
+      <values uuid="_iyh3Yg4BEeaVY4xFge6vag" name="NONE" editable="false" visibility="300"/>
+      <values uuid="_qzSWIBwVEeao7bF0kxt3Dg" name="device_E22" editable="false" visibility="300"/>
+      <values uuid="_qzSWIRwVEeao7bF0kxt3Dg" name="device_E12" editable="false" visibility="300"/>
+      <values uuid="_qzSWIhwVEeao7bF0kxt3Dg" name="device_T7" editable="false" visibility="300"/>
+      <values uuid="_rEC-wEmjEeahJongW1lyZA" name="device_InLine2" editable="false" visibility="300"/>
+    </domain>
+  </roles>
+  <componentsUsingMe xsi:type="comp:Component" href="_7Ai0MA35EeaVY4xFge6vag.xml#_7Ai0MA35EeaVY4xFge6vag"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_Qc0o8BXkEea7g5aKkWNu_w.xml#_Qc0o8BXkEea7g5aKkWNu_w"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_i1CoIBguEeaxOeZauvxXIA.xml#_i1CoIBguEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_omcmEBguEeaxOeZauvxXIA.xml#_omcmEBguEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_2c_fIBguEeaxOeZauvxXIA.xml#_2c_fIBguEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_-EgDEBguEeaxOeZauvxXIA.xml#_-EgDEBguEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_CyA7EBgvEeaxOeZauvxXIA.xml#_CyA7EBgvEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_HVr6kBgvEeaxOeZauvxXIA.xml#_HVr6kBgvEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_O7JQEBgvEeaxOeZauvxXIA.xml#_O7JQEBgvEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_VLYfEBgvEeaxOeZauvxXIA.xml#_VLYfEBgvEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_mekeIBgvEeaxOeZauvxXIA.xml#_mekeIBgvEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_3nOBIBgvEeaxOeZauvxXIA.xml#_3nOBIBgvEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_8w87EBgvEeaxOeZauvxXIA.xml#_8w87EBgvEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="__sffIBgvEeaxOeZauvxXIA.xml#__sffIBgvEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_CqYzoBgwEeaxOeZauvxXIA.xml#_CqYzoBgwEeaxOeZauvxXIA"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_6IwuoC4ZEeaCraT15qlwVQ.xml#_6IwuoC4ZEeaCraT15qlwVQ"/>
+</comp:ComponentTemplate>
