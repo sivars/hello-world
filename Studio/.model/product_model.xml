@@ -2,7 +2,6 @@
 <comp:ProductModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" deletable="false" uuid="_Ly0u4KDUEealUdz1XI4uQA" debugGuiOnPreview="true" debugLevelPreview="DEBUG">
   <facets xsi:type="appl:TemplateInsertFacet" uuid="_L0FTIKDUEealUdz1XI4uQA" id="COMPONENTS"/>
   <components href="components/_eqSg8Fc5EeWo-40Qyxiobw.xml#_eqSg8Fc5EeWo-40Qyxiobw"/>
-  <components href="components/_q8cPEFc5EeWo-40Qyxiobw.xml#_q8cPEFc5EeWo-40Qyxiobw"/>
   <components href="components/_KH3RkHABEeSk24oMIozLgA.xml#_KH3RkHABEeSk24oMIozLgA"/>
   <components href="components/_Z4wkQFc8EeWo-40Qyxiobw.xml#_Z4wkQFc8EeWo-40Qyxiobw"/>
   <world href="world.xml#_8fNuADTNEeSDp-UE12WecQ"/>
