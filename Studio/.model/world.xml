@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<comp:World xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" deletable="false" uuid="_8fNuADTNEeSDp-UE12WecQ" name="world">
+<comp:World xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:array="http://virtubuil.com/schemas/array.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" deletable="false" uuid="_8fNuADTNEeSDp-UE12WecQ" name="world">
+  <logic uuid="_bJGtgKTTEeaqKufj5D79eA" name="Logic_Rules" visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_btChAKTTEeaqKufj5D79eA" name="Table_Relation" visibility="800">
+      <columns uuid="_drYdAKTTEeaqKufj5D79eA" name="A" visibility="100">
+        <cells>a</cells>
+        <cells>b</cells>
+        <cells>c</cells>
+      </columns>
+      <columns uuid="_eMQVcKTTEeaqKufj5D79eA" name="B" visibility="100">
+        <cells>a</cells>
+        <cells>b</cells>
+        <cells>c</cells>
+      </columns>
+    </children>
+  </logic>
   <role uuid="_qucXoHAAEeSk24oMIozLgA" name="insertfree" customType="insertfree">
     <domain uuid="_qucXoXAAEeSk24oMIozLgA" name="local" visibility="300">
       <typeSet uuid="_L0m3lKDUEealUdz1XI4uQA" bitSet="65536"/>
